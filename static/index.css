@@ -1,0 +1,520 @@
+@font-face {
+	font-family: 'Exo';
+	src: url(./lib/fonts/Exo-Light.ttf) format("truetype");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: 'Exo';
+	src: url(./lib/fonts/Exo-Regular.ttf) format("truetype");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Exo';
+	src: url(./lib/fonts/Exo-Medium.ttf) format("truetype");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Exo';
+	src: url(./lib/fonts/Exo-SemiBold.ttf) format("truetype");
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Kazesawa';
+	src: url(./lib/fonts/Kazesawa-Light.ttf) format("truetype");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: 'Kazesawa';
+	src: url(./lib/fonts/Kazesawa-Regular.ttf) format("truetype");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Kazesawa';
+	src: url(./lib/fonts/Kazesawa-Semibold.ttf) format("truetype");
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'GeosansLight';
+	src: url(./lib/fonts/GeosansLight.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: 'GeosansLight';
+	src: url(./lib/fonts/GeosansLight-Oblique.ttf) format("truetype");
+	font-style: oblique;
+}
+
+/* sync icon */
+
+.ui.label>.sync.icon {
+    cursor: pointer;
+    font-size: .92857143em;
+    opacity: .5;
+	transition: .1s ease;
+}
+
+.ui.label>.sync.icon:hover {
+    opacity: 1;
+}
+
+/* no newline */
+
+.table {
+	white-space: nowrap;
+}
+
+/* compact dropdown */
+/* .ui.form .field>.selection.dropdown {
+    min-width: 196px !important;
+    width: auto !important;
+} */
+
+/* spinner */
+
+@keyframes spinner-icon-rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.spinner.icon:before {
+	animation: spinner-icon-rotate 3s linear infinite;
+	display: block;
+}
+
+/* login tab */
+
+.login.tab {
+	height: 100%;
+}
+
+.login.tab>.grid {
+	height: 100%;
+}
+
+.login.tab>.grid>.column>.segment {
+	margin: auto;
+}
+
+/* rating */
+
+.rating-badge {
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.rating-badge-off {
+	background-image: url(./img/badges/rating_off.png);
+}
+
+.rating-badge-0 {
+	background-image: url(./img/badges/rating_0.png);
+}
+
+.rating-badge-1 {
+	background-image: url(./img/badges/rating_1.png);
+}
+
+.rating-badge-2 {
+	background-image: url(./img/badges/rating_2.png);
+}
+
+.rating-badge-3 {
+	background-image: url(./img/badges/rating_3.png);
+}
+
+.rating-badge-4 {
+	background-image: url(./img/badges/rating_4.png);
+}
+
+.rating-badge-5 {
+	background-image: url(./img/badges/rating_5.png);
+}
+
+.rating-badge-6 {
+	background-image: url(./img/badges/rating_6.png);
+}
+
+.rating {
+	background-size: 64px;
+	height: 64px;
+	min-width: 64px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	width: fit-content;
+}
+
+.rating>span {
+	font-family: 'Exo';
+	top: 28%;
+	position: relative;
+	text-shadow: 1px 1px 0 #51465c, -1px 1px 0 #51465c, 1px -1px 0 #51465c, -1px -1px 0 #51465c, 0px 1px 0 #51465c, 0px -1px 0 #51465c, -1px 0px 0 #51465c, 1px 0px 0 #51465c, 2px 2px 0 #51465c, -2px 2px 0 #51465c, 2px -2px 0 #51465c, -2px -2px 0 #51465c, 0px 2px 0 #51465c, 0px -2px 0 #51465c, -2px 0px 0 #51465c, 2px 0px 0 #51465c, 1px 2px 0 #51465c, -1px 2px 0 #51465c, 1px -2px 0 #51465c, -1px -2px 0 #51465c, 2px 1px 0 #51465c, -2px 1px 0 #51465c, 2px -1px 0 #51465c, -2px -1px 0 #51465c;
+}
+
+.rating>span>.hi {
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.rating>span>.lo {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+/* rating-small */
+
+.rating-small {
+	background-size: 48px;
+	height: 48px;
+	min-width: 48px;
+	color: white;
+	display: inline-flex;
+	justify-content: center;
+	width: fit-content;
+}
+
+.rating-small>span {
+	font-family: 'Exo';
+	top: 28%;
+	position: relative;
+	text-shadow: 1px 1px 0 #51465c, -1px 1px 0 #51465c, 1px -1px 0 #51465c, -1px -1px 0 #51465c, 0px 1px 0 #51465c, 0px -1px 0 #51465c, -1px 0px 0 #51465c, 1px 0px 0 #51465c, 2px 2px 0 #51465c, -2px 2px 0 #51465c, 2px -2px 0 #51465c, -2px -2px 0 #51465c, 0px 2px 0 #51465c, 0px -2px 0 #51465c, -2px 0px 0 #51465c, 2px 0px 0 #51465c, 1px 2px 0 #51465c, -1px 2px 0 #51465c, 1px -2px 0 #51465c, -1px -2px 0 #51465c, 2px 1px 0 #51465c, -2px 1px 0 #51465c, 2px -1px 0 #51465c, -2px -1px 0 #51465c;
+}
+
+.rating-small>span>.hi {
+	font-size: 18.75px;
+	font-weight: 600;
+}
+
+.rating-small>span>.lo {
+	font-size: 13.5px;
+	font-weight: 600;
+}
+
+.vert-center {
+	display: flex;
+	align-items: center;
+}
+
+.exo {
+	font-family: 'Exo' !important;
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.geosanslight {
+	font-family: 'GeosansLight' !important;
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.text-rating {
+	font-family: 'Exo' !important;
+	display: inline-table;
+}
+
+.text-rating>.hi {
+	font-size: 1rem;
+}
+
+.text-rating>.lo {
+	font-size: 0.7rem;
+}
+
+.text-rating>i {
+	display: inline;
+	margin-right: 0;
+}
+
+.text-rating>i:nth-child(3) {
+	margin-left: 2px;
+}
+
+.ui.top.attached.block.header i.icon {
+	font-size: 1em;
+}
+
+.ui.styled.accordion {
+	width: auto;
+}
+
+.right-floated {
+	float: right;
+}
+
+.hover-switch>.default {
+	display: block;
+}
+
+.hover-switch>.replacement {
+	display: none;
+}
+
+.hover-switch:hover>.default {
+	display: none;
+}
+
+.hover-switch:hover>.replacement {
+	display: block;
+}
+
+/* record card */
+
+.record.card {
+	white-space: nowrap;
+	width: 250px !important;
+}
+
+.record.card>.content>.header {
+	display: flex !important;
+	justify-content: space-between;
+	white-space: nowrap;
+}
+
+.record.card>.content>.header>.title {
+	font-family: 'Kazesawa' !important;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding-right: 5px;
+}
+
+.record.card>.content>.header>.label {
+	margin-right: 0;
+	white-space: nowrap;
+	min-width: auto;
+}
+
+.record.card .description>.ui.grid {
+	margin-top: -0.25rem;
+	margin-bottom: -0.25rem;
+	margin-left: -0.75rem;
+	margin-right: -0.75rem;
+}
+
+.record.card .description>.ui.grid>.row {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.record.card .score {
+	font-family: 'Exo';
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.record.card .score>.chart-ptt {
+	font-size: 14px;
+}
+
+.record.card .status {
+	font-family: 'Kazesawa';
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.record.card .status>.grade {
+	padding-right: 1em;
+}
+
+.record.card .rank.column {
+	padding-left: 0 !important;
+	display: flex;
+}
+
+.record.card .details.column {
+	font-family: 'Exo';
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.record.card .details.column>.ui.grid {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.record.card .details.column>.ui.grid>.row {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.record.card .details.column>.ui.grid>.equal.width.row>.column {
+	padding: 0;
+}
+
+.record.card .rank.column {
+	font-family: 'Kazesawa';
+	font-size: 22px;
+	align-self: center;
+	font-weight: 400;
+	width: 60px;
+}
+
+.record.card .date.column {
+	font-family: 'Exo';
+	font-size: 15px;
+	font-weight: 600;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+/* play card */
+
+.play.card {
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding: 10px;
+	width: 240px;
+	height: 140px;
+	box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.8);
+	overflow: hidden;
+}
+
+.play.card .hit {
+	flex: 1 1 auto;
+}
+
+.play.card .bold {
+	font-weight: bold;
+}
+
+.play.card .row {
+	width: 100%;
+	display: flex;
+}
+
+.play.card .spaced.row {
+	justify-content: space-between;
+}
+
+.play.card .title {
+	font-family: 'Kazesawa';
+	font-size: 18px;
+	font-weight: 400;
+	text-overflow: ellipsis;
+	padding-right: 5px;
+}
+
+.play.card .difficulty {
+	font-family: 'Kazesawa';
+	font-size: 13px;
+	padding: .25em .4em;
+	font-weight: 700;
+	text-align: center;
+	white-space: nowrap;
+	border-radius: 25px;
+}
+
+.play.card .past {
+	background-color: #0a82be;
+}
+
+.play.card .present {
+	background-color: #648c3c;
+}
+
+.play.card .future {
+	background-color: #702f8a;
+}
+
+.play.card .beyond {
+	background-color: #7e2c46;
+}
+
+.play.card .pm {
+	color: #4ed0e4;
+}
+
+.play.card .max.score, .status .max {
+	color: #02ddff;
+	text-shadow: 0 0 10px #0dbeda;
+}
+
+.play.card .score {
+	font-family: 'Exo';
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.play.card .status {
+	font-family: 'Kazesawa';
+	font-size: 12px;
+}
+
+.play.card .chart-ptt {
+	font-family: 'Exo';
+	font-size: 14px;
+}
+
+.play.card .hit {
+	font-family: 'Exo';
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.play.card .rank {
+	font-family: 'Kazesawa';
+	font-size: 25px;
+	align-self: center;
+	font-weight: 400;
+	width: 60px;
+}
+
+.play.card .date {
+	font-family: 'Exo';
+	align-self: flex-end;
+	font-weight: 600;
+	position: absolute;
+	right: 10px;
+}
+
+.play.card img {
+	z-index: -1;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	filter: blur(1px);
+	transform: translateY(-3em);
+}
+
+.play.card.max {
+	text-shadow: 1px 1px 3px black;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.play.card.max img {
+	filter: blur(1px) brightness(2) !important;
+}
+
+.play.card .description {
+	font-family: 'Exo';
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	font-weight: bold;
+	color: black;
+}
+
+.zero.play.card {
+	opacity: 90%;
+}
+
+.zero.play.card>img {
+	opacity: 50%;
+}

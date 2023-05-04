@@ -1,0 +1,242 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Arc 成绩计算</title>
+	<link rel="stylesheet" type="text/css" href="static/lib/fomantic-ui/dist/semantic.min.css">
+	<link rel="stylesheet" type="text/css" href="static/lib/noty/noty.css">
+	<link rel="stylesheet" type="text/css" href="static/lib/noty/themes/semanticui.css">
+	<link rel="stylesheet" type="text/css" href="static/index.css">
+	<script type="text/javascript" src="static/slst.json"></script>
+	<script type="text/javascript">
+		slst.songs.find((x)=>{return x.id=="quon"}).title_localized.en="Quon (Feryquitous)";
+		slst.songs.find((x)=>{return x.id=="quonwacca"}).title_localized.en="Quon (DJ Noriken)";
+		slst.songs.find((x)=>{return x.id=="genesis"}).title_localized.en="Genesis (Iris)";
+		slst.songs.find((x)=>{return x.id=="genesischunithm"}).title_localized.en="Genesis (Morrigan)";
+	</script>
+	<script type="text/javascript" src="static/sdb.json"></script>
+	<script src="js/frame.js"></script>
+	<script src="js/base64.js"></script>
+	<script src="js/save.js"></script>
+	<script type="text/javascript">
+		var nowactive='index';
+		function settab(a,b){
+			var list=document.getElementById('menu').children;
+			for(var i=0;i<list.length;++i) list[i].className='item';
+			list[a].className='active item';
+			document.getElementById(nowactive).className='ui tab';
+			document.getElementById(b).className='ui tab active';
+			nowactive=b;
+		}
+	</script>
+	<script src="js/upload.js"></script>
+	<script src="js/calc.js"></script>
+	<style>
+		p{display: inline;}
+	</style>
+</head>
+<body>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<div class="ui main container" style="margin-top:2em;margin-left:2em;">
+		<div class="ui borderless history menu" style="width:25.5em;" id="menu">
+			<a class="active item" onclick="settab(0,'index')">首页</a>
+			<a class="item" onclick="settab(1,'songfilter')">曲目查找</a>
+			<a class="item" onclick="settab(2,'playupload')">记录管理</a>
+			<a class="item" onclick="settab(3,'save')">存档</a>
+			<a class="item" onclick="settab(4,'other')">其他</a>
+		</div>
+		<div class="ui tab active" id="index">
+			<div class="ui column grid">
+				<div class="column">
+					<div class="twenty wide column" style="width:95.5em;">
+						<h4 class="ui top attached block header">成绩排行</h4>
+						<div class="ui bottom attached segment" id="all"></div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="wide column" style="display: inline-block;width: 20em;margin-left:91em;">	
+						<h4 class="ui top attached block header">信息</h4>
+						<div class="ui bottom attached segment"><form class="ui form">
+							<div style="margin-bottom: 0.7em;">
+								<p>您当前的潜力值：</p>
+								<div class="rating-small rating-badge-0" id="ptt" style="vertical-align: middle;">
+								<span><span class="hi" id="ptthi">0.</span><span class="lo" id="pttlo">00</span></span>
+								</div>
+								<p style="font-style: italic;font-size: 0.75em;" id="pttext">0.00000</p>
+							</div>
+							<p>最近一次录入的游玩：</p><br><br>
+							<div id="recent" style="margin-bottom:-2em;"></div>
+						</form></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui tab" id="songfilter">
+			<div class="ui one column grid">
+				<div class="column">
+					<div class="wide column" style="width:39em;display: inline-block;">
+						<h4 class="ui top attached block header">曲目查找</h4>
+						<div class="ui bottom attached segment"><form class="ui form">
+							<div class="field"><label>曲目名称（请使用前三难度的名称）</label><input type="text" placeholder="Testify" id="songtitlea"></div>
+							<div>
+								<p>难度：</p>
+								<input style="vertical-align:bottom;position:relative;top:-2px;" type="checkbox" name="diff1" value=0> <strong style="color:blue;">PST</strong>
+								<input style="vertical-align:bottom;position:relative;top:-2px;" type="checkbox" name="diff1" value=1> <strong style="color:green;">PRS</strong>
+								<input style="vertical-align:bottom;position:relative;top:-2px;" type="checkbox" name="diff1" value=2> <strong style="color:purple;">FTR</strong>
+								<input style="vertical-align:bottom;position:relative;top:-2px;" type="checkbox" name="diff1" value=3> <strong style="color:red;">BYD</strong>
+							</div>
+							<div class="two fields">
+								<div class="field"><label>定数下限</label><input type="text" placeholder="1.0" id="rankmin"></div>
+								<div class="field"><label>定数上限</label><input type="text" placeholder="12.0" id="rankmax"></div><br>
+							</div>
+							<div class="ui blue submit button" onclick="filter()">查找</div>
+						</form></div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="wide column" style="width:78em;display: inline-block;">
+				<h4 class="ui top attached block header"><div class="content">曲目信息筛选</div></h4>
+				<div class="ui bottom attached styled songs accordion"><form class="ui form" id='songcur'>
+				</form></div>
+			</div>
+		</div>
+		<div class="ui tab" id="playupload">
+			<div class="ui two column grid">
+				<div class="column">
+					<div class="wide column" style="width:39em;display: inline-block;">
+						<h4 class="ui top attached block header">成绩录入</h4>
+						<div class="ui bottom attached segment"><form class="ui form">
+							<div class="field"><label>曲目名称（请使用前三难度的名称）</label><input type="text" placeholder="Aegleseeker" id="songtitle"></div>
+							<div>
+								<p>难度：</p>
+								<input style="vertical-align:bottom;position:relative;top:-2px;" type="radio" name="diff2" value=0> <strong style="color:blue;">PST</strong>
+								<input style="vertical-align:bottom;position:relative;top:-2px;" type="radio" name="diff2" value=1> <strong style="color:green;">PRS</strong>
+								<input style="vertical-align:bottom;position:relative;top:-2px;" type="radio" name="diff2" value=2 checked="checked"> <strong style="color:purple;">FTR</strong>
+								<input style="vertical-align:bottom;position:relative;top:-2px;" type="radio" name="diff2" value=3> <strong style="color:red;">BYD</strong>
+							</div>
+							<div class="three fields">
+								<div class="field"><label><strong style="color:#dd4444;">LOST</strong><p>个数：</p></label><input type="text" placeholder="0" id="mis"></div>
+								<div class="field"><label><strong style="color:#ffaa11;">FAR</strong><p>个数：</p></label><input type="text" placeholder="0" id="far"></div>
+								<div class="field"><label><strong style="color:#cc22ee;">MAXPURE</strong><p>个数：</p></label><input type="text" placeholder="1568" id="mxp"></div><br>
+							</div>
+							<div class="ui blue submit button" onclick="uploadplay()">添加记录</div>
+						</form></div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="wide column" style="width:39em;display: inline-block;">
+						<h4 class="ui top attached block header">成绩删除</h4>
+						<div class="ui bottom attached segment"><form class="ui form">
+							<strong style="color: red;">如此操作会删除此谱面下的记录，且无法恢复！</strong>
+							<div class="field"><label>曲目名称（请使用前三难度的名称）</label><input type="text" placeholder="Aegleseeker" id="songtitlec"></div>
+							<p>难度：</p>
+							<input type="radio" name="diffc" value=0><strong style="color:blue;">PST</strong>
+							<input type="radio" name="diffc" value=1><strong style="color:green;">PRS</strong>
+							<input type="radio" name="diffc" value=2 checked="checked"><strong style="color:purple;">FTR</strong>
+							<input type="radio" name="diffc" value=3><strong style="color:red;">BYD</strong><br>
+							<div class="ui red submit button" onclick="delplay()">删除记录</div>
+						</form></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui tab" id="save">
+			<div class="ui column grid" style="width: 100em;">
+				<div class="column" style="width:40em;">
+					<div class="wide column" style="width:39em;display: inline-block;">
+						<h4 class="ui top attached block header">导出当前存档</h4>
+						<div class="ui bottom attached segment"><form class="ui form">
+							<p>将导出的字符串在其他地方导入即可转移存档。</p>
+							<textarea rows="10" id="rawoutput" style="margin-bottom: 1em;margin-top: 1em;"></textarea>
+							<div class="ui blue submit button" onclick="outersave()">导出</div>
+						</form></div>
+					</div>
+				</div>
+				<div class="column" style="width:40em;">
+					<div class="wide column" style="width:39em;display: inline-block;">
+						<h4 class="ui top attached block header">导入至当前存档</h4>
+						<div class="ui bottom attached segment"><form class="ui form">
+							<strong style="color: red;">导入将覆盖你的当前存档！建议导入前先导出当前存档！</strong>
+							<textarea rows="10" id="rawinput" style="margin-bottom: 1em;margin-top: 1em;"></textarea>
+							<div class="ui red submit button" onclick="outerload()">导入</div><br>
+						</form></div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="wide column" style="width: 11.3em;display: inline-block;margin-top: 0em;">
+						<h4 class="ui top attached block header">清空当前存档</h4>
+						<div class="ui bottom attached segment"><form class="ui form" style="margin-bottom: 0em;">
+							<div class="ui red submit button" onclick="clearsave()">清空当前存档</div>
+						</form></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui tab" id="other">
+			<div class="ui two column grid">
+				<div class="wide column" style="width:42em;display: inline-block;">
+					<h4 class="ui top attached block header">图例</h4>
+					<div class="ui bottom attached segment"><form class="ui form" style="margin-bottom: 0em;">
+						<div class="ui cards" style="display:inline-block;margin-top:0em;margin-bottom:0.4em;margin-right:0.33em;"><div class="record card"><div class="content"><div class="header"><div class="title">LunarOrbit -believe in the Espebranch road-</div><span class="ui purple horizontal label">FTR 9</span></div><div class="description"><div class="ui very compact grid"><div class="row"><div class="score"><span class="score">09'944'237</span><span class="chart-ptt"> / 9.6 / 11.32118</span></div></div><div class="row"><div class="three wide rank column">EX+</div><div class="nine wide details column"><div class="ui very compact grid"><div class="row">P: 1047 (+948)</div><div class="equal width row"><div class="column">F: 10</div><div class="column">L: 1</div></div></div></div><div class="three wide rank column">#4</div></div></div></div></div></div></div>
+						<div class="ui cards" style="display:inline-block;margin-top:-1.5em;margin-bottom:0.4em;margin-right:0.33em;"><div class="record card"><div class="content"><div class="header"><div class="title">Aegleseeker</div><span class="ui green horizontal label">PRS 9</span></div><div class="description"><div class="ui very compact grid"><div class="row"><div class="score"><span class="score">09'745'962</span><span class="chart-ptt"> / 9.1 / 9.91987</span></div></div><div class="row"><div class="three wide rank column">AA</div><div class="nine wide details column"><div class="ui very compact grid"><div class="row">P: 1186 (+1023)</div><div class="equal width row"><div class="column">F: 35</div><div class="column">L: 14</div></div></div></div><div class="three wide rank column">REC</div></div></div></div></div></div></div><br>
+						第一行：左侧为曲名，过长时会省略后面的部分；右侧为难度和标级。<br>
+						第二行：左侧为分数；中间为谱面定数；右侧为游玩 ptt。<br>
+						第三行：左侧为评级；中间上方为 <strong style="color:#cc22ee;">PURE</strong> 个数和 <strong style="color:#cc22ee;">MAXPURE</strong> 个数；中间下方为 <strong style="color:#ffaa11;">FAR</strong> 个数和 <strong style="color:#dd4444;">LOST</strong> 个数；右侧为其游玩 ptt 的排名，或表示这指最近游玩。
+					</form></div>
+				</div>
+				<div class="wide column" style="width:40em;display: inline-block;">
+					<h4 class="ui top attached block header">关于</h4>
+					<div class="ui bottom attached segment"><form class="ui form" style="margin-bottom: 0em;">
+						<p>所有数据存储于本地（浏览器的 localStorage）。</p><br>
+						<p>此处潜力值的计算方式为 (b30+b10)/40，（可能为？）不推分时能达到的最高值。</p><br>
+						<p>Written by WYXkk</p><br>
+						<p>Semantic UI 永远滴神</p><br>
+						<p>您可能需要调整页面大小以看到完整页面。</p>
+					</form></div>
+				</div>
+			</div>
+			<br>
+			<div class="ui two column grid">
+				<div class="wide column" style="width:42em;display: inline-block;">
+					<h4 class="ui top attached block header">计算器 A</h4>
+					<div class="ui bottom attached segment"><form class="ui form">
+						<div class="two fields">
+							<div class="field"><label>物量</label><input type="text" placeholder="2221" id="calcNote"></div>
+							<div class="field"><label>分数</label><input type="text" placeholder="9999900" id="calcScoreA"></div><br>
+						</div>
+						<div class="two fields">
+							<div class="field"><label>折合 <strong style="color:#ffaa11;">FAR</strong> 数量</label><input type="text" placeholder="1" id="calcFar"></div>
+							<div class="field"><label><strong style="color:#cc22ee;">MAXPURE</strong> 数量</label><input type="text" placeholder="2152" id="calcMax"></div><br>
+						</div>
+						<div class="ui blue submit button" onclick="calcA()">计算</div><br><br>
+						<p>
+							计算器 A 说明：<br>
+							折合 <strong style="color:#ffaa11;">FAR</strong> 数量指 <strong style="color:#dd4444;">LOST</strong> 的数量的两倍加上 <strong style="color:#ffaa11;">FAR</strong> 的数量。<br>
+							填入物量与分数时将尝试计算折合 <strong style="color:#ffaa11;">FAR</strong> 数量与 <strong style="color:#cc22ee;">MAXPURE</strong> 数量；填入物量与后两者时将尝试计算分数。<br>
+							填入正常范围以外的数值可能会导致出错。
+						</p>
+					</form></div>
+				</div>
+				<div class="wide column" style="width:40em;display: inline-block;">
+					<h4 class="ui top attached block header">计算器 B</h4>
+					<div class="ui bottom attached segment"><form class="ui form">
+						<div class="three fields">
+							<div class="field"><label>定数</label><input type="text" placeholder="12.0" id="calcConst"></div>
+							<div class="field"><label>分数</label><input type="text" placeholder="9999900" id="calcScoreB"></div><br>
+							<div class="field"><label>单曲 ptt</label><input type="text" placeholder="13.9995" id="calcResult"></div><br>
+						</div>
+						<div class="ui blue submit button" onclick="calcB()">计算</div><br><br>
+						<p>
+							计算器 B 说明：<br>
+							填入以上三者中的两者时将尝试计算第三者。<br>
+							计算定数时会四舍五入到最近的 0.1 的倍数。<br>
+							填入正常范围以外的数值可能会导致出错。
+						</p>
+					</form></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">load();showMain();filter();</script>
+</body>
+</html>
