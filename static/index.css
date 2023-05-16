@@ -146,6 +146,10 @@
 	background-image: url(./img/badges/rating_6.png);
 }
 
+.rating-badge-7 {
+	background-image: url(./img/badges/rating_7.png);
+}
+
 .rating {
 	background-size: 64px;
 	height: 64px;
