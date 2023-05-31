@@ -87,7 +87,21 @@ function filter()
 	{
 		var lstInfo=slst.songs.find((x)=>{return x.id==i;})
 		var t=true;
-		if(!lstInfo.title_localized.en.toLocaleLowerCase().includes(name.toLocaleLowerCase())) t=false;
+		{
+			var flagTitle=false;
+			var searchName=name.replaceAll(' ','').toLocaleLowerCase();
+			var originalNames=[];
+			for(var j in lstInfo.title_localized) originalNames.push(lstInfo.title_localized[j]);
+			originalNames.push(lstInfo.artist);
+			for(var j in lstInfo.search_title) for(var k in lstInfo.search_title[j]) originalNames.push(lstInfo.search_title[j][k]);
+			for(var j in lstInfo.search_artist) for(var k in lstInfo.search_artist[j]) originalNames.push(lstInfo.search_artist[j][k]);
+			for(var j in lstInfo.difficulties) if(lstInfo.difficulties[j].title_localized!=undefined)
+				for(var k in lstInfo.difficulties[j].title_localized) originalNames.push(lstInfo.difficulties[j].title_localized[k]);
+			for(var j in lstInfo.difficulties) if(lstInfo.difficulties[j].artist!=undefined)
+				originalNames.push(lstInfo.difficulties[j].artist);
+			for(var j in originalNames) if(originalNames[j].replaceAll(' ','').toLocaleLowerCase().includes(searchName)) flagTitle=true;
+			if(!flagTitle) t=false;
+		}
 		var flag=false;
 		for(var j=0;j<4;j++) if(diffi[j]&&sdb[i].length>j&&sdb[i][j].constant/10>=constantMin&&sdb[i][j].constant/10<=constantMax) flag=true;
 		if(!flag) t=false;

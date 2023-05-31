@@ -4606,5 +4606,75 @@ var sdb={
 			"constant": 99,
 			"note": 1091
 		}
+	],
+	"galacticlove": [
+		{
+			"constant": 30,
+			"note": 513
+		},
+		{
+			"constant": 65,
+			"note": 694
+		},
+		{
+			"constant": 90,
+			"note": 813
+		}
+	],
+	"lawlesspoint": [
+		{
+			"constant": 30,
+			"note": 476
+		},
+		{
+			"constant": 60,
+			"note": 630
+		},
+		{
+			"constant": 89,
+			"note": 838
+		}
+	],
+	"lostintheabyss": [
+		{
+			"constant": 35,
+			"note": 907
+		},
+		{
+			"constant": 65,
+			"note": 908
+		},
+		{
+			"constant": 97,
+			"note": 1179
+		}
+	],
+	"hybris": [
+		{
+			"constant": 45,
+			"note": 757
+		},
+		{
+			"constant": 75,
+			"note": 973
+		},
+		{
+			"constant": 98,
+			"note": 1196
+		}
+	],
+	"tothemilkyway": [
+		{
+			"constant": 50,
+			"note": 928
+		},
+		{
+			"constant": 87,
+			"note": 1154
+		},
+		{
+			"constant": 105,
+			"note": 1392
+		}
 	]
 }
