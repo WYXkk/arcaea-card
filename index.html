@@ -88,14 +88,13 @@
 								<div class="field"><label>定数下限</label><input type="text" placeholder="1.0" id="rankmin"></div>
 								<div class="field"><label>定数上限</label><input type="text" placeholder="12.0" id="rankmax"></div><br>
 							</div>
-							<div class="ui blue submit button" onclick="filter()">查找</div>
 						</form></div>
 					</div>
 				</div>
 			</div>
 			<br>
 			<div class="wide column" style="width:78em;display: inline-block;">
-				<h4 class="ui top attached block header"><div class="content">曲目信息筛选</div></h4>
+				<h4 class="ui top attached block header"><div class="content">查找结果</div></h4>
 				<div class="ui bottom attached styled songs accordion"><form class="ui form" id='songcur'>
 				</form></div>
 			</div>
@@ -238,5 +237,14 @@
 		</div>
 	</div>
 	<script type="text/javascript">load();showMain();filter();</script>
+	<script type="text/javascript">
+		document.getElementById("songtitlea").addEventListener("input",filter);
+		document.getElementById("rankmin").addEventListener("input",filter);
+		document.getElementById("rankmax").addEventListener("input",filter);
+		{
+			var x=document.getElementsByName("diff1");
+			for(var d=0;d<=3;d++) x[d].addEventListener("input",filter);
+		}
+	</script>
 </body>
 </html>
