@@ -43,10 +43,36 @@ function gethtml(songid,diff,mxp,mis,far,rankk)
 	str+='</div></div></div></div></div></div>';
 	return str;
 }
+function getText(songid,diff,mxp,mis,far)
+{
+	var title=getTitle(songid,diff);
+	var diffText=['PST','PRS','FTR','BYD'][diff];
+	var constant=sdb[songid][diff].constant/10;
+	var note=sdb[songid][diff].note;
+	var lstInfo=slst.songs.find((x)=>{return x.id==songid;})
+	var level=lstInfo.difficulties[diff].rating.toString()+(lstInfo.difficulties[diff].ratingPlus?'+':'');
+	var pur=note-mis-far;
+	var score=Math.floor(1e7*(pur+far/2)/note+mxp);
+	var a=Math.floor(score/1e6),b=Math.floor(score/1e3)%1000,c=score%1000;
+	a=longer(2,a),b=longer(3,b),c=longer(3,c);
+	var ptt=Math.max(0,constant+Math.min((score>=9800000?(score-9600000)/200000:(score-9500000)/300000),2));
+	ptt=Math.floor(ptt*100000)/100000;
+	return `${title} [${diffText} ${level}] ${pur}(+${mxp})-${far}-${mis} ${a}'${b}'${c} (${constant} -> ${ptt})`;
+}
 function showMain()
 {
-	if(Object.keys(recentplay).length!=0) document.getElementById("recent").innerHTML=gethtml(recentplay.songid,recentplay.diff,recentplay.mxp,recentplay.mis,recentplay.far,'REC');
-	else document.getElementById("recent").innerHTML="暂无最近游玩记录";
+	if(Object.keys(recentplay).length!=0)
+	{
+		document.getElementById("recent").innerHTML=gethtml(recentplay.songid,recentplay.diff,recentplay.mxp,
+			recentplay.mis,recentplay.far,'REC');
+		document.getElementById("recentText").innerHTML=getText(recentplay.songid,recentplay.diff,recentplay.mxp,
+			recentplay.mis,recentplay.far);
+	}
+	else 
+	{
+		document.getElementById("recent").innerHTML="暂无最近游玩记录";
+		document.getElementById("recentText").innerHTML='';
+	}
 	var ptt=0;document.getElementById("all").innerHTML='';
 	for(var i in playlist)
 	{
