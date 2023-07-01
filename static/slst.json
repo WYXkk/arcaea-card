@@ -19899,6 +19899,394 @@ var slst={
                     "rating": 10
                 }
             ]
+        },
+        {
+            "idx": 323,
+            "id": "internetyamero",
+            "title_localized": {
+                "en": "INTERNET YAMERO"
+            },
+            "artist": "Aiobahn feat. KOTOKO",
+            "search_title": {
+                "ja": [
+                    "いんたーねっとやめろ"
+                ],
+                "ko": [
+                    "인터넷 야메로",
+                    "인터넷 그만둬",
+                    "인터넷 그만해",
+                    "인터넷 하지마",
+                    "인타넷또 야메로"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "あいおばん",
+                    "ことこ"
+                ],
+                "ko": [
+                    "아이오반",
+                    "코토코"
+                ]
+            },
+            "bpm": "185",
+            "bpm_base": 185,
+            "set": "single",
+            "purchase": "internetyamero",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "single2_conflict",
+            "bg_inverse": "single2_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1687910400,
+            "version": "4.5",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "該当チャンネルが停止されたため、\nこの譜面は再生できません。",
+                    "jacketDesigner": "",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "該当チャンネルが停止されたため、\nこの譜面は再生できません。",
+                    "jacketDesigner": "",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "該当チャンネルが停止されたため、\nこの譜面は再生できません。",
+                    "jacketDesigner": "",
+                    "rating": 9,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 324,
+            "id": "bulletwaiting",
+            "title_localized": {
+                "en": "Bullet Waiting for Me (James Landino remix)"
+            },
+            "artist": "Nikki Simmons",
+            "search_title": {
+                "ja": [
+                    "ばれっとうぇいてぃんぐふぉーみーじぇーむずらんでぃーのりみっくす"
+                ],
+                "ko": [
+                    "불렛 웨이팅 포 미 제임스 란디노 리믹스"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "にっきしもんず"
+                ],
+                "ko": [
+                    "니키 시몬스"
+                ]
+            },
+            "bpm": "107",
+            "bpm_base": 107,
+            "set": "cytusii",
+            "purchase": "cytusii",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "cytus_light",
+            "bg_inverse": "cytus_conflict",
+            "remote_dl": true,
+            "source_localized": {
+                "en": "CYTUS II®"
+            },
+            "source_copyright": "© Rayark Inc.",
+            "world_unlock": false,
+            "date": 1687910401,
+            "version": "4.5",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "CERiNG",
+                    "jacketDesigner": "",
+                    "rating": 2
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "CERiNG",
+                    "jacketDesigner": "",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "CERiNG",
+                    "jacketDesigner": "",
+                    "rating": 8
+                }
+            ]
+        },
+        {
+            "idx": 325,
+            "id": "devillicsphere",
+            "title_localized": {
+                "en": "Devillic Sphere"
+            },
+            "artist": "3R2",
+            "search_title": {
+                "ja": [
+                    "でびりっくすふぃあ"
+                ],
+                "ko": [
+                    "데빌릭 스피어"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "すりーあーるつー"
+                ],
+                "ko": [
+                    "삼알이",
+                    "쓰리 알 투",
+                    "스리 알 투"
+                ]
+            },
+            "bpm": "160",
+            "bpm_base": 160,
+            "set": "cytusii",
+            "purchase": "cytusii",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "cytus_conflict",
+            "bg_inverse": "cytus_light",
+            "remote_dl": true,
+            "source_localized": {
+                "en": "CYTUS II®"
+            },
+            "source_copyright": "© Rayark Inc.",
+            "world_unlock": false,
+            "date": 1687910402,
+            "version": "4.5",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "₸öα$†ε₹",
+                    "jacketDesigner": "",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "₸öα$†ε₹",
+                    "jacketDesigner": "",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "₸öα$†ε₹",
+                    "jacketDesigner": "",
+                    "rating": 9,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 326,
+            "id": "lucidtraveler",
+            "title_localized": {
+                "en": "Lucid Traveler"
+            },
+            "artist": "Akira Complex vs 3R2",
+            "search_title": {
+                "ja": [
+                    "るーしっどとらべらー"
+                ],
+                "ko": [
+                    "루시드 트래블러"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "あきらこんぷれっくす",
+                    "すりーあーるつー"
+                ],
+                "ko": [
+                    "아키라 컴플렉스",
+                    "아키라 콤플렉스",
+                    "삼알이",
+                    "쓰리 알 투",
+                    "스리 알 투"
+                ]
+            },
+            "bpm": "170-200",
+            "bpm_base": 170,
+            "set": "cytusii",
+            "purchase": "cytusii",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "cytus_conflict",
+            "bg_inverse": "cytus_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1687910403,
+            "version": "4.5",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Toaster vs ₸öα$†ε₹",
+                    "jacketDesigner": "NC帝國",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Toaster vs ₸öα$†ε₹",
+                    "jacketDesigner": "NC帝國",
+                    "rating": 8
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Toaster vs ₸öα$†ε₹",
+                    "jacketDesigner": "NC帝國",
+                    "rating": 10,
+                    "jacketOverride": true
+                }
+            ]
+        },
+        {
+            "idx": 327,
+            "id": "chaos",
+            "title_localized": {
+                "en": "CHAOS"
+            },
+            "artist": "Æsir",
+            "search_title": {
+                "ja": [
+                    "かおす",
+                    "けいおす"
+                ],
+                "ko": [
+                    "카오스"
+                ]
+            },
+            "search_artist": {
+                "en": [
+                    "aesir"
+                ],
+                "ja": [
+                    "あしーる",
+                    "えーしる",
+                    "あーしる",
+                    "えしーる"
+                ],
+                "ko": [
+                    "에시르",
+                    "애시르"
+                ]
+            },
+            "bpm": "150",
+            "bpm_base": 150,
+            "set": "cytusii",
+            "purchase": "cytusii",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "cytus_boss",
+            "remote_dl": true,
+            "source_localized": {
+                "en": "CYTUS II®"
+            },
+            "source_copyright": "© Rayark Inc.",
+            "world_unlock": false,
+            "date": 1687910404,
+            "version": "4.5",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "絶滅",
+                    "jacketDesigner": "",
+                    "rating": 5
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "絶滅",
+                    "jacketDesigner": "",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "絶滅",
+                    "jacketDesigner": "",
+                    "rating": 10,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 328,
+            "id": "usedtobe",
+            "title_localized": {
+                "en": "Used to be"
+            },
+            "artist": "KIVΛ",
+            "search_title": {
+                "ja": [
+                    "ゆーすどとぅーびー",
+                    "ゆーすどとぅびー"
+                ],
+                "ko": [
+                    "유즈 투 비",
+                    "유즈드 투 비"
+                ]
+            },
+            "search_artist": {
+                "en": [
+                    "kiva"
+                ],
+                "ja": [
+                    "きば",
+                    "きゔぁ"
+                ],
+                "ko": [
+                    "키바"
+                ]
+            },
+            "bpm": "140",
+            "bpm_base": 140,
+            "set": "cytusii",
+            "purchase": "cytusii",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "cytus_light",
+            "bg_inverse": "cytus_conflict",
+            "remote_dl": true,
+            "source_localized": {
+                "en": "CYTUS II®"
+            },
+            "source_copyright": "© Rayark Inc.",
+            "world_unlock": false,
+            "date": 1687910405,
+            "version": "4.5",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Luxance",
+                    "jacketDesigner": "",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Luxance",
+                    "jacketDesigner": "",
+                    "rating": 6
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Luxance + Nitro",
+                    "jacketDesigner": "",
+                    "rating": 9
+                }
+            ]
         }
     ]
 }

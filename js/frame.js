@@ -4,7 +4,7 @@ function getTitle(songid,diff){
 	if(x.difficulties[diff].title_localized!=undefined) return x.difficulties[diff].title_localized.en;
 	else return x.title_localized.en;
 }
-function gethtml(songid,diff,mxp,mis,far,rankk)
+function gethtml(songid,diff,mxp,mis,far,rankk,isScoreOnly)
 {
 	var str='<div class="ui cards" style="display:inline-block;margin-top:-1.5em;margin-bottom:0.4em;margin-right:0.33em;"><div class="record card"><div class="content"><div class="header"><div class="title">';
 	str+=getTitle(songid,diff);
@@ -35,6 +35,12 @@ function gethtml(songid,diff,mxp,mis,far,rankk)
 	if(score>=10000000) rk='PM';
 	if(score>=10000000+note) rk='PM+';
 	str+=rk;
+	if(isScoreOnly)
+	{
+		if(pur<0) {far=(far+2*pur)+"-2n";mis=-pur+"+n";pur="n";}
+		else if(pur==0) {pur="n";far=far+"-2n";mis="n";}
+		else {pur=pur+"+n";far=far+"-2n";mis="n";}
+	}
 	str+='</div><div class="nine wide details column"><div class="ui very compact grid"><div class="row">';
 	str+='P: '+pur+' (+'+mxp+')'+'</div><div class="equal width row"><div class="column">';
 	str+='F: '+far+'</div><div class="column">';
@@ -43,7 +49,7 @@ function gethtml(songid,diff,mxp,mis,far,rankk)
 	str+='</div></div></div></div></div></div>';
 	return str;
 }
-function getText(songid,diff,mxp,mis,far)
+function getText(songid,diff,mxp,mis,far,isScoreOnly)
 {
 	var title=getTitle(songid,diff);
 	var diffText=['PST','PRS','FTR','BYD'][diff];
@@ -57,16 +63,16 @@ function getText(songid,diff,mxp,mis,far)
 	a=longer(2,a),b=longer(3,b),c=longer(3,c);
 	var ptt=Math.max(0,constant+Math.min((score>=9800000?(score-9600000)/200000:(score-9500000)/300000),2));
 	ptt=Math.floor(ptt*100000)/100000;
-	return `${title} [${diffText} ${level}] ${pur}(+${mxp})-${far}-${mis} ${a}'${b}'${c} (${constant} -> ${ptt})`;
+	return `${title} [${diffText} ${level}] `+(isScoreOnly?"":`${pur}(+${mxp})-${far}-${mis} `)+`${a}'${b}'${c} (${constant} -> ${ptt})`;
 }
 function showMain()
 {
 	if(Object.keys(recentplay).length!=0)
 	{
 		document.getElementById("recent").innerHTML=gethtml(recentplay.songid,recentplay.diff,recentplay.mxp,
-			recentplay.mis,recentplay.far,'REC');
+			recentplay.mis,recentplay.far,'REC',recentplay.isScoreOnly);
 		document.getElementById("recentText").innerHTML=getText(recentplay.songid,recentplay.diff,recentplay.mxp,
-			recentplay.mis,recentplay.far);
+			recentplay.mis,recentplay.far,recentplay.isScoreOnly);
 	}
 	else 
 	{
@@ -77,7 +83,7 @@ function showMain()
 	for(var i in playlist)
 	{
 		document.getElementById("all").innerHTML+=gethtml(playlist[i].songid,playlist[i].diff,playlist[i].mxp,playlist[i].mis,
-			playlist[i].far,'#'+(parseInt(i)+1));
+			playlist[i].far,'#'+(parseInt(i)+1),playlist[i].isScoreOnly);
 		var pttnow=getptt(playlist[i].songid,playlist[i].diff,playlist[i].mxp,playlist[i].mis,playlist[i].far);
 		if(i<10) ptt+=pttnow;
 		if(i<30) ptt+=pttnow;
@@ -106,8 +112,8 @@ function filter()
 	if(!(diffi[0]||diffi[1]||diffi[2]||diffi[3])) diffi=[true,true,true,true];
 	var constantMin=parseFloat(document.getElementById('rankmin').value),
 		constantMax=parseFloat(document.getElementById('rankmax').value);
-	if(isNaN(constantMin)) constantMin=1.0;
-	if(isNaN(constantMax)) constantMax=20.0;
+	if(isNaN(constantMin)) constantMin=0.0;constantMin=Math.max(constantMin,0.0);
+	if(isNaN(constantMax)) constantMax=20.0;constantMax=Math.min(constantMax,20.0);
 	var name=document.getElementById('songtitlea').value;
 	for(i in sdb)
 	{
@@ -144,9 +150,10 @@ function filter()
 		songcur+='<div class="nine wide column"><div class="ui equal width grid">';
 		for(var j=0;j<4;++j)
 		{
-			if(listsong[i].info[j]!=undefined&&listsong[i].info[j].note!=-1)
-				songcur+='<div class="column"><div class="ui '+['blue','green','purple','red'][j]+' horizontal mini label">'+
-			Math.floor(listsong[i].info[j].constant/10)+'.'+(listsong[i].info[j].constant)%10+'</div>'+listsong[i].info[j].note+'</div>';
+			if(listsong[i].info[j]!=undefined&&listsong[i].info[j].note!=-11)
+				songcur+='<div class="column"><div class="ui '+['blue','green','purple','red'][j]+' horizontal mini label">'
+				+((x)=>{return x==-1?'?':(Math.floor(x/10)+'.'+(x%10))})(listsong[i].info[j].constant)
+				+'</div>'+((x)=>{return x==-1?'?':x})(listsong[i].info[j].note)+'</div>';
 			else songcur+='<div class="column"></div>';
 		}
 		songcur+="<div class='column'><div class='mini ui blue submit button' onclick='jumpToPlayUpload(\""+listsong[i].songid+"\")'>录入成绩</div></div>";

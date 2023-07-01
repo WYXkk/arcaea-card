@@ -4035,16 +4035,16 @@ var sdb={
 	],
 	"lasteternity": [
 		{
-			"constant": -1,
-			"note": -1
+			"constant": -11,
+			"note": -11
 		},
 		{
-			"constant": -1,
-			"note": -1
+			"constant": -11,
+			"note": -11
 		},
 		{
-			"constant": -1,
-			"note": -1
+			"constant": -11,
+			"note": -11
 		},
 		{
 			"constant": 97,
@@ -4675,6 +4675,90 @@ var sdb={
 		{
 			"constant": 105,
 			"note": 1392
+		}
+	],
+	"internetyamero": [
+		{
+			"constant": -1,
+			"note": 677
+		},
+		{
+			"constant": -1,
+			"note": 987
+		},
+		{
+			"constant": 99,
+			"note": 1222
+		}
+	],
+	 "bulletwaiting": [
+		{
+			"constant": -1,
+			"note": 325
+		},
+		{
+			"constant": -1,
+			"note": 390
+		},
+		{
+			"constant": 81,
+			"note": 701
+		}
+	],
+	"devillicsphere":[
+		{
+			"constant": -1,
+			"note": 490
+		},
+		{
+			"constant": -1,
+			"note": 692
+		},
+		{
+			"constant": 99,
+			"note": 1129
+		}
+	],
+	"lucidtraveler": [
+		{
+			"constant": -1,
+			"note": 634
+		},
+		{
+			"constant": 83,
+			"note": 1006
+		},
+		{
+			"constant": 104,
+			"note": 1341
+		}
+	],
+	"chaos": [
+		{
+			"constant": -1,
+			"note": 646
+		},
+		{
+			"constant": -1,
+			"note": 848
+		},
+		{
+			"constant": 109,
+			"note": 1369
+		}
+	],
+	"usedtobe": [
+		{
+			"constant": -1,
+			"note": 537
+		},
+		{
+			"constant": -1,
+			"note": 675
+		},
+		{
+			"constant": 92,
+			"note": 799
 		}
 	]
 }
