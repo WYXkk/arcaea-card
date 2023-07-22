@@ -4845,4 +4845,21 @@ var sdb={
 			"note": 895
 		}
 	]
+	/*
+	,
+	"songid": [
+		{
+			"constant": ?,
+			"note": ?
+		},
+		{
+			"constant": ?,
+			"note": ?
+		},
+		{
+			"constant": ?,
+			"note": ?
+		}
+	]
+	*/
 }

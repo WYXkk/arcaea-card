@@ -139,7 +139,15 @@ function filter()
 		if(!flag) t=false;
 		if(t) listsong.push({songid:i,title:lstInfo.title_localized.en,info:sdb[i]});
 	}
-	listsong.sort((a,b)=>{return a.title.toLocaleLowerCase()<b.title.toLocaleLowerCase()?-1:1;})
+	var method=document.getElementById("sortMethod").value;
+	var mainDiff=3;for(var i=0;i<=2;i++) if(diffi[i]) mainDiff=i;
+	var sortValue=(a)=>{return 1;}
+	if(method=="name") sortValue=(a)=>{return a.title.toLocaleLowerCase();};
+	else if(method=="const") sortValue=(a)=>{return sdb[a.songid][mainDiff].constant|0;};
+	else if(method=="note") sortValue=(a)=>{return sdb[a.songid][mainDiff].note|0;};
+	else if(method=="time") sortValue=(a)=>{return slst.songs.find((x)=>{return x.id==a.songid;}).date;};
+	listsong.sort((a,b)=>{return sortValue(a)<sortValue(b)?-1:(sortValue(a)>sortValue(b)?1:0);});
+	if(document.getElementById("sortWay").checked) listsong.reverse();
 	for(i in listsong)
 	{
 		var x=slst.songs.find((x)=>{return x.id==listsong[i].songid;});

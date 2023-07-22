@@ -2,7 +2,9 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<title>Arc 成绩计算</title>
+	<script type="text/javascript" src="static/lib/jquery/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="static/lib/fomantic-ui/dist/semantic.min.css">
+	<script type="text/javascript" src="static/lib/fomantic-ui/dist/semantic.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="static/lib/noty/noty.css">
 	<link rel="stylesheet" type="text/css" href="static/lib/noty/themes/semanticui.css">
 	<link rel="stylesheet" type="text/css" href="static/index.css">
@@ -89,6 +91,32 @@
 								<div class="field"><label>定数下限</label><input type="text" placeholder="1.0" id="rankmin"></div>
 								<div class="field"><label>定数上限</label><input type="text" placeholder="12.0" id="rankmax"></div><br>
 							</div>
+							<div class="two fields">
+								<div class="field">
+									<label>排序方式</label>
+									<div class="ui fluid selection dropdown" tabindex="0">
+										<select id="sortMethod">
+											<option value="name">按名称排序</option>
+											<option value="const">按选定难度的定数排序</option>
+											<option value="note">按选定难度的物量排序</option>
+											<option value="time">按更新时间排序</option>
+										</select>
+										<i class="dropdown icon"></i>
+										<div class="text">按名称排序</div>
+										<div class="menu transition hidden" tabindex="-1">
+											<div class="item active selected" data-value="name">按名称排序</div>
+											<div class="item" data-value="const">按选定难度的定数排序</div>
+											<div class="item" data-value="note">按选定难度的物量排序</div>
+											<div class="item" data-value="time">按更新时间排序</div>
+										</div>
+									</div>
+									<div class="ui toggle checkbox" style="margin-top: 0.5em">
+										<input type="checkbox" id="sortWay" tabindex="0" class="hidden">
+										<label>倒序</label>
+									</div>
+								</div>
+							</div>
+							<p>注：如果仅选择了<strong style="color:red;">BYD</strong>，选定难度为<strong style="color:red;">BYD</strong>；否则，选定难度为前三难度中被选定的最高难度。没有选择难度视同选择全部难度。</p>
 						</form></div>
 					</div>
 				</div>
@@ -245,10 +273,14 @@
 		document.getElementById("songtitlea").addEventListener("input",filter);
 		document.getElementById("rankmin").addEventListener("input",filter);
 		document.getElementById("rankmax").addEventListener("input",filter);
+		document.getElementById("sortMethod").addEventListener("change",filter);
+		document.getElementById("sortWay").addEventListener("change",filter);
 		{
 			var x=document.getElementsByName("diff1");
 			for(var d=0;d<=3;d++) x[d].addEventListener("input",filter);
 		}
+		$('.ui.dropdown:not(.dynamic)').dropdown();
+		$('.ui.checkbox:not(.settings)').checkbox();
 	</script>
 </body>
 </html>
