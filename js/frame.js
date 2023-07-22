@@ -137,20 +137,28 @@ function filter()
 		var flag=false;
 		for(var j=0;j<4;j++) if(diffi[j]&&sdb[i].length>j&&sdb[i][j].constant/10>=constantMin&&sdb[i][j].constant/10<=constantMax) flag=true;
 		if(!flag) t=false;
-		if(t) listsong.push({songid:i,title:lstInfo.title_localized.en,info:sdb[i]});
+		if(t) listsong.push({lst:lstInfo,info:sdb[i]});
 	}
 	var method=document.getElementById("sortMethod").value;
 	var mainDiff=3;for(var i=0;i<=2;i++) if(diffi[i]) mainDiff=i;
 	var sortValue=(a)=>{return 1;}
-	if(method=="name") sortValue=(a)=>{return a.title.toLocaleLowerCase();};
-	else if(method=="const") sortValue=(a)=>{return sdb[a.songid][mainDiff].constant|0;};
-	else if(method=="note") sortValue=(a)=>{return sdb[a.songid][mainDiff].note|0;};
-	else if(method=="time") sortValue=(a)=>{return slst.songs.find((x)=>{return x.id==a.songid;}).date;};
+	if(method=="name") sortValue=(a)=>{
+		if(a.lst.difficulties[mainDiff].title_localized!=undefined)
+			return a.lst.difficulties[mainDiff].title_localized.en.toLocaleLowerCase();
+		return a.lst.title_localized.en.toLocaleLowerCase();
+	};
+	else if(method=="const") sortValue=(a)=>{return a.info[mainDiff].constant|0;};
+	else if(method=="note") sortValue=(a)=>{return a.info[mainDiff].note|0;};
+	else if(method=="time") sortValue=(a)=>{
+		if(a.lst.difficulties[mainDiff].date!=undefined)
+			return a.lst.difficulties[mainDiff].date;
+		return a.lst.date;
+	};
 	listsong.sort((a,b)=>{return sortValue(a)<sortValue(b)?-1:(sortValue(a)>sortValue(b)?1:0);});
 	if(document.getElementById("sortWay").checked) listsong.reverse();
 	for(i in listsong)
 	{
-		var x=slst.songs.find((x)=>{return x.id==listsong[i].songid;});
+		var x=listsong[i].lst;
 		songcur+='<div class="title"><div class="ui grid"><div class="six wide column">'+x.title_localized.en;
 		for(var j=0;j<4;j++) if(x.difficulties.length>j&&x.difficulties[j].title_localized!=undefined)
 			songcur+='<br><div class="ui '+['blue','green','purple','red'][j]+' horizontal mini label">'+x.difficulties[j].title_localized.en+'</div>';
@@ -164,7 +172,7 @@ function filter()
 				+'</div>'+((x)=>{return x==-1?'?':x})(listsong[i].info[j].note)+'</div>';
 			else songcur+='<div class="column"></div>';
 		}
-		songcur+="<div class='column'><div class='mini ui blue submit button' onclick='jumpToPlayUpload(\""+listsong[i].songid+"\")'>录入成绩</div></div>";
+		songcur+="<div class='column'><div class='mini ui blue submit button' onclick='jumpToPlayUpload(\""+x.id+"\")'>录入成绩</div></div>";
 		songcur+='</div></div></div></div>';
 	}
 	document.getElementById('songcur').innerHTML=songcur;
