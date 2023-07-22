@@ -4679,11 +4679,11 @@ var sdb={
 	],
 	"internetyamero": [
 		{
-			"constant": -1,
+			"constant": 45,
 			"note": 677
 		},
 		{
-			"constant": -1,
+			"constant": 75,
 			"note": 987
 		},
 		{
@@ -4693,11 +4693,11 @@ var sdb={
 	],
 	 "bulletwaiting": [
 		{
-			"constant": -1,
+			"constant": 25,
 			"note": 325
 		},
 		{
-			"constant": -1,
+			"constant": 45,
 			"note": 390
 		},
 		{
@@ -4707,11 +4707,11 @@ var sdb={
 	],
 	"devillicsphere":[
 		{
-			"constant": -1,
+			"constant": 40,
 			"note": 490
 		},
 		{
-			"constant": -1,
+			"constant": 75,
 			"note": 692
 		},
 		{
@@ -4721,7 +4721,7 @@ var sdb={
 	],
 	"lucidtraveler": [
 		{
-			"constant": -1,
+			"constant": 45,
 			"note": 634
 		},
 		{
@@ -4735,11 +4735,11 @@ var sdb={
 	],
 	"chaos": [
 		{
-			"constant": -1,
+			"constant": 55,
 			"note": 646
 		},
 		{
-			"constant": -1,
+			"constant": 75,
 			"note": 848
 		},
 		{
@@ -4749,16 +4749,100 @@ var sdb={
 	],
 	"usedtobe": [
 		{
-			"constant": -1,
+			"constant": 40,
 			"note": 537
 		},
 		{
-			"constant": -1,
+			"constant": 65,
 			"note": 675
 		},
 		{
 			"constant": 92,
 			"note": 799
+		}
+	],
+	"ultimatetaste": [
+		{
+			"constant": 35,
+			"note": 828
+		},
+		{
+			"constant": 65,
+			"note": 1008
+		},
+		{
+			"constant": 97,
+			"note": 1405
+		}
+	],
+	"syuten": [
+		{
+			"constant": 20,
+			"note": 395
+		},
+		{
+			"constant": 50,
+			"note": 446
+		},
+		{
+			"constant": 85,
+			"note": 592
+		}
+	],
+	"drg": [
+		{
+			"constant": 35,
+			"note": 380
+		},
+		{
+			"constant": 70,
+			"note": 624
+		},
+		{
+			"constant": 95,
+			"note": 872
+		}
+	],
+	"nnglooms": [
+		{
+			"constant": 40,
+			"note": 637
+		},
+		{
+			"constant": 75,
+			"note": 774
+		},
+		{
+			"constant": 103,
+			"note": 1294
+		}
+	],
+	"ii": [
+		{
+			"constant": 50,
+			"note": 690
+		},
+		{
+			"constant": 84,
+			"note": 816
+		},
+		{
+			"constant": 108,
+			"note": 1057
+		}
+	],
+	"magnolia": [
+		{
+			"constant": 45,
+			"note": 625
+		},
+		{
+			"constant": 75,
+			"note": 726
+		},
+		{
+			"constant": 102,
+			"note": 895
 		}
 	]
 }

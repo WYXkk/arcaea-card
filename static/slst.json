@@ -1,4 +1,4 @@
-var slst={
+{
     "songs": [
         {
             "idx": 0,
@@ -490,7 +490,7 @@ var slst={
                     "ばばろっく"
                 ],
                 "ko": [
-                    "바로크"
+                    "바바로크"
                 ]
             },
             "search_artist": {
@@ -977,7 +977,8 @@ var slst={
                     "ぷらぐまてぃずむ"
                 ],
                 "ko": [
-                    "프라그마티즘"
+                    "프라그마티즘",
+                    "프래그마티즘"
                 ]
             },
             "search_artist": {
@@ -1052,7 +1053,8 @@ var slst={
                     "셰리루스",
                     "셰리루트",
                     "셰루트",
-                    "셰루스"
+                    "셰루스",
+                    "셰리더"
                 ]
             },
             "search_artist": {
@@ -2528,7 +2530,10 @@ var slst={
                 "ja": [
                     "いぐのたす",
                     "いぐのーたす",
-                    "いのーたす"
+                    "いのーたす",
+                    "いぐのたすあふたーばーん",
+                    "いぐのーたすあふたーばーん",
+                    "いのーたすあふたーばーん"
                 ],
                 "ko": [
                     "이그노투스",
@@ -3559,7 +3564,8 @@ var slst={
             "artist": "Silentroom",
             "search_title": {
                 "ja": [
-                    "れっどあんどぶるー"
+                    "れっどあんどぶるー",
+                    "れっどあんどぶるーあんどぐりーん"
                 ],
                 "ko": [
                     "레드 앤 블루"
@@ -5535,7 +5541,8 @@ var slst={
             "artist": "Frums",
             "search_title": {
                 "ja": [
-                    "どろっぷでっど"
+                    "どろっぷでっど",
+                    "おーばーでっど"
                 ],
                 "ko": [
                     "드롭데드",
@@ -6994,7 +7001,8 @@ var slst={
                     "すりーあーるつー"
                 ],
                 "ko": [
-                    "스리 알 투"
+                    "스리 알 투",
+                    "쓰리 알 투"
                 ]
             },
             "bpm": "170",
@@ -7164,7 +7172,6 @@ var slst={
                     "しあえが"
                 ],
                 "ko": [
-                    "크아이가",
                     "시아이가",
                     "시에가"
                 ]
@@ -8157,10 +8164,8 @@ var slst={
                 ],
                 "ko": [
                     "카라토",
-                    "판",
-                    "카푸치",
-                    "타케노쇼넨",
-                    "하루노"
+                    "하루노",
+                    "판치쇼넨"
                 ]
             },
             "bpm": "165",
@@ -8346,7 +8351,7 @@ var slst={
                     "みるざむ"
                 ],
                 "ko": [
-                    "미즈람"
+                    "미르잠"
                 ]
             },
             "search_artist": {
@@ -9914,7 +9919,7 @@ var slst={
                     "さくじょ"
                 ],
                 "ko": [
-                    "사쿠즈요"
+                    "사쿠죠"
                 ]
             },
             "bpm": "83-90",
@@ -10938,7 +10943,8 @@ var slst={
                     "ぶらっきー"
                 ],
                 "ko": [
-                    "블랙키"
+                    "블랙키",
+                    "블래키"
                 ]
             },
             "bpm": "146",
@@ -11985,7 +11991,7 @@ var slst={
                     "さくじょ"
                 ],
                 "ko": [
-                    "사쿠즈요"
+                    "사쿠죠"
                 ]
             },
             "bpm": "150",
@@ -12980,7 +12986,8 @@ var slst={
                 ],
                 "ko": [
                     "블랙키",
-                    "리사 유즈키"
+                    "리사 유즈키",
+                    "블래키"
                 ]
             },
             "bpm": "181",
@@ -14201,10 +14208,15 @@ var slst={
             "artist": "Laur",
             "search_title": {
                 "ja": [
-                    "しぇりだーらうるりみっくす"
+                    "しぇりだーらうるりみっくす",
+                    "しぇりるすらうるりみっくす"
                 ],
                 "ko": [
-                    "셰리다 라우어 리믹스"
+                    "셰리다 라우르 리믹스",
+                    "셰리루스 라우르 리믹스",
+                    "셰리루트 라우르 리믹스",
+                    "셰루트 라우르 리믹스",
+                    "셰루스 라우르 리믹스"
                 ]
             },
             "search_artist": {
@@ -14509,6 +14521,10 @@ var slst={
                 ]
             },
             "search_artist": {
+                "ja": [
+                    "ぜっとてぃーえす",
+                    "ぜっつ"
+                ],
                 "ko": [
                     "지티에스"
                 ]
@@ -14564,6 +14580,10 @@ var slst={
                 ]
             },
             "search_artist": {
+                "ja": [
+                    "ぜっとてぃーえす",
+                    "ぜっつ"
+                ],
                 "ko": [
                     "지티에스"
                 ]
@@ -15728,7 +15748,7 @@ var slst={
                     "まくろこすみっくもじゅれーしょん"
                 ],
                 "ko": [
-                    "마이크로코스믹 모듈레이션"
+                    "매크로코스믹 모듈레이션"
                 ]
             },
             "search_artist": {
@@ -16094,6 +16114,9 @@ var slst={
             },
             "artist": "はがね",
             "search_title": {
+                "ja": [
+                    "でぃーでぃーでぃー"
+                ],
                 "ko": [
                     "디디디"
                 ]
@@ -16602,7 +16625,8 @@ var slst={
                 ],
                 "ko": [
                     "카모메 사노",
-                    "유"
+                    "유",
+                    "스피라"
                 ]
             },
             "bpm": "170",
@@ -16648,6 +16672,9 @@ var slst={
             },
             "artist": "MisomyL",
             "search_title": {
+                "ja": [
+                    "むきしつせかいにいろどりを"
+                ],
                 "ko": [
                     "리드로우 더 컬러리스 월드",
                     "무키시츠세카이니 이로오",
@@ -17319,7 +17346,8 @@ var slst={
             "artist": "onoken",
             "search_title": {
                 "ja": [
-                    "らすと"
+                    "らすと",
+                    "らすともーめんと"
                 ],
                 "ko": [
                     "라스트"
@@ -17746,8 +17774,7 @@ var slst={
                     "ぐっばいめりーごーらうんど"
                 ],
                 "ko": [
-                    "굿바이",
-                    "메리 고 라운드"
+                    "굿바이 메리 고 라운드"
                 ]
             },
             "search_artist": {
@@ -17810,7 +17837,7 @@ var slst={
                     "らみあ"
                 ],
                 "ko": [
-                    "라마"
+                    "라미아"
                 ]
             },
             "search_artist": {
@@ -19375,7 +19402,8 @@ var slst={
                     "のみこ"
                 ],
                 "ko": [
-                    "마사요시 미노시마"
+                    "마사요시 미노시마",
+                    "노미코"
                 ]
             },
             "bpm": "172",
@@ -20098,7 +20126,8 @@ var slst={
             "artist": "Akira Complex vs 3R2",
             "search_title": {
                 "ja": [
-                    "るーしっどとらべらー"
+                    "るーしっどとらべらー",
+                    "るしっどとらべらー"
                 ],
                 "ko": [
                     "루시드 트래블러"
@@ -20285,6 +20314,395 @@ var slst={
                     "chartDesigner": "Luxance + Nitro",
                     "jacketDesigner": "",
                     "rating": 9
+                }
+            ]
+        },
+        {
+            "idx": 329,
+            "id": "ultimatetaste",
+            "title_localized": {
+                "en": "Ultimate taste"
+            },
+            "artist": "ぱらどっと",
+            "search_title": {
+                "ja": [
+                    "あるてぃめっとていすと"
+                ],
+                "ko": [
+                    "언리미티드 테이스트"
+                ]
+            },
+            "search_artist": {
+                "en": [
+                    "paradot",
+                    "paradotto"
+                ],
+                "ko": [
+                    "파라돗토"
+                ]
+            },
+            "bpm": "200",
+            "bpm_base": 200,
+            "set": "extend_2",
+            "purchase": "extend_2",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "touhou_light",
+            "bg_inverse": "touhou_conflict",
+            "remote_dl": true,
+            "source_copyright": "©上海アリス幻樂団",
+            "world_unlock": true,
+            "date": 1689724800,
+            "version": "4.6",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Arcaea Charting Team",
+                    "jacketDesigner": "ぱらどっと",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Arcaea Charting Team",
+                    "jacketDesigner": "ぱらどっと",
+                    "rating": 6
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Arcaea Charting Team【Full Flavor】",
+                    "jacketDesigner": "ぱらどっと",
+                    "rating": 9,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 330,
+            "id": "syuten",
+            "title_localized": {
+                "en": "syūten"
+            },
+            "artist": "Apo11o\"COLLAPSAR\"program ft. 大瀬良あい",
+            "search_title": {
+                "en": [
+                    "syuten"
+                ],
+                "ja": [
+                    "しゅうてん"
+                ],
+                "ko": [
+                    "슈텐"
+                ]
+            },
+            "search_artist": {
+                "en": [
+                    "apollo collapsar program",
+                    "oosera ai"
+                ],
+                "ja": [
+                    "あぽろこらぷさーぷろぐらむ",
+                    "おおせらあい"
+                ],
+                "ko": [
+                    "아폴로 콜랍사 프로그램",
+                    "오오세라 아이"
+                ]
+            },
+            "bpm": "76-96",
+            "bpm_base": 96,
+            "set": "cytusii_append_1",
+            "purchase": "cytusii_append_1",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "cytus_light",
+            "bg_inverse": "cytus_conflict",
+            "remote_dl": true,
+            "world_unlock": false,
+            "source_localized": {
+                "en": "CYTUS II®"
+            },
+            "source_copyright": "© Rayark Inc.",
+            "date": 1689724801,
+            "version": "4.6",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "antymīs",
+                    "jacketDesigner": "",
+                    "rating": 2
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "antymīs",
+                    "jacketDesigner": "",
+                    "rating": 5
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "antymīs",
+                    "jacketDesigner": "",
+                    "rating": 8
+                }
+            ]
+        },
+        {
+            "idx": 331,
+            "id": "drg",
+            "title_localized": {
+                "en": "DRG"
+            },
+            "artist": "onoken",
+            "search_title": {
+                "ja": [
+                    "でぃーあーるじー"
+                ],
+                "ko": [
+                    "디알지"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "おのけん"
+                ],
+                "ko": [
+                    "오노켄"
+                ]
+            },
+            "bpm": "155",
+            "bpm_base": 155,
+            "set": "cytusii_append_1",
+            "purchase": "cytusii_append_1",
+            "source_localized": {
+                "en": "CYTUS II®"
+            },
+            "source_copyright": "© Rayark Inc.",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "cytus_light",
+            "bg_inverse": "cytus_conflict",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1689724802,
+            "version": "4.6",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "_NITRO",
+                    "jacketDesigner": "",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "_HARD",
+                    "jacketDesigner": "",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "_CHAOS",
+                    "jacketDesigner": "",
+                    "rating": 9
+                }
+            ]
+        },
+        {
+            "idx": 332,
+            "id": "nnglooms",
+            "title_localized": {
+                "en": "99 Glooms"
+            },
+            "artist": "Sta",
+            "search_title": {
+                "en": [
+                    "ninetynine glooms"
+                ],
+                "ja": [
+                    "ないんてぃないんぐるーむ",
+                    "ないんてぃーないんぐるーむ"
+                ],
+                "ko": [
+                    "나인티나인 글룸즈",
+                    "나인티나인 글룸스"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "すた"
+                ],
+                "ko": [
+                    "스타"
+                ]
+            },
+            "bpm": "185",
+            "bpm_base": 185,
+            "set": "cytusii_append_1",
+            "purchase": "cytusii_append_1",
+            "source_localized": {
+                "en": "CYTUS II®"
+            },
+            "source_copyright": "© Rayark Inc.",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "cytus_conflict",
+            "bg_inverse": "cytus_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1689724803,
+            "version": "4.6",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "終点",
+                    "jacketDesigner": "",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "終点",
+                    "jacketDesigner": "",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "終点",
+                    "jacketDesigner": "",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 333,
+            "id": "ii",
+            "title_localized": {
+                "en": " ͟͝͞Ⅱ́̕ ",
+                "zh-Hant": "II",
+                "zh-Hans": "II",
+                "ko": "II"
+            },
+            "artist": "Cytus",
+            "search_title": {
+                "en": [
+                    "ii"
+                ],
+                "ja": [
+                    "つー",
+                    "とぅー"
+                ],
+                "ko": [
+                    "투"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "さいたす"
+                ],
+                "ko": [
+                    "사이터스"
+                ]
+            },
+            "bpm": "130-150",
+            "bpm_base": 150,
+            "set": "cytusii_append_1",
+            "purchase": "cytusii_append_1",
+            "source_localized": {
+                "en": "CYTUS II®"
+            },
+            "source_copyright": "© Rayark Inc.",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "cytus_boss",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1689724804,
+            "version": "4.6",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Corrupted data\nRecovery progress......100%",
+                    "jacketDesigner": "",
+                    "rating": 5,
+                    "jacketOverride": true
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Main_Log_702_10_25",
+                    "jacketDesigner": "",
+                    "rating": 8,
+                    "jacketOverride": true
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Cam_Library_702_12_29",
+                    "jacketDesigner": "",
+                    "rating": 10,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 334,
+            "id": "magnolia",
+            "title_localized": {
+                "en": "Magnolia"
+            },
+            "artist": "M2U Vocal by Guriri",
+            "search_title": {
+                "ja": [
+                    "まぐのりあ"
+                ],
+                "ko": [
+                    "매그놀리아"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "えむつーゆー",
+                    "ぐりり"
+                ],
+                "ko": [
+                    "엠투유",
+                    "구리리"
+                ]
+            },
+            "bpm": "160",
+            "bpm_base": 160,
+            "set": "cytusii_append_1",
+            "purchase": "cytusii_append_1",
+            "source_localized": {
+                "en": "DEEMO®"
+            },
+            "source_copyright": "© Rayark Inc.",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "magnolia",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1689724805,
+            "version": "4.6",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Lacrimosa",
+                    "jacketDesigner": "",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Lacrimosa",
+                    "jacketDesigner": "",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Lacrimosa",
+                    "jacketDesigner": "",
+                    "rating": 10
                 }
             ]
         }
