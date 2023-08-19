@@ -4844,21 +4844,119 @@ var sdb={
 			"constant": 102,
 			"note": 895
 		}
+	],
+	"sacrifice": [
+		{
+			"constant": 35,
+			"note": 548
+		},
+		{
+			"constant": 75,
+			"note": 779
+		},
+		{
+			"constant": 97,
+			"note": 958
+		}
+	],
+	"rgb": [
+		{
+			"constant": 40,
+			"note": 652
+		},
+		{
+			"constant": 75,
+			"note": 803
+		},
+		{
+			"constant": 97,
+			"note": 1131
+		}
+	],
+	"waitfordawn": [
+		{
+			"constant": 25,
+			"note": 596
+		},
+		{
+			"constant": 60,
+			"note": 636
+		},
+		{
+			"constant": 87,
+			"note": 861
+		}
+	],
+	"ravenspride": [
+		{
+			"constant": 30,
+			"note": 697
+		},
+		{
+			"constant": 65,
+			"note": 797
+		},
+		{
+			"constant": 94,
+			"note": 1030
+		}
+	],
+	"riseoftheworld": [
+		{
+			"constant": 45,
+			"note": 722
+		},
+		{
+			"constant": 75,
+			"note": 843
+		},
+		{
+			"constant": 104,
+			"note": 1076
+		}
+	],
+	"unknownlevels": [
+		{
+			"constant": 40,
+			"note": 591
+		},
+		{
+			"constant": 75,
+			"note": 771
+		},
+		{
+			"constant": 106,
+			"note": 1149
+		}
+	],
+	"abstrusedilemma": [
+		{
+			"constant": 55,
+			"note": 983
+		},
+		{
+			"constant": 84,
+			"note": 1127
+		},
+		{
+			"constant": 111,
+			"note": 1467
+		}
 	]
 	/*
 	,
 	"songid": [
 		{
-			"constant": ?,
-			"note": ?
+			"constant": -1,
+			"note": -1
 		},
 		{
-			"constant": ?,
-			"note": ?
+			"constant": -1,
+			"note": -1
 		},
 		{
-			"constant": ?,
-			"note": ?
+			"constant": -1,
+			"note": -1
 		}
 	]
 	*/

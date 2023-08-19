@@ -16,15 +16,15 @@ function uploadplay()
 	var mis,far,mxp,isScoreOnly;
 	if(slst.songs.find((x)=>{return x.title_localized.en==title})==undefined)
 	{
-		var str='没有 "'+title+'" 的 '+['PST','PRS','FTR','BYD'][diff]+' 难度的谱面信息。';
+		var str='没有 "'+title+'" 的 '+['PST','PRS','FTR','BYD'][diff]+' 难度的完整谱面信息。';
 		alert(str);
 		return;
 	}
 	var lstInfo=slst.songs.find((x)=>{return x.title_localized.en==title;})
 	var songid=lstInfo.id;
-	if(sdb[songid][diff].note==-1||sdb[songid][diff].constant==-1)
+	if(sdb[songid][diff].note<0||sdb[songid][diff].constant<0)
 	{
-		var str='没有 "'+title+'" 的 '+['PST','PRS','FTR','BYD'][diff]+' 难度的谱面信息。';
+		var str='没有 "'+title+'" 的 '+['PST','PRS','FTR','BYD'][diff]+' 难度的完整谱面信息。';
 		alert(str);
 		return;
 	}
