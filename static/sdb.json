@@ -4959,16 +4959,142 @@ var sdb={
 	],
 	"tothefurthestdream": [
 		{
-			"constant": -1,
-			"note": -1
+			"constant": 45,
+			"note": 836
 		},
 		{
-			"constant": -1,
-			"note": -1
+			"constant": 75,
+			"note": 994
 		},
 		{
-			"constant": -1,
-			"note": -1
+			"constant": 98,
+			"note": 1102
+		}
+	],
+	"remindthesouls": [
+		{
+			"constant": 35,
+			"note": 561
+		},
+		{
+			"constant": 65,
+			"note": 756
+		},
+		{
+			"constant": 95,
+			"note": 945
+		}
+	],
+	"dynitikos": [
+		{
+			"constant": 40,
+			"note": 683
+		},
+		{
+			"constant": 65,
+			"note": 894
+		},
+		{
+			"constant": 95,
+			"note": 986
+		}
+	],
+	"amekagura": [
+		{
+			"constant": 40,
+			"note": 741
+		},
+		{
+			"constant": 75,
+			"note": 851
+		},
+		{
+			"constant": 99,
+			"note": 1076
+		}
+	],
+	"bbkkbkk": [
+		{
+			"constant": 40,
+			"note": 669
+		},
+		{
+			"constant": 75,
+			"note": 708
+		},
+		{
+			"constant": 97,
+			"note": 976
+		}
+	],
+	"primevaltexture": [
+		{
+			"constant": 30,
+			"note": 346
+		},
+		{
+			"constant": 60,
+			"note": 525
+		},
+		{
+			"constant": 90,
+			"note": 810
+		}
+	],
+	"technicolour": [
+		{
+			"constant": 35,
+			"note": 644
+		},
+		{
+			"constant": 70,
+			"note": 812
+		},
+		{
+			"constant": 98,
+			"note": 1140
+		}
+	],
+	"logos": [
+		{
+			"constant": 40,
+			"note": 697
+		},
+		{
+			"constant": 70,
+			"note": 798
+		},
+		{
+			"constant": 101,
+			"note": 1040
+		}
+	],
+	"egoeimi": [
+		{
+			"constant": 55,
+			"note": 801
+		},
+		{
+			"constant": 86,
+			"note": 937
+		},
+		{
+			"constant": 105,
+			"note": 1223
+		}
+	],
+	"arghena": [
+		{
+			"constant": 60,
+			"note": 883
+		},
+		{
+			"constant": 94,
+			"note": 1082
+		},
+		{
+			"constant": 113,
+			"note": 1444
 		}
 	]
 	/*
