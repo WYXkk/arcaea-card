@@ -167,7 +167,7 @@ function filter()
 		for(var j=0;j<4;++j)
 		{
 			if(listsong[i].info[j]!=undefined&&listsong[i].info[j].note!=-11)
-				songcur+='<div class="column"><div class="ui '+['blue','green','purple','red'][j]+' horizontal mini label">'
+				songcur+='<div class="column"><div class="ui '+['blue','green','purple','red'][j]+' horizontal label">'
 				+((x)=>{return x==-1?'?':(Math.floor(x/10)+'.'+(x%10))})(listsong[i].info[j].constant)
 				+'</div>'+((x)=>{return x==-1?'?':x})(listsong[i].info[j].note)+'</div>';
 			else songcur+='<div class="column"></div>';
