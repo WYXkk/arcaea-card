@@ -5096,6 +5096,62 @@ var sdb={
 			"constant": 113,
 			"note": 1444
 		}
+	],
+	"fantasy": [
+		{
+			"constant": 30,
+			"note": 536
+		},
+		{
+			"constant": 65,
+			"note": 715
+		},
+		{
+			"constant": 94,
+			"note": 965
+		}
+	],
+	"transientspace": [
+		{
+			"constant": 25,
+			"note": 419
+		},
+		{
+			"constant": 65,
+			"note": 607
+		},
+		{
+			"constant": 95,
+			"note": 805
+		}
+	],
+	"namelesspassion": [
+		{
+			"constant": 30,
+			"note": 681
+		},
+		{
+			"constant": 70,
+			"note": 890
+		},
+		{
+			"constant": 99,
+			"note": 1223
+		}
+	],
+	"teravolt": [
+		{
+			"constant": 50,
+			"note": 675
+		},
+		{
+			"constant": 84,
+			"note": 804
+		},
+		{
+			"constant": 109,
+			"note": 1008
+		}
 	]
 	/*
 	,
