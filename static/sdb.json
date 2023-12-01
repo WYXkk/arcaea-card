@@ -5152,6 +5152,104 @@ var sdb={
 			"constant": 109,
 			"note": 1008
 		}
+	],
+	"stratoliner": [
+		{
+			"constant": 35,
+			"note": 535
+		},
+		{
+			"constant": 65,
+			"note": 702
+		},
+		{
+			"constant": 96,
+			"note": 877
+		}
+	],
+	"ouverture": [
+		{
+			"constant": 25,
+			"note": 583
+		},
+		{
+			"constant": 75,
+			"note": 786
+		},
+		{
+			"constant": 98,
+			"note": 913
+		}
+	],
+	"xtreme": [
+		{
+			"constant": 45,
+			"note": 752
+		},
+		{
+			"constant": 75,
+			"note": 831
+		},
+		{
+			"constant": 105,
+			"note": 1258
+		}
+	],
+	"edenwacca": [
+		{
+			"constant": 45,
+			"note": 826
+		},
+		{
+			"constant": 82,
+			"note": 1194
+		},
+		{
+			"constant": 105,
+			"note": 1365
+		}
+	],
+	"metamysteria": [
+		{
+			"constant": 50,
+			"note": 844
+		},
+		{
+			"constant": 75,
+			"note": 905
+		},
+		{
+			"constant": 108,
+			"note": 1309
+		}
+	],
+	"aloneandlorn": [
+		{
+			"constant": 30,
+			"note": 643
+		},
+		{
+			"constant": 60,
+			"note": 742
+		},
+		{
+			"constant": 96,
+			"note": 970
+		}
+	],
+	"wishuponasnow": [
+		{
+			"constant": 45,
+			"note": 1031
+		},
+		{
+			"constant": 75,
+			"note": 1095
+		},
+		{
+			"constant": 105,
+			"note": 1309
+		}
 	]
 	/*
 	,
