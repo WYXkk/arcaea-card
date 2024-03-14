@@ -16,7 +16,7 @@ function uploadplay()
 	var mis,far,mxp,isScoreOnly;
 	if(slst.songs.find((x)=>{return x.title_localized.en==title})==undefined)
 	{
-		var str='没有 "'+title+'" 的 '+['PST','PRS','FTR','BYD'][diff]+' 难度的完整谱面信息。';
+		var str='没有 "'+title+'" 的 '+['PST','PRS','FTR','BYD','ETR'][diff]+' 难度的完整谱面信息。';
 		alert(str);
 		return;
 	}
@@ -24,7 +24,7 @@ function uploadplay()
 	var songid=lstInfo.id;
 	if(sdb[songid][diff].note<0||sdb[songid][diff].constant<0)
 	{
-		var str='没有 "'+title+'" 的 '+['PST','PRS','FTR','BYD'][diff]+' 难度的完整谱面信息。';
+		var str='没有 "'+title+'" 的 '+['PST','PRS','FTR','BYD','ETR'][diff]+' 难度的完整谱面信息。';
 		alert(str);
 		return;
 	}
@@ -84,9 +84,9 @@ function delplay()
 			a=i,b=playlist[i];
 		}
 	}
-	if(a==-1) {alert('没有 "'+title+'" 的 '+['PST','PRS','FTR','BYD'][diff]+' 难度的游玩记录。');return;}
+	if(a==-1) {alert('没有 "'+title+'" 的 '+['PST','PRS','FTR','BYD','ETR'][diff]+' 难度的游玩记录。');return;}
 	var num=sdb[songid][diff].note;
-	var r=confirm('确认删除 "'+title+'" 的 '+['PST','PRS','FTR','BYD'][diff]+' 难度的游玩记录吗？'
+	var r=confirm('确认删除 "'+title+'" 的 '+['PST','PRS','FTR','BYD','ETR'][diff]+' 难度的游玩记录吗？'
 		+(b.isScoreOnly?"":('\nPURE:'+(num-b.far-b.mis)+'(+'+b.mxp+') FAR:'+b.far+' LOST:'+b.mis))
 		+'\n得分：'+(Math.floor(1e7*((num-b.far-b.mis)+b.far/2)/num+b.mxp)));
 	if(!r) return;

@@ -8,8 +8,8 @@ function gethtml(songid,diff,mxp,mis,far,rankk,isScoreOnly)
 {
 	var str='<div class="ui cards" style="display:inline-block;margin-top:-1.5em;margin-bottom:0.4em;margin-right:0.33em;"><div class="record card"><div class="content"><div class="header"><div class="title">';
 	str+=getTitle(songid,diff);
-	str+='</div><span class="ui '+['blue','green','purple','red'][diff]+' horizontal label">';
-	str+=['PST','PRS','FTR','BYD'][diff]+' ';
+	str+='</div><span class="ui '+['pst','prs','ftr','byd','etr'][diff]+'-color horizontal label">';
+	str+=['PST','PRS','FTR','BYD','ETR'][diff]+' ';
 	var constant=sdb[songid][diff].constant/10;
 	var note=sdb[songid][diff].note;
 	var lstInfo=slst.songs.find((x)=>{return x.id==songid;})
@@ -52,7 +52,7 @@ function gethtml(songid,diff,mxp,mis,far,rankk,isScoreOnly)
 function getText(songid,diff,mxp,mis,far,isScoreOnly)
 {
 	var title=getTitle(songid,diff);
-	var diffText=['PST','PRS','FTR','BYD'][diff];
+	var diffText=['PST','PRS','FTR','BYD','ETR'][diff];
 	var constant=sdb[songid][diff].constant/10;
 	var note=sdb[songid][diff].note;
 	var lstInfo=slst.songs.find((x)=>{return x.id==songid;})
@@ -107,9 +107,9 @@ function filter()
 {
 	var songcur='';
 	var listsong=[];
-	var diffi=[0,0,0,0];
-	for(var i=0;i<4;i++) diffi[i]=document.getElementsByName("diff1")[i].checked;
-	if(!(diffi[0]||diffi[1]||diffi[2]||diffi[3])) diffi=[true,true,true,true];
+	var diffi=[0,0,0,0,0];
+	for(var i=0;i<5;i++) diffi[i]=document.getElementsByName("diff1")[i].checked;
+	if(!(diffi[0]||diffi[1]||diffi[2]||diffi[3]||diffi[4])) diffi=[true,true,true,true,true];
 	var constantMin=parseFloat(document.getElementById('rankmin').value),
 		constantMax=parseFloat(document.getElementById('rankmax').value);
 	if(isNaN(constantMin)) constantMin=0.0;constantMin=Math.max(constantMin,0.0);
@@ -135,12 +135,12 @@ function filter()
 			if(!flagTitle) t=false;
 		}
 		var flag=false;
-		for(var j=0;j<4;j++) if(diffi[j]&&sdb[i].length>j&&sdb[i][j].constant/10>=constantMin&&sdb[i][j].constant/10<=constantMax) flag=true;
+		for(var j=0;j<5;j++) if(diffi[j]&&sdb[i].length>j&&sdb[i][j].constant/10>=constantMin&&sdb[i][j].constant/10<=constantMax) flag=true;
 		if(!flag) t=false;
 		if(t) listsong.push({lst:lstInfo,info:sdb[i]});
 	}
 	var method=document.getElementById("sortMethod").value;
-	var mainDiff=3;for(var i=0;i<=2;i++) if(diffi[i]) mainDiff=i;
+	var mainDiff=0;let ord=[4,3,0,1,2];for(let i=0;i<5;i++) if(diffi[ord[i]]) mainDiff=ord[i];
 	var sortValue=(a)=>{return 1;}
 	if(method=="name") sortValue=(a)=>{
 		if(a.lst.difficulties[mainDiff].title_localized!=undefined)
@@ -160,17 +160,32 @@ function filter()
 	{
 		var x=listsong[i].lst;
 		songcur+='<div class="title"><div class="ui grid"><div class="six wide column">'+x.title_localized.en;
-		for(var j=0;j<4;j++) if(x.difficulties.length>j&&x.difficulties[j].title_localized!=undefined)
-			songcur+='<br><div class="ui '+['blue','green','purple','red'][j]+' horizontal mini label">'+x.difficulties[j].title_localized.en+'</div>';
+		for(var j=0;j<5;j++) if(x.difficulties.length>j&&x.difficulties[j].title_localized!=undefined)
+			songcur+='<br><div class="ui '+['pst','prs','ftr','byd','etr'][j]+'-color horizontal mini label">'+x.difficulties[j].title_localized.en+'</div>';
 		songcur+='</div>';
 		songcur+='<div class="nine wide column"><div class="ui equal width grid">';
-		for(var j=0;j<4;++j)
+		for(var j=0;j<3;++j)
 		{
 			if(listsong[i].info[j]!=undefined&&listsong[i].info[j].note!=-11)
-				songcur+='<div class="column"><div class="ui '+['blue','green','purple','red'][j]+' horizontal label">'
+				songcur+='<div class="column"><div class="ui '+['pst','prs','ftr','byd','etr'][j]+'-color horizontal label">'
 				+((x)=>{return x==-1?'?':(Math.floor(x/10)+'.'+(x%10))})(listsong[i].info[j].constant)
 				+'</div>'+((x)=>{return x==-1?'?':x})(listsong[i].info[j].note)+'</div>';
 			else songcur+='<div class="column"></div>';
+		}
+		{
+			let j=3;
+			if(listsong[i].info[j]!=undefined&&listsong[i].info[j].note!=-11)
+				songcur+='<div class="column"><div class="ui '+['pst','prs','ftr','byd','etr'][j]+'-color horizontal label">'
+				+((x)=>{return x==-1?'?':(Math.floor(x/10)+'.'+(x%10))})(listsong[i].info[j].constant)
+				+'</div>'+((x)=>{return x==-1?'?':x})(listsong[i].info[j].note)+'</div>';
+			else {
+				j=4;
+				if(listsong[i].info[j]!=undefined&&listsong[i].info[j].note!=-11)
+					songcur+='<div class="column"><div class="ui '+['pst','prs','ftr','byd','etr'][j]+'-color horizontal label">'
+					+((x)=>{return x==-1?'?':(Math.floor(x/10)+'.'+(x%10))})(listsong[i].info[j].constant)
+					+'</div>'+((x)=>{return x==-1?'?':x})(listsong[i].info[j].note)+'</div>';
+				else songcur+='<div class="column"></div>';
+			}
 		}
 		songcur+="<div class='column'><div class='mini ui blue submit button' onclick='jumpToPlayUpload(\""+x.id+"\")'>录入成绩</div></div>";
 		songcur+='</div></div></div></div>';

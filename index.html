@@ -8,14 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="static/lib/noty/noty.css">
 	<link rel="stylesheet" type="text/css" href="static/lib/noty/themes/semanticui.css">
 	<link rel="stylesheet" type="text/css" href="static/index.css">
-	<script type="text/javascript" src="static/slst.json"></script>
-	<script type="text/javascript">
-		slst.songs.find((x)=>{return x.id=="quon"}).title_localized.en="Quon (Feryquitous)";
-		slst.songs.find((x)=>{return x.id=="quonwacca"}).title_localized.en="Quon (DJ Noriken)";
-		slst.songs.find((x)=>{return x.id=="genesis"}).title_localized.en="Genesis (Iris)";
-		slst.songs.find((x)=>{return x.id=="genesischunithm"}).title_localized.en="Genesis (Morrigan)";
-	</script>
-	<script type="text/javascript" src="static/sdb.json"></script>
 	<script src="js/frame.js"></script>
 	<script src="js/base64.js"></script>
 	<script src="js/save.js"></script>
@@ -37,6 +29,42 @@
 		.ui.styled.accordion .accordion .title,.ui.styled.accordion .title {
 		    color: rgba(0,0,0,.87);
 		}
+
+		.pst-color{color:#0a82be;}
+		.prs-color{color:#648c3c;}
+		.ftr-color{color:#50194b;}
+		.byd-color{color:#822328;}
+		.etr-color{color:#5d4e76;}
+
+		.ui.pst-color.label{
+		    background-color:#0a82be;
+		    border-color:#0a82be;
+		    color:#fff;
+		}
+		.ui.prs-color.label{
+		    background-color:#648c3c;
+		    border-color:#648c3c;
+		    color:#fff;
+		}
+		.ui.ftr-color.label{
+		    background-color:#50194b;
+		    border-color:#50194b;
+		    color:#fff;
+		}
+		.ui.byd-color.label{
+		    background-color:#822328;
+		    border-color:#822328;
+		    color:#fff;
+		}
+		.ui.etr-color.label{
+		    background-color:#5d4e76;
+		    border-color:#5d4e76;
+		    color:#fff;
+		}
+
+		.lost-color{color:#dd4444;}
+		.far-color{color:#ffaa11;}
+		.pure-color{color:#cc22ee;}
 	</style>
 </head>
 <body>
@@ -83,12 +111,13 @@
 						<h4 class="ui top attached block header">曲目查找</h4>
 						<div class="ui bottom attached segment"><form class="ui form">
 							<div class="field"><label>搜索功能（与游戏内类似，可搜曲名或曲师）</label><input type="text" placeholder="Testify" id="songtitlea"></div>
-							<div>
+							<div style="padding-bottom:10px;">
 								<p>难度：</p>
-								<input style="vertical-align:bottom;position:relative;top:-2px;" type="checkbox" name="diff1" value=0> <strong style="color:blue;">PST</strong>
-								<input style="vertical-align:bottom;position:relative;top:-2px;" type="checkbox" name="diff1" value=1> <strong style="color:green;">PRS</strong>
-								<input style="vertical-align:bottom;position:relative;top:-2px;" type="checkbox" name="diff1" value=2> <strong style="color:purple;">FTR</strong>
-								<input style="vertical-align:bottom;position:relative;top:-2px;" type="checkbox" name="diff1" value=3> <strong style="color:red;">BYD</strong>
+								<input style="vertical-align:bottom;position:relative;top:-2px;" type="checkbox" name="diff1" value=0> <strong class='pst-color'>PST</strong>
+								<input style="vertical-align:bottom;position:relative;top:-2px;" type="checkbox" name="diff1" value=1> <strong class='prs-color'>PRS</strong>
+								<input style="vertical-align:bottom;position:relative;top:-2px;" type="checkbox" name="diff1" value=2> <strong class='ftr-color'>FTR</strong>
+								<input style="vertical-align:bottom;position:relative;top:-2px;" type="checkbox" name="diff1" value=3> <strong class='byd-color'>BYD</strong>
+								<input style="vertical-align:bottom;position:relative;top:-2px;" type="checkbox" name="diff1" value=4> <strong class='etr-color'>ETR</strong>
 							</div>
 							<div class="two fields">
 								<div class="field"><label>定数下限</label><input type="text" placeholder="1.0" id="rankmin"></div>
@@ -119,7 +148,7 @@
 									</div>
 								</div>
 							</div>
-							<p>注：如果仅选择了<strong style="color:red;">BYD</strong>，选定难度为<strong style="color:red;">BYD</strong>；否则，选定难度为前三难度中被选定的最高难度。没有选择难度视同选择全部难度。</p>
+							<p>注：选定难度为<strong class='ftr-color'>FTR</strong>，<strong class='prs-color'>PRS</strong>，<strong class='pst-color'>PST</strong>，<strong class='byd-color'>BYD</strong>，<strong class='etr-color'>ETR</strong>顺序中第一个被选定的难度。没有选择难度视同选择全部难度。仅选择<strong class='byd-color'>BYD</strong>和<strong class='etr-color'>ETR</strong>可能产生意料外的排序结果。</p>
 						</form></div>
 					</div>
 				</div>
@@ -138,17 +167,18 @@
 						<h4 class="ui top attached block header">成绩录入</h4>
 						<div class="ui bottom attached segment"><form class="ui form">
 							<div class="field"><label>曲目名称（请使用前三难度的名称）</label><input type="text" placeholder="Aegleseeker" id="songtitle"></div>
-							<div>
+							<div style="padding-bottom:10px;">
 								<p>难度：</p>
-								<input style="vertical-align:bottom;position:relative;top:-2px;" type="radio" name="diff2" value=0> <strong style="color:blue;">PST</strong>
-								<input style="vertical-align:bottom;position:relative;top:-2px;" type="radio" name="diff2" value=1> <strong style="color:green;">PRS</strong>
-								<input style="vertical-align:bottom;position:relative;top:-2px;" type="radio" name="diff2" value=2 checked="checked"> <strong style="color:purple;">FTR</strong>
-								<input style="vertical-align:bottom;position:relative;top:-2px;" type="radio" name="diff2" value=3> <strong style="color:red;">BYD</strong>
+								<input style="vertical-align:bottom;position:relative;top:-2px;" type="radio" name="diff2" value=0> <strong class="pst-color">PST</strong>
+								<input style="vertical-align:bottom;position:relative;top:-2px;" type="radio" name="diff2" value=1> <strong class="prs-color">PRS</strong>
+								<input style="vertical-align:bottom;position:relative;top:-2px;" type="radio" name="diff2" value=2 checked="checked"> <strong class="ftr-color">FTR</strong>
+								<input style="vertical-align:bottom;position:relative;top:-2px;" type="radio" name="diff2" value=3> <strong class="byd-color">BYD</strong>
+								<input style="vertical-align:bottom;position:relative;top:-2px;" type="radio" name="diff2" value=4> <strong class="etr-color">ETR</strong>
 							</div>
 							<div class="three fields">
-								<div class="field"><label><strong style="color:#dd4444;">LOST</strong><p>个数：</p></label><input type="text" placeholder="0" id="mis"></div>
-								<div class="field"><label><strong style="color:#ffaa11;">FAR</strong><p>个数：</p></label><input type="text" placeholder="0" id="far"></div>
-								<div class="field"><label><strong style="color:#cc22ee;">MAXPURE</strong><p>个数：</p></label><input type="text" placeholder="1568" id="mxp"></div><br>
+								<div class="field"><label><strong class="lost-color">LOST</strong><p>个数：</p></label><input type="text" placeholder="0" id="mis"></div>
+								<div class="field"><label><strong class="far-color">FAR</strong><p>个数：</p></label><input type="text" placeholder="0" id="far"></div>
+								<div class="field"><label><strong class="pure-color">MAXPURE</strong><p>个数：</p></label><input type="text" placeholder="1568" id="mxp"></div><br>
 							</div>
 							<div class="one fields" style="margin-top: -0.5em;">
 								<div class="field"><label><p>或者，仅录入分数：（若有填写此项即按仅分数录入）</p></label><input type="text" placeholder="10001568" id="scoreOnly"></div><br>
@@ -163,11 +193,14 @@
 						<div class="ui bottom attached segment"><form class="ui form">
 							<strong style="color: red;">如此操作会删除此谱面下的记录，且无法恢复！</strong>
 							<div class="field"><label>曲目名称（请使用前三难度的名称）</label><input type="text" placeholder="Aegleseeker" id="songtitlec"></div>
-							<p>难度：</p>
-							<input type="radio" name="diffc" value=0><strong style="color:blue;">PST</strong>
-							<input type="radio" name="diffc" value=1><strong style="color:green;">PRS</strong>
-							<input type="radio" name="diffc" value=2 checked="checked"><strong style="color:purple;">FTR</strong>
-							<input type="radio" name="diffc" value=3><strong style="color:red;">BYD</strong><br>
+							<div style="padding-bottom:10px;">
+								<p>难度：</p>
+								<input type="radio" name="diffc" value=0><strong class="pst-color">PST</strong>
+								<input type="radio" name="diffc" value=1><strong class="prs-color">PRS</strong>
+								<input type="radio" name="diffc" value=2 checked="checked"><strong class="ftr-color">FTR</strong>
+								<input type="radio" name="diffc" value=3><strong class="byd-color">BYD</strong>
+								<input type="radio" name="diffc" value=4><strong class="etr-color">ETR</strong>
+							</div>
 							<div class="ui red submit button" onclick="delplay()">删除记录</div>
 						</form></div>
 					</div>
@@ -211,11 +244,11 @@
 				<div class="wide column" style="width:42em;display: inline-block;">
 					<h4 class="ui top attached block header">图例</h4>
 					<div class="ui bottom attached segment"><form class="ui form" style="margin-bottom: 0em;">
-						<div class="ui cards" style="display:inline-block;margin-top:0em;margin-bottom:0.4em;margin-right:0.33em;"><div class="record card"><div class="content"><div class="header"><div class="title">LunarOrbit -believe in the Espebranch road-</div><span class="ui purple horizontal label">FTR 9</span></div><div class="description"><div class="ui very compact grid"><div class="row"><div class="score"><span class="score">09'944'237</span><span class="chart-ptt"> / 9.6 / 11.32118</span></div></div><div class="row"><div class="three wide rank column">EX+</div><div class="nine wide details column"><div class="ui very compact grid"><div class="row">P: 1047 (+948)</div><div class="equal width row"><div class="column">F: 10</div><div class="column">L: 1</div></div></div></div><div class="three wide rank column">#4</div></div></div></div></div></div></div>
-						<div class="ui cards" style="display:inline-block;margin-top:-1.5em;margin-bottom:0.4em;margin-right:0.33em;"><div class="record card"><div class="content"><div class="header"><div class="title">Aegleseeker</div><span class="ui green horizontal label">PRS 9</span></div><div class="description"><div class="ui very compact grid"><div class="row"><div class="score"><span class="score">09'745'962</span><span class="chart-ptt"> / 9.1 / 9.91987</span></div></div><div class="row"><div class="three wide rank column">AA</div><div class="nine wide details column"><div class="ui very compact grid"><div class="row">P: 1186 (+1023)</div><div class="equal width row"><div class="column">F: 35</div><div class="column">L: 14</div></div></div></div><div class="three wide rank column">REC</div></div></div></div></div></div></div><br>
+						<div class="ui cards" style="display:inline-block;margin-top:0em;margin-bottom:0.4em;margin-right:0.33em;"><div class="record card"><div class="content"><div class="header"><div class="title">LunarOrbit -believe in the Espebranch road-</div><span class="ui ftr-color horizontal label">FTR 9</span></div><div class="description"><div class="ui very compact grid"><div class="row"><div class="score"><span class="score">09'944'237</span><span class="chart-ptt"> / 9.6 / 11.32118</span></div></div><div class="row"><div class="three wide rank column">EX+</div><div class="nine wide details column"><div class="ui very compact grid"><div class="row">P: 1047 (+948)</div><div class="equal width row"><div class="column">F: 10</div><div class="column">L: 1</div></div></div></div><div class="three wide rank column">#4</div></div></div></div></div></div></div>
+						<div class="ui cards" style="display:inline-block;margin-top:-1.5em;margin-bottom:0.4em;margin-right:0.33em;"><div class="record card"><div class="content"><div class="header"><div class="title">Aegleseeker</div><span class="ui prs-color horizontal label">PRS 9</span></div><div class="description"><div class="ui very compact grid"><div class="row"><div class="score"><span class="score">09'745'962</span><span class="chart-ptt"> / 9.1 / 9.91987</span></div></div><div class="row"><div class="three wide rank column">AA</div><div class="nine wide details column"><div class="ui very compact grid"><div class="row">P: 1186 (+1023)</div><div class="equal width row"><div class="column">F: 35</div><div class="column">L: 14</div></div></div></div><div class="three wide rank column">REC</div></div></div></div></div></div></div><br>
 						第一行：左侧为曲名，过长时会省略后面的部分；右侧为难度和标级。<br>
 						第二行：左侧为分数；中间为谱面定数；右侧为游玩 ptt。<br>
-						第三行：左侧为评级；中间上方为 <strong style="color:#cc22ee;">PURE</strong> 个数和 <strong style="color:#cc22ee;">MAXPURE</strong> 个数；中间下方为 <strong style="color:#ffaa11;">FAR</strong> 个数和 <strong style="color:#dd4444;">LOST</strong> 个数；右侧为其游玩 ptt 的排名，或表示这指最近游玩。
+						第三行：左侧为评级；中间上方为 <strong class="pure-color">PURE</strong> 个数和 <strong class="pure-color">MAXPURE</strong> 个数；中间下方为 <strong class="far-color">FAR</strong> 个数和 <strong class="lost-color">LOST</strong> 个数；右侧为其游玩 ptt 的排名，或表示这指最近游玩。
 					</form></div>
 				</div>
 				<div class="wide column" style="width:40em;display: inline-block;">
@@ -239,14 +272,14 @@
 							<div class="field"><label>分数</label><input type="text" placeholder="9999900" id="calcScoreA"></div><br>
 						</div>
 						<div class="two fields">
-							<div class="field"><label>折合 <strong style="color:#ffaa11;">FAR</strong> 数量</label><input type="text" placeholder="1" id="calcFar"></div>
-							<div class="field"><label><strong style="color:#cc22ee;">MAXPURE</strong> 数量</label><input type="text" placeholder="2152" id="calcMax"></div><br>
+							<div class="field"><label>折合 <strong class="far-color">FAR</strong> 数量</label><input type="text" placeholder="1" id="calcFar"></div>
+							<div class="field"><label><strong class="pure-color">MAXPURE</strong> 数量</label><input type="text" placeholder="2152" id="calcMax"></div><br>
 						</div>
 						<div class="ui blue submit button" onclick="calcA()">计算</div><br><br>
 						<p>
 							计算器 A 说明：<br>
-							折合 <strong style="color:#ffaa11;">FAR</strong> 数量指 <strong style="color:#dd4444;">LOST</strong> 的数量的两倍加上 <strong style="color:#ffaa11;">FAR</strong> 的数量。<br>
-							填入物量与分数时将尝试计算折合 <strong style="color:#ffaa11;">FAR</strong> 数量与 <strong style="color:#cc22ee;">MAXPURE</strong> 数量；填入物量与后两者时将尝试计算分数。<br>
+							折合 <strong class="far-color">FAR</strong> 数量指 <strong class="lost-color">LOST</strong> 的数量的两倍加上 <strong class="far-color">FAR</strong> 的数量。<br>
+							填入物量与分数时将尝试计算折合 <strong class="far-color">FAR</strong> 数量与 <strong class="pure-color">MAXPURE</strong> 数量；填入物量与后两者时将尝试计算分数。<br>
 							填入正常范围以外的数值可能会导致出错。
 						</p>
 					</form></div>
@@ -271,7 +304,30 @@
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript">load();showMain();filter();</script>
+	<script type="text/javascript">
+		var slst,sdb;
+		async function init(){
+			await fetch('./static/slst.json').then(response=>response.json()).then(data=>{slst=data;});
+			slst.songs.find((x)=>{return x.id=="quon"}).title_localized.en="Quon (Feryquitous)";
+			slst.songs.find((x)=>{return x.id=="quonwacca"}).title_localized.en="Quon (DJ Noriken)";
+			slst.songs.find((x)=>{return x.id=="genesis"}).title_localized.en="Genesis (Iris)";
+			slst.songs.find((x)=>{return x.id=="genesischunithm"}).title_localized.en="Genesis (Morrigan)";
+			for(let i in slst.songs){
+				let info=slst.songs[i];
+				if(info.difficulties[3]!=undefined&&info.difficulties[3].ratingClass==4)
+				{
+					info.difficulties=[
+						...info.difficulties.slice(0,3),
+						{ratingClass:0,rating:0},
+						info.difficulties[3]
+					];
+				}
+			}
+			await fetch('./static/sdb.json').then(response=>response.json()).then(data=>{sdb=data;});
+			load();showMain();filter();
+		}
+		init();
+	</script>
 	<script type="text/javascript">
 		document.getElementById("songtitlea").addEventListener("input",filter);
 		document.getElementById("rankmin").addEventListener("input",filter);
@@ -280,7 +336,7 @@
 		document.getElementById("sortWay").addEventListener("change",filter);
 		{
 			var x=document.getElementsByName("diff1");
-			for(var d=0;d<=3;d++) x[d].addEventListener("input",filter);
+			for(var d=0;d<=4;d++) x[d].addEventListener("input",filter);
 		}
 		$('.ui.dropdown:not(.dynamic)').dropdown();
 		$('.ui.checkbox:not(.settings)').checkbox();

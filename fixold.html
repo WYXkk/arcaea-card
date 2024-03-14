@@ -6,9 +6,10 @@
 		<p>将你的旧版本存档粘贴到下方的输入框中，然后点击转换按钮。<br>只能转换旧版存档中曲名与游戏内选择英文后前三难度显示的曲名一致的部分。<br>另外，重名的两组曲目可能无法转换。</p>
 		<button onclick="Trans()">转换</button><br>
 		<textarea rows="20" cols="50" id="save" style="margin-bottom: 1em;margin-top: 1em;"></textarea>
-		<script type="text/javascript" src="static/slst.json"></script>
 		<script type="text/javascript" src="js/base64.js"></script>
 		<script type="text/javascript">
+			var slst;
+			await fetch('./slst.json').then(response=>response.json()).then(data=>{slst=data;});
 			slst.songs.find((x)=>{return x.id=="quon"}).title_localized.en="Quon (Feryquitous)";
 			slst.songs.find((x)=>{return x.id=="quonwacca"}).title_localized.en="Quon (DJ Noriken)";
 			slst.songs.find((x)=>{return x.id=="genesis"}).title_localized.en="Genesis (Iris)";
