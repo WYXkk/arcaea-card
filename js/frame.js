@@ -164,7 +164,7 @@ function filter()
 		songcur+='<div class="title"><div class="ui grid"><div class="six wide column">'+(x.title_localized[songLang]||x.title_localized.en);
 		for(var j=0;j<5;j++) if(x.difficulties.length>j&&x.difficulties[j].title_localized!=undefined) {
 			let t=x.difficulties[j].title_localized;
-			songcur+='<br><div class="ui '+['pst','prs','ftr','byd','etr'][j]+'-color horizontal mini label">'+t[songLang]||t.en+'</div>';
+			songcur+='<br><div class="ui '+['pst','prs','ftr','byd','etr'][j]+'-color horizontal mini label">'+(t[songLang]||t.en)+'</div>';
 		}
 		songcur+='</div>';
 		songcur+='<div class="nine wide column"><div class="ui equal width grid">';
