@@ -1,8 +1,10 @@
 function longer(u,v){v=v.toString();while(v.length<u)v='0'+v;return v;}
 function getTitle(songid,diff){
 	var x=slst.songs.find((x)=>{return x.id==songid;})
-	if(x.difficulties[diff].title_localized!=undefined) return x.difficulties[diff].title_localized.en;
-	else return x.title_localized.en;
+	var t;
+	if(x.difficulties[diff].title_localized!=undefined) t=x.difficulties[diff].title_localized;
+	else t=x.title_localized;
+	return t[songLang]||t['en'];
 }
 function gethtml(songid,diff,mxp,mis,far,rankk,isScoreOnly)
 {
@@ -159,9 +161,11 @@ function filter()
 	for(i in listsong)
 	{
 		var x=listsong[i].lst;
-		songcur+='<div class="title"><div class="ui grid"><div class="six wide column">'+x.title_localized.en;
-		for(var j=0;j<5;j++) if(x.difficulties.length>j&&x.difficulties[j].title_localized!=undefined)
-			songcur+='<br><div class="ui '+['pst','prs','ftr','byd','etr'][j]+'-color horizontal mini label">'+x.difficulties[j].title_localized.en+'</div>';
+		songcur+='<div class="title"><div class="ui grid"><div class="six wide column">'+(x.title_localized[songLang]||x.title_localized.en);
+		for(var j=0;j<5;j++) if(x.difficulties.length>j&&x.difficulties[j].title_localized!=undefined) {
+			let t=x.difficulties[j].title_localized;
+			songcur+='<br><div class="ui '+['pst','prs','ftr','byd','etr'][j]+'-color horizontal mini label">'+t[songLang]||t.en+'</div>';
+		}
 		songcur+='</div>';
 		songcur+='<div class="nine wide column"><div class="ui equal width grid">';
 		for(var j=0;j<3;++j)
@@ -191,4 +195,9 @@ function filter()
 		songcur+='</div></div></div></div>';
 	}
 	document.getElementById('songcur').innerHTML=songcur;
+}
+function loadExample(){
+	document.getElementById("example").innerHTML=
+		gethtml('espebranch',2,948,1,10,'#4',false)+
+		gethtml('aegleseeker',1,1023,14,35,'REC',false);
 }

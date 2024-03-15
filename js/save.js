@@ -1,11 +1,19 @@
-var playlist,recentplay;
+var playlist,recentplay,songLang;
+function setNewLang(lang)
+{
+	songLang=lang;
+	showMain();filter();loadExample();
+	$('#displayLang').dropdown('set selected',lang)
+	save();
+}
 function load()
 {
 	if(localStorage.arcsave!=undefined)
 	{
-		var t=JSON.parse(Base64.decode(localStorage.arcsave));
+		let t=JSON.parse(Base64.decode(localStorage.arcsave));
 		recentplay=t.recentplay;
 		playlist=t.playlist;
+		songLang=t.songLang;
 	}
 	else
 	{
@@ -18,11 +26,12 @@ function load()
 	}
 	if(playlist==undefined) playlist=[];
 	if(recentplay==undefined) recentplay={};
-	save();
+	if(songLang==undefined) songLang='en';
+	setNewLang(songLang);
 }
 function save()
 {
-	localStorage.arcsave=Base64.encode(JSON.stringify({playlist:playlist,recentplay:recentplay}));
+	localStorage.arcsave=Base64.encode(JSON.stringify({playlist:playlist,recentplay:recentplay,songLang:songLang}));
 }
 function outersave()
 {
@@ -30,25 +39,27 @@ function outersave()
 }
 function outerload()
 {
-	var r=confirm('确定导入吗？这会覆盖你当前的存档！\n建议提前导出当前存档再导入！');
+	let r=confirm('确定导入吗？这会覆盖你当前的存档！\n建议提前导出当前存档再导入！');
 	if(!r) return;
-	var t=JSON.parse(Base64.decode(document.getElementById('rawinput').value));
+	let t=JSON.parse(Base64.decode(document.getElementById('rawinput').value));
 	recentplay=t.recentplay;
 	playlist=t.playlist;
+	songLang=t.songLang;
 	if(recentplay==undefined) recentplay={};
 	if(playlist==undefined) playlist=[];
-	save();showMain();
+	if(songLang==undefined) songLang='en';
+	setNewLang(songLang);
 	alert('导入成功。')
 }
 function clearsave()
 {
-	var r=confirm('确定清空存档吗？这会清除所有游玩信息和所有曲目信息！\n建议仅在存档损坏时使用！');
+	let r=confirm('确定清空存档吗？这会清除所有游玩信息和所有曲目信息！\n建议仅在存档损坏时使用！');
 	if(!r)return;
 	r=confirm('请再次确认是否清空存档，这会删除所有存储信息！');
 	if(!r)return;
 	r=confirm('存档被清空后无法被直接恢复（除非提前导出），请最后确认是否清空存档！');
 	if(!r)return;
-	playlist=[];recentplay={};
-	save();showMain();
+	playlist=[];recentplay={};songLang='en';
+	setNewLang(songLang);
 	alert('存档已经清空。')
 }

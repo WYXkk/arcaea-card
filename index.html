@@ -14,8 +14,8 @@
 	<script type="text/javascript">
 		var nowactive='index';
 		function settab(a,b){
-			var list=document.getElementById('menu').children;
-			for(var i=0;i<list.length;++i) list[i].className='item';
+			let list=document.getElementById('menu').children;
+			for(let i=0;i<list.length;++i) list[i].className='item';
 			list[a].className='active item';
 			document.getElementById(nowactive).className='ui tab';
 			document.getElementById(b).className='ui tab active';
@@ -70,12 +70,13 @@
 <body>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<div class="ui main container" style="margin-top:2em;margin-left:2em;">
-		<div class="ui borderless history menu" style="width:25.5em;" id="menu">
+		<div class="ui borderless history menu" style="width:30.8em;" id="menu">
 			<a class="active item" onclick="settab(0,'index')">首页</a>
 			<a class="item" onclick="settab(1,'songfilter')">曲目查找</a>
 			<a class="item" onclick="settab(2,'playupload')">记录管理</a>
 			<a class="item" onclick="settab(3,'save')">存档</a>
-			<a class="item" onclick="settab(4,'other')">其他</a>
+			<a class="item" onclick="settab(4,'calculator')">计算器</a>
+			<a class="item" onclick="settab(5,'other')">其他</a>
 		</div>
 		<div class="ui tab active" id="index">
 			<div class="ui column grid">
@@ -105,7 +106,7 @@
 			</div>
 		</div>
 		<div class="ui tab" id="songfilter">
-			<div class="ui one column grid">
+			<div class="ui two column grid">
 				<div class="column">
 					<div class="wide column" style="width:39em;display: inline-block;">
 						<h4 class="ui top attached block header">曲目查找</h4>
@@ -126,22 +127,12 @@
 							<div class="two fields">
 								<div class="field">
 									<label>排序方式</label>
-									<div class="ui fluid selection dropdown" tabindex="0">
-										<select id="sortMethod">
-											<option value="name">按选定难度的名称排序</option>
-											<option value="const">按选定难度的定数排序</option>
-											<option value="note">按选定难度的物量排序</option>
-											<option value="time">按选定难度的更新时间排序</option>
-										</select>
-										<i class="dropdown icon"></i>
-										<div class="text">按名称排序</div>
-										<div class="menu transition hidden" tabindex="-1">
-											<div class="item active selected" data-value="name">按选定难度的名称排序</div>
-											<div class="item" data-value="const">按选定难度的定数排序</div>
-											<div class="item" data-value="note">按选定难度的物量排序</div>
-											<div class="item" data-value="time">按选定难度的更新时间排序</div>
-										</div>
-									</div>
+									<select id="sortMethod">
+										<option value="name">按选定难度的名称排序</option>
+										<option value="const">按选定难度的定数排序</option>
+										<option value="note">按选定难度的物量排序</option>
+										<option value="time">按选定难度的更新时间排序</option>
+									</select>
 									<div class="ui toggle checkbox" style="margin-top: 0.5em">
 										<input type="checkbox" id="sortWay" tabindex="0" class="hidden">
 										<label>倒序</label>
@@ -149,6 +140,22 @@
 								</div>
 							</div>
 							<p>注：选定难度为<strong class='ftr-color'>FTR</strong>，<strong class='prs-color'>PRS</strong>，<strong class='pst-color'>PST</strong>，<strong class='byd-color'>BYD</strong>，<strong class='etr-color'>ETR</strong>顺序中第一个被选定的难度。没有选择难度视同选择全部难度。仅选择<strong class='byd-color'>BYD</strong>和<strong class='etr-color'>ETR</strong>可能产生意料外的排序结果。</p>
+						</form></div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="wide column" style="width:17em;display: inline-block;">
+						<h4 class="ui top attached block header">曲名语言选择</h4>
+						<div class="ui bottom attached segment"><form class="ui form">
+							<div class="field">
+								使用游戏内以下语言的曲名标题：
+								<select id="displayLang">
+									<option value="en">英文</option>
+									<option value="ja">日文</option>
+									<option value="zh-Hans">中文</option>
+									<option value="ko">韩文</option>
+								</select>
+							</div>
 						</form></div>
 					</div>
 				</div>
@@ -166,7 +173,7 @@
 					<div class="wide column" style="width:39em;display: inline-block;">
 						<h4 class="ui top attached block header">成绩录入</h4>
 						<div class="ui bottom attached segment"><form class="ui form">
-							<div class="field"><label>曲目名称（请使用前三难度的名称）</label><input type="text" placeholder="Aegleseeker" id="songtitle"></div>
+							<div class="field"><label>曲目名称（请使用前三难度的英文名称）</label><input type="text" placeholder="Aegleseeker" id="songtitle"></div>
 							<div style="padding-bottom:10px;">
 								<p>难度：</p>
 								<input style="vertical-align:bottom;position:relative;top:-2px;" type="radio" name="diff2" value=0> <strong class="pst-color">PST</strong>
@@ -192,7 +199,7 @@
 						<h4 class="ui top attached block header">成绩删除</h4>
 						<div class="ui bottom attached segment"><form class="ui form">
 							<strong style="color: red;">如此操作会删除此谱面下的记录，且无法恢复！</strong>
-							<div class="field"><label>曲目名称（请使用前三难度的名称）</label><input type="text" placeholder="Aegleseeker" id="songtitlec"></div>
+							<div class="field"><label>曲目名称（请使用前三难度的英文名称）</label><input type="text" placeholder="Aegleseeker" id="songtitlec"></div>
 							<div style="padding-bottom:10px;">
 								<p>难度：</p>
 								<input type="radio" name="diffc" value=0><strong class="pst-color">PST</strong>
@@ -239,30 +246,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="ui tab" id="other">
-			<div class="ui two column grid">
-				<div class="wide column" style="width:42em;display: inline-block;">
-					<h4 class="ui top attached block header">图例</h4>
-					<div class="ui bottom attached segment"><form class="ui form" style="margin-bottom: 0em;">
-						<div class="ui cards" style="display:inline-block;margin-top:0em;margin-bottom:0.4em;margin-right:0.33em;"><div class="record card"><div class="content"><div class="header"><div class="title">LunarOrbit -believe in the Espebranch road-</div><span class="ui ftr-color horizontal label">FTR 9</span></div><div class="description"><div class="ui very compact grid"><div class="row"><div class="score"><span class="score">09'944'237</span><span class="chart-ptt"> / 9.6 / 11.32118</span></div></div><div class="row"><div class="three wide rank column">EX+</div><div class="nine wide details column"><div class="ui very compact grid"><div class="row">P: 1047 (+948)</div><div class="equal width row"><div class="column">F: 10</div><div class="column">L: 1</div></div></div></div><div class="three wide rank column">#4</div></div></div></div></div></div></div>
-						<div class="ui cards" style="display:inline-block;margin-top:-1.5em;margin-bottom:0.4em;margin-right:0.33em;"><div class="record card"><div class="content"><div class="header"><div class="title">Aegleseeker</div><span class="ui prs-color horizontal label">PRS 9</span></div><div class="description"><div class="ui very compact grid"><div class="row"><div class="score"><span class="score">09'745'962</span><span class="chart-ptt"> / 9.1 / 9.91987</span></div></div><div class="row"><div class="three wide rank column">AA</div><div class="nine wide details column"><div class="ui very compact grid"><div class="row">P: 1186 (+1023)</div><div class="equal width row"><div class="column">F: 35</div><div class="column">L: 14</div></div></div></div><div class="three wide rank column">REC</div></div></div></div></div></div></div><br>
-						第一行：左侧为曲名，过长时会省略后面的部分；右侧为难度和标级。<br>
-						第二行：左侧为分数；中间为谱面定数；右侧为游玩 ptt。<br>
-						第三行：左侧为评级；中间上方为 <strong class="pure-color">PURE</strong> 个数和 <strong class="pure-color">MAXPURE</strong> 个数；中间下方为 <strong class="far-color">FAR</strong> 个数和 <strong class="lost-color">LOST</strong> 个数；右侧为其游玩 ptt 的排名，或表示这指最近游玩。
-					</form></div>
-				</div>
-				<div class="wide column" style="width:40em;display: inline-block;">
-					<h4 class="ui top attached block header">关于</h4>
-					<div class="ui bottom attached segment"><form class="ui form" style="margin-bottom: 0em;">
-						<p>所有数据存储于本地（浏览器的 localStorage）。</p><br>
-						<p>此处潜力值的计算方式为 (b30+b10)/40，（可能为？）不推分时能达到的最高值。</p><br>
-						<p>Written by WYXkk</p><br>
-						<p>Semantic UI 永远滴神</p><br>
-						<p>您可能需要调整页面大小以看到完整页面。</p>
-					</form></div>
-				</div>
-			</div>
-			<br>
+		<div class="ui tab" id="calculator">
 			<div class="ui two column grid">
 				<div class="wide column" style="width:42em;display: inline-block;">
 					<h4 class="ui top attached block header">计算器 A</h4>
@@ -303,6 +287,29 @@
 				</div>
 			</div>
 		</div>
+		<div class="ui tab" id="other">
+			<div class="ui two column grid">
+				<div class="wide column" style="width:42em;display: inline-block;">
+					<h4 class="ui top attached block header">图例</h4>
+					<div class="ui bottom attached segment"><form class="ui form" style="margin-bottom: 0em;">
+						<div id="example" style="margin-bottom:-1em;"></div>
+						第一行：左侧为曲名，过长时会省略后面的部分；右侧为难度和标级。<br>
+						第二行：左侧为分数；中间为谱面定数；右侧为游玩 ptt。<br>
+						第三行：左侧为评级；中间上方为 <strong class="pure-color">PURE</strong> 个数和 <strong class="pure-color">MAXPURE</strong> 个数；中间下方为 <strong class="far-color">FAR</strong> 个数和 <strong class="lost-color">LOST</strong> 个数；右侧为其游玩 ptt 的排名，或表示这指最近游玩。
+					</form></div>
+				</div>
+				<div class="wide column" style="width:40em;display: inline-block;">
+					<h4 class="ui top attached block header">关于</h4>
+					<div class="ui bottom attached segment"><form class="ui form" style="margin-bottom: 0em;">
+						<p>所有数据存储于本地（浏览器的 localStorage）。</p><br>
+						<p>此处潜力值的计算方式为 (b30+b10)/40，（可能为？）不推分时能达到的最高值。</p><br>
+						<p>Written by WYXkk</p><br>
+						<p>Semantic UI 永远滴神</p><br>
+						<p>您可能需要调整页面大小以看到完整页面。</p>
+					</form></div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<script type="text/javascript">
 		var slst,sdb;
@@ -324,7 +331,7 @@
 				}
 			}
 			await fetch('./static/sdb.json').then(response=>response.json()).then(data=>{sdb=data;});
-			load();showMain();filter();
+			load();
 		}
 		init();
 	</script>
@@ -335,10 +342,15 @@
 		document.getElementById("sortMethod").addEventListener("change",filter);
 		document.getElementById("sortWay").addEventListener("change",filter);
 		{
-			var x=document.getElementsByName("diff1");
-			for(var d=0;d<=4;d++) x[d].addEventListener("input",filter);
+			let x=document.getElementsByName("diff1");
+			for(let d=0;d<=4;d++) x[d].addEventListener("input",filter);
 		}
-		$('.ui.dropdown:not(.dynamic)').dropdown();
+		document.getElementById("displayLang").addEventListener("change",()=>{
+			let lang=document.getElementById("displayLang").value;
+			setNewLang(lang);
+		});
+		$('#sortMethod').dropdown();
+		$('#displayLang').dropdown();
 		$('.ui.checkbox:not(.settings)').checkbox();
 	</script>
 </body>
