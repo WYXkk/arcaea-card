@@ -81,16 +81,16 @@ function showMain()
 		document.getElementById("recent").innerHTML="暂无最近游玩记录";
 		document.getElementById("recentText").innerHTML='';
 	}
-	var ptt=0;document.getElementById("all").innerHTML='';
+	var ptt=0,ptt10=0,ptt30=0;document.getElementById("all").innerHTML='';
 	for(var i in playlist)
 	{
 		document.getElementById("all").innerHTML+=gethtml(playlist[i].songid,playlist[i].diff,playlist[i].mxp,playlist[i].mis,
 			playlist[i].far,'#'+(parseInt(i)+1),playlist[i].isScoreOnly);
 		var pttnow=getptt(playlist[i].songid,playlist[i].diff,playlist[i].mxp,playlist[i].mis,playlist[i].far);
-		if(i<10) ptt+=pttnow;
-		if(i<30) ptt+=pttnow;
+		if(i<10) ptt+=pttnow,ptt10+=pttnow;
+		if(i<30) ptt+=pttnow,ptt30+=pttnow;
 	}
-	ptt/=40;
+	ptt/=40;ptt10/=10;ptt30/=30;
 	var hi=Math.floor(ptt),lo=Math.floor(100*(ptt-hi));
 	lo=lo.toString();hi=hi.toString();
 	var badge=0;
@@ -103,7 +103,9 @@ function showMain()
 	if(ptt>=13) badge=7;
 	document.getElementById("ptt").className="rating-small rating-badge-"+badge;
 	document.getElementById("ptthi").innerHTML=hi+'.';document.getElementById("pttlo").innerHTML=longer(2,lo);
-	document.getElementById('pttext').innerHTML=hi+'.'+longer(5,Math.floor((ptt-hi)*1e5).toString());
+	document.getElementById('pttext').innerHTML='精确值：'+hi+'.'+longer(5,Math.floor((ptt-hi)*1e5).toString());
+	document.getElementById('b10avg').innerHTML='b10平均：'+(Math.floor(ptt10))+'.'+longer(5,Math.floor((ptt10-Math.floor(ptt10))*1e5).toString());
+	document.getElementById('b30avg').innerHTML='b30平均：'+(Math.floor(ptt30))+'.'+longer(5,Math.floor((ptt30-Math.floor(ptt30))*1e5).toString());
 }
 function filter()
 {
