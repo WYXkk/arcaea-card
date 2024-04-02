@@ -23813,6 +23813,17 @@
                     "어웨이큰 인 루인즈"
                 ]
             },
+            "search_artist": {
+                "ja": [
+                    "すーぱーとにーず"
+                ],
+                "ko": [
+                    "스파 토니즈",
+                    "수파 토니즈",
+                    "수퍼 토니즈",
+                    "슈퍼 토니즈"
+                ]
+            },
             "bpm": "125",
             "bpm_base": 125,
             "set": "extend_3",
@@ -24033,6 +24044,47 @@
                     "ratingClass": 2,
                     "chartDesigner": "N↑TRO",
                     "jacketDesigner": "すずなし",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 384,
+            "id": "ultradiaxon",
+            "title_localized": {
+                "en": "ultradiaxon-N3"
+            },
+            "artist": "nitro (lowiro)",
+            "bpm": "150",
+            "bpm_base": 150,
+            "set": "single",
+            "purchase": "ultradiaxon",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "single2_conflict",
+            "bg_inverse": "single2_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1712016000,
+            "version": "5.5",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Nitro",
+                    "jacketDesigner": "MiyU",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Nitro",
+                    "jacketDesigner": "MiyU",
+                    "rating": 8
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Nitro",
+                    "jacketDesigner": "MiyU",
                     "rating": 10
                 }
             ]
