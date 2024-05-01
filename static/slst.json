@@ -24055,6 +24055,30 @@
                 "en": "ultradiaxon-N3"
             },
             "artist": "nitro (lowiro)",
+            "search_title": {
+                "ja": [
+                    "うるとらでぃあくそんえぬすりー",
+                    "うるとらじあくそんえぬすりー",
+                    "うるとらだいあくそんえぬすりー",
+                    "あるとれじあくそんえぬすりー",
+                    "あるとれでぃあくそんえぬすりー"
+                ],
+                "ko": [
+                    "울트라디악손 엔쓰리",
+                    "울트라다이악손 엔쓰리",
+                    "울트레이디악손 엔쓰리",
+                    "울트레이디악손 엔쓰리"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "にとろ",
+                    "ないとろ"
+                ],
+                "ko": [
+                    "니트로"
+                ]
+            },
             "bpm": "150",
             "bpm_base": 150,
             "set": "single",
@@ -24086,6 +24110,323 @@
                     "chartDesigner": "Nitro",
                     "jacketDesigner": "MiyU",
                     "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 385,
+            "id": "leaveallbehind",
+            "title_localized": {
+                "en": "Leave All Behind"
+            },
+            "artist": "rider",
+            "search_title": {
+                "ja": [
+                    "りーぶおーるびはいんど",
+                    "りーゔおーるびはいんど"
+                ],
+                "ko": [
+                    "리브 올 비하인드"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "らいだー"
+                ],
+                "ko": [
+                    "라이더"
+                ]
+            },
+            "bpm": "150",
+            "bpm_base": 150,
+            "set": "extend_3",
+            "purchase": "extend_3",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "prelude_conflict",
+            "bg_inverse": "prelude_light",
+            "remote_dl": true,
+            "world_unlock": true,
+            "date": 1714003200,
+            "source_localized": {
+                "en": "Phigros"
+            },
+            "source_copyright": "© Pigeon Games",
+            "version": "5.6",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Luxance",
+                    "jacketDesigner": "NoteRE",
+                    "rating": 2
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Luxance",
+                    "jacketDesigner": "NoteRE",
+                    "rating": 5
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Luxance",
+                    "jacketDesigner": "NoteRE",
+                    "rating": 9
+                }
+            ]
+        },
+        {
+            "idx": 386,
+            "id": "distortedfate",
+            "title_localized": {
+                "en": "Distorted Fate"
+            },
+            "artist": "Sakuzyo",
+            "search_title": {
+                "ja": [
+                    "でぃすとーてっどふぇいと"
+                ],
+                "ko": [
+                    "디스토디드 페이트"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "さくじょ"
+                ],
+                "ko": [
+                    "사쿠죠"
+                ]
+            },
+            "bpm": "150",
+            "bpm_base": 200,
+            "set": "single",
+            "purchase": "distortedfate",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "vs_conflict",
+            "bg_inverse": "vs_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1714003201,
+            "source_localized": {
+                "en": "Phigros"
+            },
+            "source_copyright": "© Pigeon Games",
+            "version": "5.6",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Toaster",
+                    "jacketDesigner": "knife美工刀",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Toaster",
+                    "jacketDesigner": "knife美工刀",
+                    "rating": 7,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Toaster",
+                    "jacketDesigner": "knife美工刀",
+                    "rating": 9
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "TOASTER DATA PATCHER",
+                    "jacketDesigner": "knife美工刀",
+                    "rating": 10,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 387,
+            "id": "floatingworld",
+            "title_localized": {
+                "en": "Floating World"
+            },
+            "artist": "baker feat. botan",
+            "search_title": {
+                "ja": [
+                    "ふろーてぃんぐわーるど"
+                ],
+                "ko": [
+                    "플로팅 월드"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "べいかー",
+                    "ぼたん"
+                ],
+                "ko": [
+                    "베이커",
+                    "보탄"
+                ]
+            },
+            "bpm": "174",
+            "bpm_base": 174,
+            "set": "single",
+            "purchase": "floatingworld",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "nijuusei2_light",
+            "bg_inverse": "nijuusei2_conflict",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1714003202,
+            "version": "5.6",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "én",
+                    "jacketDesigner": "チェリ藻",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "én",
+                    "jacketDesigner": "チェリ藻",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "én",
+                    "jacketDesigner": "チェリ藻",
+                    "rating": 9
+                }
+            ]
+        },
+        {
+            "idx": 388,
+            "id": "chromafill",
+            "title_localized": {
+                "en": "Chromafill"
+            },
+            "artist": "ていぬ",
+            "search_title": {
+                "ja": [
+                    "くろまふぃる",
+                    "くろーまふぃる"
+                ],
+                "ko": [
+                    "크로마필"
+                ]
+            },
+            "search_artist": {
+                "en": [
+                    "teinu"
+                ],
+                "ko": [
+                    "테이누"
+                ]
+            },
+            "bpm": "179",
+            "bpm_base": 179,
+            "set": "single",
+            "purchase": "chromafill",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "observer_light",
+            "bg_inverse": "observer_conflict",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1714003203,
+            "version": "5.6",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "exschwasion -彩色-",
+                    "jacketDesigner": "イチゼンリュウ",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "exschwasion -彩色-",
+                    "jacketDesigner": "イチゼンリュウ",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "exschwasion -彩色-",
+                    "jacketDesigner": "イチゼンリュウ",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 389,
+            "id": "desive",
+            "title_localized": {
+                "en": "Désive",
+                "ko_dialog": "Desive"
+            },
+            "artist": "MisomyL",
+            "search_title": {
+                "en": [
+                    "desive"
+                ],
+                "ja": [
+                    "でぃざいゔ"
+                ],
+                "ko": [
+                    "디자이브"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "みそみぃる"
+                ],
+                "ko": [
+                    "미소밀"
+                ]
+            },
+            "bpm": "180-230",
+            "bpm_base": 230,
+            "set": "single",
+            "purchase": "",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "rei",
+            "bg_inverse": "yugamu",
+            "remote_dl": true,
+            "world_unlock": true,
+            "date": 1714003204,
+            "version": "5.6",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Yearning Call",
+                    "jacketDesigner": "そゐち",
+                    "rating": 5
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Yearning Call",
+                    "jacketDesigner": "そゐち",
+                    "rating": 8
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Yearning Call",
+                    "jacketDesigner": "そゐち",
+                    "rating": 9,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "Yearning Call",
+                    "jacketDesigner": "そゐち",
+                    "rating": 10,
+                    "ratingPlus": true
                 }
             ]
         }
