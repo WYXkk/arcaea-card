@@ -35,7 +35,7 @@ function save()
 }
 function outersave()
 {
-	document.getElementById('rawoutput').value=Base64.encode(JSON.stringify({playlist:playlist,recentplay:recentplay}));
+	document.getElementById('rawoutput').value=Base64.encode(JSON.stringify({playlist:playlist,recentplay:recentplay,songLang:songLang}));
 }
 function outerload()
 {
