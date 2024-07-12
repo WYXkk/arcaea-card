@@ -5722,5 +5722,177 @@
 			"constant": 108,
 			"note": 1340
 		}
+	],
+	"epicurus": [
+		{
+			"constant": 25,
+			"note": 595
+		},
+		{
+			"constant": 55,
+			"note": 644
+		},
+		{
+			"constant": 75,
+			"note": 783
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 88,
+			"note": 884
+		}
+	],
+	"tasogare": [
+		{
+			"constant": 45,
+			"note": 584
+		},
+		{
+			"constant": 78,
+			"note": 634
+		},
+		{
+			"constant": 95,
+			"note": 803
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 104,
+			"note": 962
+		}
+	],
+	"oldschoolsalvage": [
+		{
+			"constant": 40,
+			"note": 705
+		},
+		{
+			"constant": 78,
+			"note": 950
+		},
+		{
+			"constant": 98,
+			"note": 1316
+		}
+	],
+	"beautifuldreamer": [
+		{
+			"constant": 40,
+			"note": 611
+		},
+		{
+			"constant": 78,
+			"note": 773
+		},
+		{
+			"constant": 99,
+			"note": 1139
+		}
+	],
+	"backtobasics": [
+		{
+			"constant": 50,
+			"note": 717
+		},
+		{
+			"constant": 87,
+			"note": 1115
+		},
+		{
+			"constant": 105,
+			"note": 1544
+		}
+	],
+	"stargateextreme": [
+		{
+			"constant": 40,
+			"note": 337
+		},
+		{
+			"constant": 60,
+			"note": 430
+		},
+		{
+			"constant": 93,
+			"note": 724
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 100,
+			"note": 915
+		}
+	],
+	"hypervision": [
+		{
+			"constant": 45,
+			"note": 639
+		},
+		{
+			"constant": 75,
+			"note": 839
+		},
+		{
+			"constant": 98,
+			"note": 1040
+		}
+	],
+	"signof": [
+		{
+			"constant": 30,
+			"note": 490
+		},
+		{
+			"constant": 65,
+			"note": 564
+		},
+		{
+			"constant": 92,
+			"note": 735
+		}
+	],
+	"temptationgc": [
+		{
+			"constant": 40,
+			"note": 475
+		},
+		{
+			"constant": 78,
+			"note": 704
+		},
+		{
+			"constant": 97,
+			"note": 906
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 104,
+			"note": 1087
+		}
+	],
+	"blackmind": [
+		{
+			"constant": 50,
+			"note": 601
+		},
+		{
+			"constant": 80,
+			"note": 754
+		},
+		{
+			"constant": 108,
+			"note": 1274
+		}
 	]
 }

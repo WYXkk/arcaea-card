@@ -1823,6 +1823,7 @@
             "bpm": "180",
             "bpm_base": 180,
             "set": "single",
+            "category": "variety",
             "purchase": "dataerror",
             "audioPreview": 53730,
             "audioPreviewEnd": 85730,
@@ -1882,6 +1883,7 @@
             "bpm": "200",
             "bpm_base": 200,
             "set": "single",
+            "category": "variety",
             "purchase": "crosssoul",
             "audioPreview": 51392,
             "audioPreviewEnd": 80192,
@@ -1939,6 +1941,7 @@
             "bpm": "176",
             "bpm_base": 176,
             "set": "single",
+            "category": "variety",
             "purchase": "yourvoiceso",
             "audioPreview": 20850,
             "audioPreviewEnd": 46759,
@@ -2529,6 +2532,7 @@
             "bpm": "184",
             "bpm_base": 184,
             "set": "single",
+            "category": "original",
             "purchase": "impurebird",
             "audioPreview": 19565,
             "audioPreviewEnd": 41739,
@@ -3030,6 +3034,7 @@
             "bpm": "183",
             "bpm_base": 183,
             "set": "single",
+            "category": "partner",
             "purchase": "auxesia",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -3142,6 +3147,7 @@
             "bpm": "165",
             "bpm_base": 165,
             "set": "single",
+            "category": "original",
             "purchase": "modelista",
             "audioPreview": 26181,
             "audioPreviewEnd": 52363,
@@ -3760,6 +3766,7 @@
             "bpm": "152",
             "bpm_base": 152,
             "set": "single",
+            "category": "musicgames",
             "purchase": "surrender",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -3823,6 +3830,7 @@
             "bpm": "172",
             "bpm_base": 172,
             "set": "single",
+            "category": "musicgames",
             "purchase": "yozakurafubuki",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -4616,6 +4624,7 @@
             "bpm": "165",
             "bpm_base": 165,
             "set": "single",
+            "category": "partner",
             "purchase": "metallicpunisher",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -4737,6 +4746,7 @@
             "bpm": "202",
             "bpm_base": 202,
             "set": "single",
+            "category": "original",
             "purchase": "dynamix",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -4795,6 +4805,7 @@
             "bpm": "165",
             "bpm_base": 165,
             "set": "single",
+            "category": "partner",
             "purchase": "carminescythe",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -4852,6 +4863,7 @@
             "bpm": "164",
             "bpm_base": 164,
             "set": "single",
+            "category": "original",
             "purchase": "bethere",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -4977,6 +4989,7 @@
             "bpm": "175",
             "bpm_base": 175,
             "set": "single",
+            "category": "variety",
             "purchase": "callmyname",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -5650,6 +5663,7 @@
             "bpm": "50",
             "bpm_base": 200,
             "set": "single",
+            "category": "original",
             "purchase": "dropdead",
             "audioPreview": 36188,
             "audioPreviewEnd": 63759,
@@ -5725,6 +5739,7 @@
             "bpm": "99",
             "bpm_base": 180,
             "set": "single",
+            "category": "original",
             "purchase": "fallensquare",
             "audioPreview": 36188,
             "audioPreviewEnd": 63759,
@@ -6280,6 +6295,7 @@
             "bpm": "146",
             "bpm_base": 146,
             "set": "single",
+            "category": "original",
             "purchase": "alexandrite",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -6397,6 +6413,7 @@
             "bpm": "134",
             "bpm_base": 134,
             "set": "single",
+            "category": "original",
             "purchase": "astraltale",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -6454,6 +6471,7 @@
             "bpm": "153",
             "bpm_base": 153,
             "set": "single",
+            "category": "partner",
             "purchase": "phantasia",
             "audioPreview": 0,
             "audioPreviewEnd": 30000,
@@ -6513,6 +6531,7 @@
             "bpm": "175",
             "bpm_base": 175,
             "set": "single",
+            "category": "partner",
             "purchase": "empireofwinter",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -6914,6 +6933,7 @@
             "bpm": "160",
             "bpm_base": 160,
             "set": "single",
+            "category": "original",
             "purchase": "libertas",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -7611,6 +7631,7 @@
             "bpm": "174",
             "bpm_base": 174,
             "set": "single",
+            "category": "variety",
             "purchase": "dottodot",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -7866,6 +7887,7 @@
             "bpm": "96-384",
             "bpm_base": 192,
             "set": "single",
+            "category": "variety",
             "purchase": "dreadnought",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -8501,6 +8523,7 @@
             "bpm": "201",
             "bpm_base": 201,
             "set": "single",
+            "category": "original",
             "purchase": "mirzam",
             "audioPreview": 118208,
             "audioPreviewEnd": 137313,
@@ -8807,6 +8830,7 @@
             "bpm": "241",
             "bpm_base": 241,
             "set": "single",
+            "category": "original",
             "purchase": "heavenlycaress",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -8924,6 +8948,7 @@
             "bpm": "170",
             "bpm_base": 170,
             "set": "single",
+            "category": "original",
             "purchase": "filament",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -8987,6 +9012,7 @@
             "bpm": "200",
             "bpm_base": 200,
             "set": "single",
+            "category": "partner",
             "purchase": "avantraze",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -9044,6 +9070,7 @@
             "bpm": "200",
             "bpm_base": 200,
             "set": "single",
+            "category": "variety",
             "purchase": "battlenoone",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -9103,6 +9130,7 @@
             "bpm": "168",
             "bpm_base": 168,
             "set": "single",
+            "category": "original",
             "purchase": "laqryma",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -9175,6 +9203,7 @@
             "bpm": "222",
             "bpm_base": 222,
             "set": "single",
+            "category": "original",
             "purchase": "einherjar",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -9246,6 +9275,7 @@
             "bpm": "222",
             "bpm_base": 222,
             "set": "single",
+            "category": "original",
             "purchase": "izana",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -9307,6 +9337,7 @@
             "bpm": "205",
             "bpm_base": 205,
             "set": "single",
+            "category": "partner",
             "purchase": "saikyostronger",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -9549,6 +9580,7 @@
             "bpm": "154",
             "bpm_base": 154,
             "set": "single",
+            "category": "original",
             "purchase": "amygdata",
             "audioPreview": 60000,
             "audioPreviewEnd": 70000,
@@ -10088,6 +10120,7 @@
             "bpm": "83-90",
             "bpm_base": 180,
             "set": "single",
+            "category": "variety",
             "purchase": "altale",
             "audioPreview": 60000,
             "audioPreviewEnd": 70000,
@@ -10444,6 +10477,7 @@
             "bpm": "166",
             "bpm_base": 166,
             "set": "single",
+            "category": "partner",
             "purchase": "scarletcage",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -10561,6 +10595,7 @@
             "bpm": "180",
             "bpm_base": 180,
             "set": "single",
+            "category": "variety",
             "purchase": "feelssoright",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -10618,6 +10653,7 @@
             "bpm": "128",
             "bpm_base": 128,
             "set": "single",
+            "category": "musicgames",
             "purchase": "teriqma",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -10688,6 +10724,7 @@
             "bpm": "195",
             "bpm_base": 195,
             "set": "single",
+            "category": "partner",
             "purchase": "mahoroba",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -10746,6 +10783,7 @@
             "bpm": "190",
             "bpm_base": 190,
             "set": "single",
+            "category": "original",
             "purchase": "badtek",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -10805,6 +10843,7 @@
             "bpm": "155",
             "bpm_base": 155,
             "set": "single",
+            "category": "partner",
             "purchase": "maliciousmischance",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -10933,6 +10972,7 @@
             "bpm": "200",
             "bpm_base": 200,
             "set": "single",
+            "category": "musicgames",
             "purchase": "buchigireberserker",
             "audioPreview": 60000,
             "audioPreviewEnd": 70000,
@@ -10996,6 +11036,7 @@
             "bpm": "300",
             "bpm_base": 300,
             "set": "single",
+            "category": "variety",
             "purchase": "galaxyfriends",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -11116,6 +11157,7 @@
             "bpm": "146",
             "bpm_base": 146,
             "set": "single",
+            "category": "original",
             "purchase": "xeraphinite",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -11232,6 +11274,7 @@
             "bpm": "170",
             "bpm_base": 170,
             "set": "single",
+            "category": "original",
             "purchase": "xanatos",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -12621,6 +12664,7 @@
             "bpm": "202",
             "bpm_base": 202,
             "set": "single",
+            "category": "original",
             "purchase": "attraqtia",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -12806,6 +12850,7 @@
             "bpm": "87-110",
             "bpm_base": 110,
             "set": "single",
+            "category": "partner",
             "purchase": "gimmedablood",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -12867,6 +12912,7 @@
             "bpm": "128",
             "bpm_base": 128,
             "set": "single",
+            "category": "variety",
             "purchase": "bassline",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -13596,6 +13642,7 @@
             "bpm": "200",
             "bpm_base": 200,
             "set": "single",
+            "category": "original",
             "purchase": "theultimacy",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -13659,6 +13706,7 @@
             "bpm": "240",
             "bpm_base": 240,
             "set": "single",
+            "category": "partner",
             "purchase": "rekkaresonance",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -14420,6 +14468,7 @@
             "bpm": "200",
             "bpm_base": 200,
             "set": "single",
+            "category": "original",
             "purchase": "sheriruthrmx",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -14486,6 +14535,7 @@
             "bpm": "170",
             "bpm_base": 170,
             "set": "single",
+            "category": "partner",
             "purchase": "eveninginscarlet",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -14722,6 +14772,7 @@
             "bpm": "133",
             "bpm_base": 133,
             "set": "single",
+            "category": "poprec",
             "purchase": "goldenslaughterer",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -14781,6 +14832,7 @@
             "bpm": "139",
             "bpm_base": 139,
             "set": "single",
+            "category": "poprec",
             "purchase": "lastendconductor",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -14845,6 +14897,7 @@
             "bpm": "150",
             "bpm_base": 150,
             "set": "single",
+            "category": "original",
             "purchase": "redolentshape",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -15094,6 +15147,7 @@
             "bpm": "160",
             "bpm_base": 160,
             "set": "single",
+            "category": "original",
             "purchase": "summerfireworks",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -15724,6 +15778,7 @@
             "bpm": "180",
             "bpm_base": 180,
             "set": "single",
+            "category": "partner",
             "purchase": "init",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -15784,6 +15839,7 @@
             "bpm": "163",
             "bpm_base": 163,
             "set": "single",
+            "category": "poprec",
             "purchase": "internetoverdose",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -15957,6 +16013,7 @@
             "bpm": "170",
             "bpm_base": 170,
             "set": "single",
+            "category": "original",
             "purchase": "macromod",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -16020,6 +16077,7 @@
             "bpm": "168",
             "bpm_base": 168,
             "set": "single",
+            "category": "partner",
             "purchase": "neowings",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -16077,6 +16135,7 @@
             "bpm": "170",
             "bpm_base": 170,
             "set": "single",
+            "category": "original",
             "purchase": "kissinglucifer",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -16207,6 +16266,7 @@
             "bpm": "122-230",
             "bpm_base": 180,
             "set": "single",
+            "category": "musicgames",
             "purchase": "aurgelmir",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -16272,6 +16332,7 @@
             "bpm": "132-165",
             "bpm_base": 165,
             "set": "single",
+            "category": "variety",
             "purchase": "headbonkache",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -16591,6 +16652,7 @@
             "bpm": "185",
             "bpm_base": 185,
             "set": "single",
+            "category": "variety",
             "purchase": "picopicotranslation",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -16708,6 +16770,7 @@
             "bpm": "140-190",
             "bpm_base": 190,
             "set": "single",
+            "category": "original",
             "purchase": "mu",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -17006,6 +17069,7 @@
             "bpm": "202",
             "bpm_base": 202,
             "set": "single",
+            "category": "variety",
             "purchase": "pupa",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -18150,6 +18214,7 @@
             "bpm": "153",
             "bpm_base": 153,
             "set": "single",
+            "category": "partner",
             "purchase": "freemyself",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -18207,6 +18272,7 @@
             "bpm": "144",
             "bpm_base": 144,
             "set": "single",
+            "category": "original",
             "purchase": "cocorocosmetic",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -18264,6 +18330,7 @@
             "bpm": "210",
             "bpm_base": 210,
             "set": "single",
+            "category": "partner",
             "purchase": "capella",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -18686,6 +18753,7 @@
             "bpm": "177",
             "bpm_base": 177,
             "set": "single",
+            "category": "partner",
             "purchase": "nullapophenia",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -18744,6 +18812,7 @@
             "bpm": "210",
             "bpm_base": 210,
             "set": "single",
+            "category": "partner",
             "purchase": "crimsonthrone",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -18802,6 +18871,7 @@
             "bpm": "195",
             "bpm_base": 195,
             "set": "single",
+            "category": "original",
             "purchase": "manicjeer",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -18870,6 +18940,7 @@
             "bpm": "150",
             "bpm_base": 150,
             "set": "single",
+            "category": "poprec",
             "purchase": "hiirogekka",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -19246,6 +19317,7 @@
             "bpm": "205",
             "bpm_base": 205,
             "set": "single",
+            "category": "original",
             "purchase": "primitivelights",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -19770,6 +19842,7 @@
             "bpm": "132",
             "bpm_base": 132,
             "set": "single",
+            "category": "variety",
             "purchase": "thesurvivor",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -19835,6 +19908,7 @@
             "bpm": "160",
             "bpm_base": 160,
             "set": "single",
+            "category": "variety",
             "purchase": "newyorkbackraise",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -19896,6 +19970,7 @@
             "bpm": "145",
             "bpm_base": 145,
             "set": "single",
+            "category": "poprec",
             "purchase": "galacticlove",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -20015,6 +20090,7 @@
             "bpm": "183",
             "bpm_base": 183,
             "set": "single",
+            "category": "poprec",
             "purchase": "lostintheabyss",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -20144,6 +20220,7 @@
             "bpm": "186",
             "bpm_base": 186,
             "set": "single",
+            "category": "partner",
             "purchase": "tothemilkyway",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -20208,6 +20285,7 @@
             "bpm": "185",
             "bpm_base": 185,
             "set": "single",
+            "category": "poprec",
             "purchase": "internetyamero",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -20987,6 +21065,7 @@
             "bpm": "180",
             "bpm_base": 180,
             "set": "single",
+            "category": "poprec",
             "purchase": "sacrifice",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -21493,6 +21572,7 @@
             "bpm": "183",
             "bpm_base": 183,
             "set": "single",
+            "category": "original",
             "purchase": "tothefurthestdream",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -21738,6 +21818,7 @@
             "bpm": "170",
             "bpm_base": 170,
             "set": "single",
+            "category": "variety",
             "purchase": "bbkkbkk",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -22745,6 +22826,7 @@
             "bpm": "218",
             "bpm_base": 218,
             "set": "single",
+            "category": "original",
             "purchase": "wishuponasnow",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -22816,6 +22898,7 @@
             "bpm": "200",
             "bpm_base": 200,
             "set": "single",
+            "category": "poprec",
             "purchase": "overdrive",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -23001,6 +23084,7 @@
             "bpm": "190",
             "bpm_base": 190,
             "set": "single",
+            "category": "musicgames",
             "purchase": "lightmyway",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -23169,6 +23253,7 @@
             "bpm": "174",
             "bpm_base": 174,
             "set": "single",
+            "category": "musicgames",
             "purchase": "lunarossa",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -23316,6 +23401,7 @@
             "bpm": "190",
             "bpm_base": 190,
             "set": "single",
+            "category": "original",
             "purchase": "",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -23383,6 +23469,7 @@
             "bpm": "220-254",
             "bpm_base": 254,
             "set": "single",
+            "category": "musicgames",
             "purchase": "ionostream",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -23513,6 +23600,7 @@
             "bpm": "175",
             "bpm_base": 175,
             "set": "single",
+            "category": "original",
             "purchase": "masqueradelegion",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -23578,6 +23666,7 @@
             "bpm": "205",
             "bpm_base": 205,
             "set": "single",
+            "category": "partner",
             "purchase": "kyorenromance",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -23639,6 +23728,7 @@
             "bpm": "122",
             "bpm_base": 122,
             "set": "single",
+            "category": "original",
             "purchase": "qovat",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -24017,6 +24107,7 @@
             "bpm": "180",
             "bpm_base": 180,
             "set": "single",
+            "category": "original",
             "purchase": "mirinae",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -24082,6 +24173,7 @@
             "bpm": "150",
             "bpm_base": 150,
             "set": "single",
+            "category": "partner",
             "purchase": "ultradiaxon",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -24201,6 +24293,7 @@
             "bpm": "150",
             "bpm_base": 200,
             "set": "single",
+            "category": "musicgames",
             "purchase": "distortedfate",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -24272,6 +24365,7 @@
             "bpm": "174",
             "bpm_base": 174,
             "set": "single",
+            "category": "partner",
             "purchase": "floatingworld",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -24330,6 +24424,7 @@
             "bpm": "179",
             "bpm_base": 179,
             "set": "single",
+            "category": "partner",
             "purchase": "chromafill",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -24391,6 +24486,7 @@
             "bpm": "180-230",
             "bpm_base": 230,
             "set": "single",
+            "category": "partner",
             "purchase": "",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -24426,6 +24522,661 @@
                     "chartDesigner": "Yearning Call",
                     "jacketDesigner": "そゐち",
                     "rating": 10,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 390,
+            "id": "epicurus",
+            "title_localized": {
+                "en": "Hidden Rainbows of Epicurus",
+                "ja": "エピクロスの虹はもう見えない"
+            },
+            "artist": "SYNC.ART'S feat.Misato",
+            "search_title": {
+                "ja": [
+                    "えぴくろすのにじはもうみえない"
+                ],
+                "ko": [
+                    "히든 레인보우즈 오브 에피쿠로스",
+                    "히든 레인보우 오브 에피쿠로스",
+                    "에피쿠로스의 무지개는 이제 보이지 않아",
+                    "에피쿠로스노 니지와 모 미에나이"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "しんくあーつ",
+                    "みさと"
+                ],
+                "ko": [
+                    "싱크아츠",
+                    "미사토"
+                ]
+            },
+            "bpm": "155",
+            "bpm_base": 155,
+            "set": "base",
+            "purchase": "",
+            "audioPreview": 91354,
+            "audioPreviewEnd": 126967,
+            "side": 0,
+            "source_copyright": "©上海アリス幻樂団",
+            "bg": "touhou_light",
+            "bg_inverse": "touhou_conflict",
+            "remote_dl": false,
+            "world_unlock": false,
+            "date": 1717027200,
+            "version": "5.7",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Dec18",
+                    "jacketDesigner": "ののこ",
+                    "rating": 2
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Dec18",
+                    "jacketDesigner": "ののこ",
+                    "rating": 5
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Dec18",
+                    "jacketDesigner": "ののこ",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "Dec18",
+                    "jacketDesigner": "ののこ",
+                    "rating": 8,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 391,
+            "id": "tasogare",
+            "title_localized": {
+                "en": "Twilight Concerto",
+                "ja": "黄昏の協奏曲"
+            },
+            "artist": "Scarlette",
+            "search_title": {
+                "ja": [
+                    "たそがれのきょうそうきょく"
+                ],
+                "ko": [
+                    "트와일라잇 콘체르토",
+                    "황혼의 협주곡",
+                    "타소가레노 쿄소쿄쿠"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "すかーれって"
+                ],
+                "ko": [
+                    "스칼렛테",
+                    "스칼레테"
+                ]
+            },
+            "bpm": "194",
+            "bpm_base": 194,
+            "set": "single",
+            "category": "musicgames",
+            "purchase": "tasogare",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "nijuusei2_conflict",
+            "bg_inverse": "nijuusei2_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1717027201,
+            "source_copyright": "© QueseraGames Co., Ltd.",
+            "source_localized": {
+                "en": "KALPA"
+            },
+            "version": "5.7",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Exschwasion",
+                    "jacketDesigner": "",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Exschwasion",
+                    "jacketDesigner": "",
+                    "rating": 7,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Exschwasion",
+                    "jacketDesigner": "",
+                    "rating": 9
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "Exschwasion",
+                    "jacketDesigner": "",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 392,
+            "id": "oldschoolsalvage",
+            "title_localized": {
+                "en": "Old School Salvage"
+            },
+            "artist": "DJ SHARPNEL",
+            "search_title": {
+                "ja": [
+                    "おーるどすくーるさるべーじ"
+                ],
+                "ko": [
+                    "올드 스쿨 샐비지"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "でぃーじぇいしゃーぷねる",
+                    "でぃーじぇいしゃーぷねる"
+                ],
+                "ko": [
+                    "디제이 샤프넬",
+                    "디제이 슈라프넬"
+                ]
+            },
+            "bpm": "205",
+            "bpm_base": 205,
+            "set": "extend_3",
+            "purchase": "extend_3",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "prelude_conflict",
+            "bg_inverse": "prelude_light",
+            "remote_dl": true,
+            "world_unlock": true,
+            "date": 1717027202,
+            "version": "5.7",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "antymis",
+                    "jacketDesigner": "tvchany",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "antymis",
+                    "jacketDesigner": "tvchany",
+                    "rating": 7,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "antymis + Nitro",
+                    "jacketDesigner": "tvchany",
+                    "rating": 9,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 393,
+            "id": "beautifuldreamer",
+            "title_localized": {
+                "en": "Beautiful Dreamer"
+            },
+            "artist": "M-Project",
+            "search_title": {
+                "ja": [
+                    "びゅーてぃふるどりーまー"
+                ],
+                "ko": [
+                    "뷰티풀 드리머"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "えむぷろじぇくと"
+                ],
+                "ko": [
+                    "엠 프로젝트"
+                ]
+            },
+            "bpm": "188",
+            "bpm_base": 188,
+            "set": "single",
+            "category": "original",
+            "purchase": "beautifuldreamer",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "single2_light",
+            "bg_inverse": "single2_conflict",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1717027203,
+            "version": "5.7",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "CERiNG",
+                    "jacketDesigner": "さんぱち",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "CERiNG",
+                    "jacketDesigner": "さんぱち",
+                    "rating": 7,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "CERiNG",
+                    "jacketDesigner": "さんぱち",
+                    "rating": 9,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 394,
+            "id": "backtobasics",
+            "title_localized": {
+                "en": "Back to Basics"
+            },
+            "artist": "m1dy",
+            "search_title": {
+                "ja": [
+                    "ばっくとぅべーしっくす",
+                    "ばっくとぅーべーしっくす"
+                ],
+                "ko": [
+                    "백 투 베이직",
+                    "백 투 베이직스"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "みでぃ"
+                ],
+                "ko": [
+                    "미디"
+                ]
+            },
+            "bpm": "420",
+            "bpm_base": 420,
+            "set": "single",
+            "category": "original",
+            "purchase": "backtobasics",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "single2_conflict",
+            "bg_inverse": "single2_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1717027204,
+            "version": "5.7",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "夜浪 THE FUMEn ANARCHIST",
+                    "jacketDesigner": "TKKsn.",
+                    "rating": 5
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "夜浪 THE FUMEn ANARCHIST",
+                    "jacketDesigner": "TKKsn.",
+                    "rating": 8,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "夜浪 THE FUMEn ANARCHIST",
+                    "jacketDesigner": "TKKsn.",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 395,
+            "id": "stargateextreme",
+            "title_localized": {
+                "en": "STARGATE EXTREME"
+            },
+            "artist": "KARUT",
+            "search_title": {
+                "ja": [
+                    "すたーげーとえくすとりーむ"
+                ],
+                "ko": [
+                    "스트레인지 익스트림"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "かると"
+                ],
+                "ko": [
+                    "카루트",
+                    "카룻"
+                ]
+            },
+            "bpm": "150",
+            "bpm_base": 150,
+            "set": "single",
+            "category": "musicgames",
+            "purchase": "stargateextreme",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "nijuusei2_conflict",
+            "bg_inverse": "nijuusei2_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1719446400,
+            "version": "5.8",
+            "source_copyright": "© Starlike",
+            "source_localized": {
+                "en": "Sixtar Gate: STARTRAIL"
+            },
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "én",
+                    "jacketDesigner": "",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "én",
+                    "jacketDesigner": "",
+                    "rating": 6
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "én",
+                    "jacketDesigner": "",
+                    "rating": 9
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "eién",
+                    "jacketDesigner": "",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 396,
+            "id": "signof",
+            "title_localized": {
+                "en": "Sign of \"10.5km\""
+            },
+            "artist": "渡部恭久",
+            "search_title": {
+                "en": [
+                    "yasuhisa watanabe"
+                ],
+                "ja": [
+                    "さいんおぶてんぽいんとふぁいぶきろめーとる"
+                ],
+                "ko": [
+                    "사인 오브 텐 포인트 파이브 킬로미터"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "わたなべやすひさ"
+                ],
+                "ko": [
+                    "와타나베 야스히사"
+                ]
+            },
+            "bpm": "160",
+            "bpm_base": 160,
+            "set": "groovecoaster_append_1",
+            "purchase": "groovecoaster_append_1",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "gc_light",
+            "bg_inverse": "gc_conflict",
+            "remote_dl": true,
+            "world_unlock": false,
+            "source_localized": {
+                "en": "Groove Coaster",
+                "ja": "グルーヴコースター"
+            },
+            "source_copyright": "© TAITO CORPORATION",
+            "date": 1719446401,
+            "version": "5.8",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Dec18",
+                    "jacketDesigner": "",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Dec18",
+                    "jacketDesigner": "",
+                    "rating": 6
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Dec18",
+                    "jacketDesigner": "",
+                    "rating": 9
+                }
+            ]
+        },
+        {
+            "idx": 397,
+            "id": "temptationgc",
+            "title_localized": {
+                "en": "10pt8ion"
+            },
+            "artist": "Lite Show Magic",
+            "search_title": {
+                "en": [
+                    "temptation"
+                ],
+                "ja": [
+                    "てんぷてーしょん"
+                ],
+                "ko": [
+                    "템테이션"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "らいとしょーまじっく"
+                ],
+                "ko": [
+                    "라이트 쇼 매직"
+                ]
+            },
+            "bpm": "128-185",
+            "bpm_base": 185,
+            "set": "groovecoaster_append_1",
+            "purchase": "groovecoaster_append_1",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "gc_conflict",
+            "bg_inverse": "gc_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "source_localized": {
+                "en": "Groove Coaster",
+                "ja": "グルーヴコースター"
+            },
+            "source_copyright": "© TAITO CORPORATION",
+            "date": 1719446402,
+            "version": "5.8",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Nitro",
+                    "jacketDesigner": "",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Nitro",
+                    "jacketDesigner": "",
+                    "rating": 7,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Nite Schwa Power",
+                    "jacketDesigner": "",
+                    "rating": 9,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "Nite Schwa Power",
+                    "jacketDesigner": "",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 398,
+            "id": "blackmind",
+            "title_localized": {
+                "en": "Black MInD"
+            },
+            "artist": "COSIO",
+            "search_title": {
+                "ja": [
+                    "ぶらっくまいんど"
+                ],
+                "ko": [
+                    "블랙 마인드"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "こしお"
+                ],
+                "ko": [
+                    "코시오"
+                ]
+            },
+            "bpm": "192",
+            "bpm_base": 192,
+            "set": "groovecoaster_append_1",
+            "purchase": "groovecoaster_append_1",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "gc_ouroboros",
+            "remote_dl": true,
+            "world_unlock": false,
+            "source_localized": {
+                "en": "Groove Coaster",
+                "ja": "グルーヴコースター"
+            },
+            "source_copyright": "© TAITO CORPORATION",
+            "date": 1719446403,
+            "version": "5.8",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "聖輪",
+                    "jacketDesigner": "",
+                    "rating": 5
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "聖輪",
+                    "jacketDesigner": "",
+                    "rating": 8
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "聖輪",
+                    "jacketDesigner": "",
+                    "rating": 10,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 399,
+            "id": "hypervision",
+            "title_localized": {
+                "en": "HYPER VISION"
+            },
+            "artist": "VOLTA",
+            "search_title": {
+                "ja": [
+                    "はいぱーびじょん",
+                    "はいぱーゔぃじょん"
+                ],
+                "ko": [
+                    "하이퍼 비전"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "ぼるた"
+                ],
+                "ko": [
+                    "볼타"
+                ]
+            },
+            "bpm": "155",
+            "bpm_base": 155,
+            "set": "single",
+            "category": "partner",
+            "purchase": "hypervision",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "single2_conflict",
+            "bg_inverse": "single2_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1719446404,
+            "version": "5.8",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "NITRO",
+                    "jacketDesigner": "洗濯メン",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "NITRO",
+                    "jacketDesigner": "洗濯メン",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "NITRO",
+                    "jacketDesigner": "洗濯メン",
+                    "rating": 9,
                     "ratingPlus": true
                 }
             ]
