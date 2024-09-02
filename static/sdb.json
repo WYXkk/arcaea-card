@@ -5894,5 +5894,235 @@
 			"constant": 108,
 			"note": 1274
 		}
+	],
+	"distortionhuman": [
+		{
+			"constant": 30,
+			"note": 544
+		},
+		{
+			"constant": 65,
+			"note": 841
+		},
+		{
+			"constant": 98,
+			"note": 1317
+		}
+	],
+	"shrink": [
+		{
+			"constant": 35,
+			"note": 451
+		},
+		{
+			"constant": 70,
+			"note": 660
+		},
+		{
+			"constant": 98,
+			"note": 939
+		}
+	],
+	"invain": [
+		{
+			"constant": 35,
+			"note": 562
+		},
+		{
+			"constant": 65,
+			"note": 677
+		},
+		{
+			"constant": 95,
+			"note": 1111
+		}
+	],
+	"hypnotize": [
+		{
+			"constant": 35,
+			"note": 518
+		},
+		{
+			"constant": 70,
+			"note": 761
+		},
+		{
+			"constant": 89,
+			"note": 993
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 99,
+			"note": 1164
+		}
+	],
+	"ashenboundary": [
+		{
+			"constant": 45,
+			"note": 702
+		},
+		{
+			"constant": 78,
+			"note": 813
+		},
+		{
+			"constant": 99,
+			"note": 1183
+		}
+	],
+	"judgement": [
+		{
+			"constant": 55,
+			"note": 844
+		},
+		{
+			"constant": 86,
+			"note": 1055
+		},
+		{
+			"constant": 104,
+			"note": 1432
+		}
+	],
+	"alterego": [
+		{
+			"constant": 65,
+			"note": 865
+		},
+		{
+			"constant": 92,
+			"note": 1213
+		},
+		{
+			"constant": 105,
+			"note": 1466
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 112,
+			"note": 1644
+		}
+	],
+	"epitaxy": [
+		{
+			"constant": 30,
+			"note": 826
+		},
+		{
+			"constant": 60,
+			"note": 939
+		},
+		{
+			"constant": 86,
+			"note": 1177
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 96,
+			"note": 1410
+		}
+	],
+	"waltzforlorelei": [
+		{
+			"constant": 25,
+			"note": 664
+		},
+		{
+			"constant": 55,
+			"note": 814
+		},
+		{
+			"constant": 88,
+			"note": 916
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 98,
+			"note": 999
+		}
+	],
+	"dualdoom": [
+		{
+			"constant": 35,
+			"note": 838
+		},
+		{
+			"constant": 65,
+			"note": 830
+		},
+		{
+			"constant": 89,
+			"note": 1094
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 103,
+			"note": 1292
+		}
+	],
+	"invertedworld": [
+		{
+			"constant": 30,
+			"note": 525
+		},
+		{
+			"constant": 70,
+			"note": 646
+		},
+		{
+			"constant": 95,
+			"note": 940
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 107,
+			"note": 1065
+		}
+	],
+	"mvurbd": [
+		{
+			"constant": 45,
+			"note": 999
+		},
+		{
+			"constant": 78,
+			"note": 1031
+		},
+		{
+			"constant": 106,
+			"note": 1497
+		}
+	],
+	"vulcanus": [
+		{
+			"constant": 55,
+			"note": 968
+		},
+		{
+			"constant": 85,
+			"note": 1234
+		},
+		{
+			"constant": 109,
+			"note": 1542
+		}
 	]
 }
