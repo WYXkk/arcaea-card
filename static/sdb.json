@@ -6124,5 +6124,99 @@
 			"constant": 109,
 			"note": 1542
 		}
+	],
+	"rainofconflict": [
+		{
+			"constant": 50,
+			"note": 831
+		},
+		{
+			"constant": 78,
+			"note": 934
+		},
+		{
+			"constant": 95,
+			"note": 1164
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 105,
+			"note": 1247
+		}
+	],
+	"saintorsinner": [
+		{
+			"constant": 30,
+			"note": 447
+		},
+		{
+			"constant": 60,
+			"note": 563
+		},
+		{
+			"constant": 88,
+			"note": 906
+		}
+	],
+	"hailstone": [
+		{
+			"constant": 35,
+			"note": 534
+		},
+		{
+			"constant": 70,
+			"note": 651
+		},
+		{
+			"constant": 97,
+			"note": 1002
+		}
+	],
+	"furetemitai": [
+		{
+			"constant": 25,
+			"note": 447
+		},
+		{
+			"constant": 60,
+			"note": 523
+		},
+		{
+			"constant": 84,
+			"note": 763
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 94,
+			"note": 841
+		}
+	],
+	"gensounosatellite": [
+		{
+			"constant": 25,
+			"note": 721
+		},
+		{
+			"constant": 65,
+			"note": 783
+		},
+		{
+			"constant": 87,
+			"note": 992
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 101,
+			"note": 1139
+		}
 	]
 }

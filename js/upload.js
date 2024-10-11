@@ -21,6 +21,7 @@ function uploadplay()
 		return;
 	}
 	var lstInfo=slst.songs.find((x)=>{return x.title_localized.en==title;})
+	if(lstInfo.deleted) {alert(`曲目 ${title} 已被删除。`);return;}
 	var songid=lstInfo.id;
 	if(sdb[songid][diff].note<0||sdb[songid][diff].constant<0)
 	{

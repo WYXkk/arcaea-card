@@ -7923,6 +7923,7 @@
         {
             "idx": 127,
             "id": "particlearts",
+            "deleted": true,
             "title_localized": {
                 "en": "Particle Arts"
             },
@@ -25148,7 +25149,7 @@
             "bpm": "155",
             "bpm_base": 155,
             "set": "single",
-            "category": "partner",
+            "category": "original",
             "purchase": "hypervision",
             "audioPreview": 0,
             "audioPreviewEnd": 0,
@@ -26027,6 +26028,334 @@
                     "jacketDesigner": "月裏",
                     "rating": 10,
                     "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 413,
+            "id": "rainofconflict",
+            "title_localized": {
+                "en": "Rain of Conflict in a Radiant Abyss"
+            },
+            "artist": "ak+q",
+            "search_title": {
+                "ja": [
+                    "れいんおぶこんふりくといんあれでぃあんとあびす",
+                    "れいんおぶこんふりくといんあらじあんとあびす",
+                    "れいんおぶこんふりくといんあらでぃあんとあびす",
+                    ""
+                ],
+                "ko": [
+                    "레인 오브 컨플릭트 인 어 래디언트 어비스"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "えーけーぷらすきゅー"
+                ],
+                "ko": [
+                    "에이케이 플러스 큐"
+                ]
+            },
+            "bpm": "195",
+            "bpm_base": 195,
+            "set": "single",
+            "purchase": "rainofconflict",
+            "category": "original",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "finale_conflict",
+            "bg_inverse": "finale_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1726099200,
+            "version": "5.10",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Nitro “v20170309”",
+                    "jacketDesigner": "辷",
+                    "rating": 5
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Nitro “v20170309”",
+                    "jacketDesigner": "辷",
+                    "rating": 7,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Nitro “v20170309”",
+                    "jacketDesigner": "辷",
+                    "rating": 9
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "Nitro meets Toaster “v20170309”",
+                    "jacketDesigner": "辷",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 414,
+            "id": "saintorsinner",
+            "title_localized": {
+                "en": "Saint or Sinner"
+            },
+            "artist": "crayvxn",
+            "search_title": {
+                "ja": [
+                    "せいんとおあしんなー"
+                ],
+                "ko": [
+                    "세인트 오어 시너"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "くれいぶん"
+                ],
+                "ko": [
+                    "크레이븐"
+                ]
+            },
+            "bpm": "164",
+            "bpm_base": 164,
+            "set": "prelude",
+            "purchase": "prelude",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "prelude_conflict",
+            "bg_inverse": "prelude_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1727308800,
+            "version": "5.10",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "小終点",
+                    "jacketDesigner": "yawa",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "小終点",
+                    "jacketDesigner": "yawa",
+                    "rating": 6
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "小終点",
+                    "jacketDesigner": "yawa",
+                    "rating": 8,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 415,
+            "id": "hailstone",
+            "title_localized": {
+                "en": "Hailstone"
+            },
+            "artist": "Kazki Misora",
+            "search_title": {
+                "ja": [
+                    "へいるすとーん"
+                ],
+                "ko": [
+                    "헤일스톤"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "かずきみそら"
+                ],
+                "ko": [
+                    "카즈키 미소라"
+                ]
+            },
+            "bpm": "180",
+            "bpm_base": 180,
+            "set": "extend_3",
+            "purchase": "extend_3",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "single2_light",
+            "bg_inverse": "single2_conflict",
+            "remote_dl": true,
+            "world_unlock": true,
+            "date": 1727308801,
+            "version": "5.10",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "raycast",
+                    "jacketDesigner": "mogami",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "raycast",
+                    "jacketDesigner": "mogami",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "raycast",
+                    "jacketDesigner": "mogami",
+                    "rating": 9,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 416,
+            "id": "furetemitai",
+            "title_localized": {
+                "en": "FURETE-MITAI",
+                "ja": "フレテミタイ"
+            },
+            "artist": "みきとP",
+            "search_title": {
+                "en": [
+                    "furetemitai"
+                ],
+                "ko": [
+                    "닿고싶어"
+                ]
+            },
+            "search_artist": {
+                "en": [
+                    "mikitop"
+                ],
+                "ja": [
+                    "みきとぴー"
+                ],
+                "ko": [
+                    "미키토피"
+                ]
+            },
+            "bpm": "155",
+            "bpm_base": 155,
+            "set": "extend_3",
+            "purchase": "extend_3",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "hime_light",
+            "bg_inverse": "hime_conflict",
+            "remote_dl": true,
+            "world_unlock": true,
+            "source_localized": {
+                "en": "TETOTE CONNECT",
+                "ja": "テトテコネクト"
+            },
+            "source_copyright": "© TAITO CORPORATION",
+            "date": 1727308802,
+            "version": "5.10",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "nora::neko",
+                    "jacketDesigner": "",
+                    "rating": 2
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "nora::neko",
+                    "jacketDesigner": "",
+                    "rating": 6
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "nora::neko",
+                    "jacketDesigner": "",
+                    "rating": 8
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "nora::neko",
+                    "jacketDesigner": "",
+                    "rating": 9
+                }
+            ]
+        },
+        {
+            "idx": 417,
+            "id": "gensounosatellite",
+            "title_localized": {
+                "en": "Gensou no Satellite",
+                "ja": "幻想のサテライト"
+            },
+            "artist": "豚乙女",
+            "search_title": {
+                "en": [
+                    "gensounosateraito"
+                ],
+                "ja": [
+                    "げんそうのさてらいと"
+                ],
+                "ko": [
+                    "겐소우노 사토라이토",
+                    "겐소노 사토라이토",
+                    "환상의 새틀라이트"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "ぶたおとめ"
+                ],
+                "ko": [
+                    "부타오토메"
+                ]
+            },
+            "bpm": "230",
+            "bpm_base": 230,
+            "set": "single",
+            "purchase": "gensounosatellite",
+            "category": "poprec",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "vs_conflict",
+            "bg_inverse": "vs_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "source_copyright": "©上海アリス幻樂団",
+            "date": 1727308803,
+            "version": "5.10",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Luxance",
+                    "jacketDesigner": "ランコの姉 (豚乙女)",
+                    "rating": 2
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Luxance",
+                    "jacketDesigner": "ランコの姉 (豚乙女)",
+                    "rating": 6
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Luxance",
+                    "jacketDesigner": "ランコの姉 (豚乙女)",
+                    "rating": 8,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "Luxance",
+                    "jacketDesigner": "ランコの姉 (豚乙女)",
+                    "rating": 10
                 }
             ]
         }

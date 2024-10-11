@@ -27,6 +27,12 @@ function load()
 	if(playlist==undefined) playlist=[];
 	if(recentplay==undefined) recentplay={};
 	if(songLang==undefined) songLang='en';
+	for(let i in slst.songs){
+		if(slst.songs[i].deleted){
+			playlist=playlist.filter(x=>x.songid!=slst.songs[i].id);
+			if(recentplay.songid==slst.songs[i].id) recentplay={};
+		}
+	}
 	setNewLang(songLang);
 }
 function save()
@@ -48,6 +54,12 @@ function outerload()
 	if(recentplay==undefined) recentplay={};
 	if(playlist==undefined) playlist=[];
 	if(songLang==undefined) songLang='en';
+	for(let i in slst.songs){
+		if(slst.songs[i].deleted){
+			playlist=playlist.filter(x=>x.songid!=slst.songs[i].id);
+			if(recentplay.songid==slst.songs[i].id) recentplay={};
+		}
+	}
 	setNewLang(songLang);
 	alert('导入成功。')
 }

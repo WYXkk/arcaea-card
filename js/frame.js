@@ -122,6 +122,7 @@ function filter()
 	for(i in sdb)
 	{
 		var lstInfo=slst.songs.find((x)=>{return x.id==i;})
+		if(lstInfo.deleted) continue;
 		var t=true;
 		{
 			var flagTitle=false;
