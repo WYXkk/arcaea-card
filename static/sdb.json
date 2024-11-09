@@ -6218,5 +6218,107 @@
 			"constant": 101,
 			"note": 1139
 		}
+	],
+	"prayer": [
+		{
+			"constant": 25,
+			"note": 419
+		},
+		{
+			"constant": 55,
+			"note": 479
+		},
+		{
+			"constant": 82,
+			"note": 591
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 91,
+			"note": 714
+		}
+	],
+	"crimsonquartz": [
+		{
+			"constant": 30,
+			"note": 569
+		},
+		{
+			"constant": 60,
+			"note": 615
+		},
+		{
+			"constant": 88,
+			"note": 861
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 98,
+			"note": 1200
+		}
+	],
+	"diesirae": [
+		{
+			"constant": 45,
+			"note": 632
+		},
+		{
+			"constant": 75,
+			"note": 802
+		},
+		{
+			"constant": 95,
+			"note": 1052
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 106,
+			"note": 1263
+		}
+	],
+	"spiritdauntless": [
+		{
+			"constant": 45,
+			"note": 693
+		},
+		{
+			"constant": 78,
+			"note": 957
+		},
+		{
+			"constant": 105,
+			"note": 1207
+		}
+	],
+	"thirdsun": [
+		{
+			"constant": 35,
+			"note": 532
+		},
+		{
+			"constant": 70,
+			"note": 702
+		},
+		{
+			"constant": 94,
+			"note": 811
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 100,
+			"note": 1043
+		}
 	]
 }

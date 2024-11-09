@@ -7923,62 +7923,7 @@
         {
             "idx": 127,
             "id": "particlearts",
-            "deleted": true,
-            "title_localized": {
-                "en": "Particle Arts"
-            },
-            "artist": "Virtual Self",
-            "search_title": {
-                "ja": [
-                    "ぱーてぃくるあーつ"
-                ],
-                "ko": [
-                    "파티클 아츠"
-                ]
-            },
-            "search_artist": {
-                "ja": [
-                    "ゔぁーちゃるせるふ",
-                    "ばーちゃるせるふ"
-                ],
-                "ko": [
-                    "버추얼 셀프"
-                ]
-            },
-            "bpm": "162-175",
-            "bpm_base": 175,
-            "set": "prelude",
-            "purchase": "prelude",
-            "audioPreview": 0,
-            "audioPreviewEnd": 0,
-            "side": 1,
-            "bg": "prelude_conflict",
-            "bg_inverse": "prelude_light",
-            "remote_dl": true,
-            "world_unlock": false,
-            "date": 1563408001,
-            "version": "2.2",
-            "difficulties": [
-                {
-                    "ratingClass": 0,
-                    "chartDesigner": "小東星",
-                    "jacketDesigner": "",
-                    "rating": 3
-                },
-                {
-                    "ratingClass": 1,
-                    "chartDesigner": "小東星",
-                    "jacketDesigner": "",
-                    "rating": 6
-                },
-                {
-                    "ratingClass": 2,
-                    "chartDesigner": "小東星",
-                    "jacketDesigner": "",
-                    "rating": 8,
-                    "ratingPlus": true
-                }
-            ]
+            "deleted": true
         },
         {
             "idx": 128,
@@ -26324,8 +26269,8 @@
             "audioPreview": 0,
             "audioPreviewEnd": 0,
             "side": 1,
-            "bg": "vs_conflict",
-            "bg_inverse": "vs_light",
+            "bg": "touhou_conflict",
+            "bg_inverse": "touhou_light",
             "remote_dl": true,
             "world_unlock": false,
             "source_copyright": "©上海アリス幻樂団",
@@ -26355,6 +26300,345 @@
                     "ratingClass": 4,
                     "chartDesigner": "Luxance",
                     "jacketDesigner": "ランコの姉 (豚乙女)",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 418,
+            "id": "prayer",
+            "title_localized": {
+                "en": "Prayer",
+                "ja": "プレヤ"
+            },
+            "artist": "qfeileadh\u0026レゾナンスもえこ",
+            "search_title": {
+                "en": [
+                    "pureya"
+                ],
+                "ko": [
+                    "프레이어"
+                ]
+            },
+            "search_artist": {
+                "en": [
+                    "rezonansumoeko",
+                    "resonance moeko"
+                ],
+                "ja": [
+                    "ふぇいりあ"
+                ],
+                "ko": [
+                    "레조넌스 모에코"
+                ]
+            },
+            "bpm": "132",
+            "bpm_base": 132,
+            "set": "extend_3",
+            "purchase": "extend_3",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "nijuusei2_light",
+            "bg_inverse": "nijuusei2_conflict",
+            "remote_dl": true,
+            "world_unlock": true,
+            "date": 1729728000,
+            "version": "5.10",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "nora::neko",
+                    "jacketDesigner": "自動車 原付\u0026なぎのにちこ",
+                    "rating": 2
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "nora::neko",
+                    "jacketDesigner": "自動車 原付\u0026なぎのにちこ",
+                    "rating": 5
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "nora::neko",
+                    "jacketDesigner": "自動車 原付\u0026なぎのにちこ",
+                    "rating": 8
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "nora::neko",
+                    "jacketDesigner": "自動車 原付\u0026なぎのにちこ",
+                    "rating": 9
+                }
+            ]
+        },
+        {
+            "idx": 419,
+            "id": "crimsonquartz",
+            "title_localized": {
+                "en": "Crimson Quartz"
+            },
+            "artist": "DiGiTAL WiNG with 空音",
+            "search_title": {
+                "ja": [
+                    "くりむぞんくぉーつ"
+                ],
+                "ko": [
+                    "크림슨 쿼츠"
+                ]
+            },
+            "search_artist": {
+                "en": [
+                    "sorane"
+                ],
+                "ja": [
+                    "でじたるうぃんぐ",
+                    "そらね"
+                ],
+                "ko": [
+                    "디지털 윙",
+                    "소라네"
+                ]
+            },
+            "category": "poprec",
+            "source_copyright": "©上海アリス幻樂団",
+            "bpm": "145",
+            "bpm_base": 145,
+            "set": "single",
+            "purchase": "crimsonquartz",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "touhou_conflict",
+            "bg_inverse": "touhou_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1729728001,
+            "version": "5.10",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "raycast",
+                    "jacketDesigner": "雨音くるみ",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "raycast",
+                    "jacketDesigner": "雨音くるみ",
+                    "rating": 6
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "raycast",
+                    "jacketDesigner": "雨音くるみ",
+                    "rating": 8,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "raycast",
+                    "jacketDesigner": "雨音くるみ",
+                    "rating": 9,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 420,
+            "id": "thirdsun",
+            "title_localized": {
+                "en": "Third Sun"
+            },
+            "artist": "Ash Astral",
+            "search_title": {
+                "ja": [
+                    "さーどさん"
+                ],
+                "ko": [
+                    "서드 선",
+                    "써드 선"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "あっしゅあすとらる"
+                ],
+                "ko": [
+                    "애쉬 아스트랄"
+                ]
+            },
+            "category": "musicgames",
+            "bpm": "75-225",
+            "bpm_base": 150,
+            "set": "single",
+            "purchase": "thirdsun",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "nijuusei-conflict-b",
+            "bg_inverse": "nijuusei-light-b",
+            "remote_dl": true,
+            "world_unlock": false,
+            "source_localized": {
+                "en": "A Dance of Fire and Ice"
+            },
+            "source_copyright": "© 7th Beat Games",
+            "date": 1729728002,
+            "version": "5.10",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "NEO NITRO",
+                    "jacketDesigner": "Ash Astral",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "NEO NITRO",
+                    "jacketDesigner": "Ash Astral",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "NEO NITRO",
+                    "jacketDesigner": "Ash Astral",
+                    "rating": 9
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "NEO NITRO",
+                    "jacketDesigner": "Ash Astral",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 421,
+            "id": "spiritdauntless",
+            "title_localized": {
+                "en": "Spirit of the Dauntless"
+            },
+            "artist": "KO3 \u0026 Relect",
+            "search_title": {
+                "ja": [
+                    "すぴりっとおぶざどーんとれす"
+                ],
+                "ko": [
+                    "스피릿 오브 더 던틀리스"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "こみ",
+                    "りれくと"
+                ],
+                "ko": [
+                    "코미",
+                    "릴렉트"
+                ]
+            },
+            "bpm": "180",
+            "bpm_base": 180,
+            "set": "single",
+            "category": "original",
+            "purchase": "spiritdauntless",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "zettai",
+            "bg_inverse": "zettai_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1729728003,
+            "version": "5.10",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "絶滅",
+                    "jacketDesigner": "てるオ実",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "絶滅",
+                    "jacketDesigner": "てるオ実",
+                    "rating": 7,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "絶滅",
+                    "jacketDesigner": "てるオ実",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 422,
+            "id": "diesirae",
+            "title_localized": {
+                "en": "Dies irae"
+            },
+            "artist": "お月さま交響曲",
+            "search_title": {
+                "ja": [
+                    "でぃえすいれ",
+                    "でぃえすいらえ"
+                ],
+                "ko": [
+                    "디에스 이레"
+                ]
+            },
+            "search_artist": {
+                "en": [
+                    "otsukisamakoukyoukyoku"
+                ],
+                "ja": [
+                    "おつきさまこうきょうきょく"
+                ],
+                "ko": [
+                    "오츠키사마코우쿄우쿄쿠",
+                    "달님 교향곡"
+                ]
+            },
+            "bpm": "172",
+            "bpm_base": 172,
+            "set": "single",
+            "purchase": "diesirae",
+            "category": "original",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "hime_conflict",
+            "bg_inverse": "hime_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1729728004,
+            "version": "5.10",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "M理論",
+                    "jacketDesigner": "michele",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "M理論",
+                    "jacketDesigner": "michele",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "M理論",
+                    "jacketDesigner": "michele",
+                    "rating": 9
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "M理論",
+                    "jacketDesigner": "michele",
                     "rating": 10
                 }
             ]

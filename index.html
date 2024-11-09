@@ -333,13 +333,15 @@
 			slst.songs.find((x)=>{return x.id=="genesischunithm"}).title_localized.en="Genesis (Morrigan)";
 			for(let i in slst.songs){
 				let info=slst.songs[i];
-				if(info.difficulties[3]!=undefined&&info.difficulties[3].ratingClass==4)
-				{
-					info.difficulties=[
-						...info.difficulties.slice(0,3),
-						{ratingClass:0,rating:0},
-						info.difficulties[3]
-					];
+				if(info.difficulties) {
+					if(info.difficulties[3]!=undefined&&info.difficulties[3].ratingClass==4)
+					{
+						info.difficulties=[
+							...info.difficulties.slice(0,3),
+							{ratingClass:0,rating:0},
+							info.difficulties[3]
+						];
+					}
 				}
 			}
 			await fetch('./static/sdb.json').then(response=>response.json()).then(data=>{sdb=data;});
