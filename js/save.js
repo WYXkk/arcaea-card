@@ -33,6 +33,11 @@ function load()
 			if(recentplay.songid==slst.songs[i].id) recentplay={};
 		}
 	}
+	playlist.sort(function(a,b){
+		var ptta=getptt(a.songid,a.diff,a.mxp,a.mis,a.far);
+		var pttb=getptt(b.songid,b.diff,b.mxp,b.mis,b.far);
+		return pttb-ptta;
+	})
 	setNewLang(songLang);
 }
 function save()
@@ -60,6 +65,11 @@ function outerload()
 			if(recentplay.songid==slst.songs[i].id) recentplay={};
 		}
 	}
+	playlist.sort(function(a,b){
+		var ptta=getptt(a.songid,a.diff,a.mxp,a.mis,a.far);
+		var pttb=getptt(b.songid,b.diff,b.mxp,b.mis,b.far);
+		return pttb-ptta;
+	})
 	setNewLang(songLang);
 	alert('导入成功。')
 }
