@@ -6524,5 +6524,77 @@
 			"constant": 95,
 			"note": 1059
 		}
+	],
+	"daat": [
+		{
+			"constant": 55,
+			"note": 921
+		},
+		{
+			"constant": 84,
+			"note": 1091
+		},
+		{
+			"constant": 109,
+			"note": 1500
+		}
+	],
+	"eightem": [
+		{
+			"constant": 45,
+			"note": 557
+		},
+		{
+			"constant": 78,
+			"note": 847
+		},
+		{
+			"constant": 95,
+			"note": 1081
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 103,
+			"note": 1201
+		}
+	],
+	"blazingair": [
+		{
+			"constant": 30,
+			"note": 433
+		},
+		{
+			"constant": 60,
+			"note": 571
+		},
+		{
+			"constant": 89,
+			"note": 757
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 101,
+			"note": 1129
+		}
+	],
+	"ignition": [
+		{
+			"constant": 35,
+			"note": 578
+		},
+		{
+			"constant": 60,
+			"note": 621
+		},
+		{
+			"constant": 98,
+			"note": 994
+		}
 	]
 }
