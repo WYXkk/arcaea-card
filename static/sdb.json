@@ -6596,5 +6596,85 @@
 			"constant": 98,
 			"note": 994
 		}
+	],
+	"breakbreak": [
+		{
+			"constant": 35,
+			"note": 472
+		},
+		{
+			"constant": 65,
+			"note": 614
+		},
+		{
+			"constant": 88,
+			"note": 894
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 103,
+			"note": 1251
+		}
+	],
+	"straightintolights": [
+		{
+			"constant": 40,
+			"note": 583
+		},
+		{
+			"constant": 75,
+			"note": 714
+		},
+		{
+			"constant": 95,
+			"note": 1226
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 105,
+			"note": 1280
+		}
+	],
+	"virtus": [
+		{
+			"constant": 55,
+			"note": 877
+		},
+		{
+			"constant": 86,
+			"note": 1000
+		},
+		{
+			"constant": 99,
+			"note": 1222
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 109,
+			"note": 1341
+		}
+	],
+	"yomibitoshirazu": [
+		{
+			"constant": 45,
+			"note": 641
+		},
+		{
+			"constant": 80,
+			"note": 764
+		},
+		{
+			"constant": 98,
+			"note": 1075
+		}
 	]
 }
