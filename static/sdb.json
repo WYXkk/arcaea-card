@@ -6676,5 +6676,169 @@
 			"constant": 98,
 			"note": 1075
 		}
+	],
+	"aethercrest": [
+		{
+			"constant": 60,
+			"note": 921
+		},
+		{
+			"constant": 89,
+			"note": 1147
+		},
+		{
+			"constant": 106,
+			"note": 1508
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 115,
+			"note": 1941
+		}
+	],
+	"heartache": [
+		{
+			"constant": 15,
+			"note": 425
+		},
+		{
+			"constant": 45,
+			"note": 687
+		},
+		{
+			"constant": 75,
+			"note": 803
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 87,
+			"note": 851
+		}
+	],
+	"deathbyglamour": [
+		{
+			"constant": 25,
+			"note": 460
+		},
+		{
+			"constant": 50,
+			"note": 470
+		},
+		{
+			"constant": 78,
+			"note": 610
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 94,
+			"note": 912
+		}
+	],
+	"yourbestnightmare": [
+		{
+			"constant": 35,
+			"note": 760
+		},
+		{
+			"constant": 65,
+			"note": 925
+		},
+		{
+			"constant": 89,
+			"note": 1086
+		},
+		{
+			"constant": 102,
+			"note": 1451
+		}
+	],
+	"lastgoodbye": [
+		{
+			"constant": 25,
+			"note": 497
+		},
+		{
+			"constant": 65,
+			"note": 605
+		},
+		{
+			"constant": 82,
+			"note": 727
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 97,
+			"note": 911
+		}
+	],
+	"megalovania": [
+		{
+			"constant": 45,
+			"note": 906
+		},
+		{
+			"constant": 75,
+			"note": 969
+		},
+		{
+			"constant": 95,
+			"note": 1064
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 105,
+			"note": 1202
+		}
+	],
+	"megalovaniarmx": [
+		{
+			"constant": 55,
+			"note": 946
+		},
+		{
+			"constant": 84,
+			"note": 1161
+		},
+		{
+			"constant": 98,
+			"note": 1345
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 109,
+			"note": 1468
+		}
+	],
+	"placebobattler": [
+		{
+			"constant": 55,
+			"note": 597
+		},
+		{
+			"constant": 83,
+			"note": 827
+		},
+		{
+			"constant": 104,
+			"note": 1194
+		}
 	]
 }
