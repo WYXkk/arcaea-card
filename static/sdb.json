@@ -6840,5 +6840,63 @@
 			"constant": 104,
 			"note": 1194
 		}
+	],
+	"blackmirror": [
+		{
+			"constant": 35,
+			"note": 471
+		},
+		{
+			"constant": 65,
+			"note": 613
+		},
+		{
+			"constant": 86,
+			"note": 735
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 97,
+			"note": 894
+		}
+	],
+	"shinchoku": [
+		{
+			"constant": 35,
+			"note": 595
+		},
+		{
+			"constant": 75,
+			"note": 743
+		},
+		{
+			"constant": 88,
+			"note": 957
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 99,
+			"note": 1162
+		}
+	],
+	"trpno": [
+		{
+			"constant": 45,
+			"note": 451
+		},
+		{
+			"constant": 78,
+			"note": 562
+		},
+		{
+			"constant": 100,
+			"note": 897
+		}
 	]
 }
