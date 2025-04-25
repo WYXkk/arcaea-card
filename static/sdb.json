@@ -105,20 +105,6 @@
 			"note": 672
 		}
 	],
-	"snowwhite": [
-		{
-			"constant": 25,
-			"note": 486
-		},
-		{
-			"constant": 50,
-			"note": 672
-		},
-		{
-			"constant": 84,
-			"note": 978
-		}
-	],
 	"relentless": [
 		{
 			"constant": 45,
@@ -1099,20 +1085,6 @@
 		{
 			"constant": 98,
 			"note": 1154
-		}
-	],
-	"altale": [
-		{
-			"constant": 25,
-			"note": 357
-		},
-		{
-			"constant": 55,
-			"note": 424
-		},
-		{
-			"constant": 98,
-			"note": 690
 		}
 	],
 	"blacklotus": [
@@ -2299,20 +2271,6 @@
 			"note": 986
 		}
 	],
-	"nhelv": [
-		{
-			"constant": 30,
-			"note": 647
-		},
-		{
-			"constant": 65,
-			"note": 913
-		},
-		{
-			"constant": 99,
-			"note": 1108
-		}
-	],
 	"supernova": [
 		{
 			"constant": 30,
@@ -2413,20 +2371,6 @@
 		{
 			"constant": 93,
 			"note": 1002
-		}
-	],
-	"anokumene": [
-		{
-			"constant": 25,
-			"note": 412
-		},
-		{
-			"constant": 65,
-			"note": 588
-		},
-		{
-			"constant": 92,
-			"note": 851
 		}
 	],
 	"chronostasis": [
@@ -2691,20 +2635,6 @@
 		{
 			"constant": 102,
 			"note": 1339
-		}
-	],
-	"energysynergymatrix": [
-		{
-			"constant": 35,
-			"note": 471
-		},
-		{
-			"constant": 70,
-			"note": 608
-		},
-		{
-			"constant": 96,
-			"note": 922
 		}
 	],
 	"blockedlibrary": [
@@ -6897,6 +6827,124 @@
 		{
 			"constant": 100,
 			"note": 897
+		}
+	],
+	"snowwhite": [
+		{
+			"constant": 25,
+			"note": 486
+		},
+		{
+			"constant": 50,
+			"note": 672
+		},
+		{
+			"constant": 84,
+			"note": 978
+		},
+		{
+			"constant": 97,
+			"note": 1031
+		}
+	],
+	"anokumene": [
+		{
+			"constant": 25,
+			"note": 412
+		},
+		{
+			"constant": 65,
+			"note": 588
+		},
+		{
+			"constant": 92,
+			"note": 851
+		},
+		{
+			"constant": 99,
+			"note": 971
+		}
+	],
+	"nhelv": [
+		{
+			"constant": 30,
+			"note": 647
+		},
+		{
+			"constant": 65,
+			"note": 913
+		},
+		{
+			"constant": 99,
+			"note": 1108
+		},
+		{
+			"constant": 109,
+			"note": 1474
+		}
+	],
+	"altale": [
+		{
+			"constant": 25,
+			"note": 357
+		},
+		{
+			"constant": 55,
+			"note": 424
+		},
+		{
+			"constant": 98,
+			"note": 690
+		},
+		{
+			"constant": 100,
+			"note": 1074
+		}
+	],
+	"energysynergymatrix": [
+		{
+			"constant": 35,
+			"note": 471
+		},
+		{
+			"constant": 70,
+			"note": 608
+		},
+		{
+			"constant": 96,
+			"note": 922
+		},
+		{
+			"constant": 103,
+			"note": 1011
+		}
+	],
+	"tau": [
+		{
+			"constant": 45,
+			"note": 553
+		},
+		{
+			"constant": 78,
+			"note": 798
+		},
+		{
+			"constant": 97,
+			"note": 1057
+		}
+	],
+	"dullblade": [
+		{
+			"constant": 45,
+			"note": 579
+		},
+		{
+			"constant": 80,
+			"note": 780
+		},
+		{
+			"constant": 105,
+			"note": 1199
 		}
 	]
 }
