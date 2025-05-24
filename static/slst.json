@@ -5860,7 +5860,6 @@
                     "rating": 10,
                     "ratingPlus": true,
                     "bg": "eden_conflict",
-                    "bg_inverse": "eden_light",
                     "date": 1745452804,
                     "version": "6.4",
                     "hidden_until": "difficulty"
@@ -12512,6 +12511,7 @@
             "id": "gou",
             "title_localized": {
                 "en": "Misdeed -la bonté de Dieu et l'origine du mal-",
+                "ko_dialog": "Misdeed -la bonte de Dieu et l'origine du mal-",
                 "ja": "業 -善なる神とこの世の悪について-"
             },
             "artist": "光吉猛修 VS 穴山大輔",
@@ -13191,7 +13191,8 @@
             "idx": 212,
             "id": "loschen",
             "title_localized": {
-                "en": "Löschen"
+                "en": "Löschen",
+                "ko_dialog": "Loschen"
             },
             "artist": "BlackY feat. Risa Yuzuki",
             "search_title": {
@@ -16184,7 +16185,8 @@
             "idx": 260,
             "id": "avril",
             "title_localized": {
-                "en": "Ävril -Flicka i krans-"
+                "en": "Ävril -Flicka i krans-",
+                "ko_dialog": "Avril -Flicka i krans-"
             },
             "artist": "Rigël Theatre",
             "search_title": {
@@ -20725,7 +20727,8 @@
             "idx": 330,
             "id": "syuten",
             "title_localized": {
-                "en": "syūten"
+                "en": "syūten",
+                "ko_dialog": "syuten"
             },
             "artist": "Apo11o\"COLLAPSAR\"program ft. 大瀬良あい",
             "search_title": {
@@ -21683,7 +21686,8 @@
             "idx": 345,
             "id": "dynitikos",
             "title_localized": {
-                "en": "Dynitikós"
+                "en": "Dynitikós",
+                "ko_dialog": "Dynitikos"
             },
             "artist": "Prower",
             "search_title": {
@@ -22494,7 +22498,8 @@
             "idx": 358,
             "id": "ouverture",
             "title_localized": {
-                "en": "Ouvertüre"
+                "en": "Ouvertüre",
+                "ko_dialog": "Ouverture"
             },
             "artist": "USAO \u0026 DJ Genki feat. ルーン(CV:河瀬茉希)",
             "search_title": {
@@ -23848,7 +23853,8 @@
             "idx": 379,
             "id": "ichirin",
             "title_localized": {
-                "en": "〇、"
+                "en": "〇、",
+                "ko_dialog": "、"
             },
             "artist": "Kolaa \u0026 熊子",
             "search_title": {
@@ -25993,7 +25999,8 @@
             "idx": 412,
             "id": "vulcanus",
             "title_localized": {
-                "en": "Vulcānus"
+                "en": "Vulcānus",
+                "ko_dialog": "Vulcanus"
             },
             "artist": "Team Grimoire vs Aoi",
             "search_title": {
@@ -28869,20 +28876,20 @@
                 {
                     "ratingClass": 0,
                     "chartDesigner": "ə (exschwasion)",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "Square01",
                     "rating": 4
                 },
                 {
                     "ratingClass": 1,
                     "chartDesigner": "ə (exschwasion)",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "Square01",
                     "rating": 7,
                     "ratingPlus": true
                 },
                 {
                     "ratingClass": 2,
                     "chartDesigner": "ə (exschwasion)",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "Square01",
                     "rating": 9,
                     "ratingPlus": true
                 }
@@ -28929,20 +28936,559 @@
                 {
                     "ratingClass": 0,
                     "chartDesigner": "NITRO",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "kazari",
                     "rating": 4
                 },
                 {
                     "ratingClass": 1,
                     "chartDesigner": "NITRO",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "kazari",
                     "rating": 8
                 },
                 {
                     "ratingClass": 2,
                     "chartDesigner": "NITRO",
+                    "jacketDesigner": "kazari",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 456,
+            "id": "wontbackdown",
+            "title_localized": {
+                "en": "Won't Back Down"
+            },
+            "artist": "Pure 100% / KASA",
+            "search_title": {
+                "ja": [
+                    "うぉんとばっくだうん"
+                ],
+                "ko": [
+                    "원트 백 다운",
+                    "원 백 다운"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "ぴゅあわんはんどれっどぱーせんと",
+                    "かさ"
+                ],
+                "ko": [
+                    "퓨어 원 헌드레드 퍼센트",
+                    "카사"
+                ]
+            },
+            "bpm": "165",
+            "bpm_base": 165,
+            "set": "extend_3",
+            "purchase": "extend_3",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "djmax_conflict",
+            "bg_inverse": "djmax_light",
+            "remote_dl": true,
+            "world_unlock": true,
+            "source_localized": {
+                "en": "DJMAX"
+            },
+            "source_copyright": "© NEOWIZ",
+            "date": 1747872000,
+            "version": "6.5",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "én",
+                    "jacketDesigner": "",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "én",
+                    "jacketDesigner": "",
+                    "rating": 6
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "én",
+                    "jacketDesigner": "",
+                    "rating": 9,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 457,
+            "id": "dontdie",
+            "title_localized": {
+                "en": "Don't Die"
+            },
+            "artist": "Paul Bazooka",
+            "search_title": {
+                "ja": [
+                    "どんとだい"
+                ],
+                "ko": [
+                    "돈 다이"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "ぽーるばずーか"
+                ],
+                "ko": [
+                    "폴 바주카"
+                ]
+            },
+            "bpm": "175",
+            "bpm_base": 175,
+            "set": "single",
+            "purchase": "dontdie",
+            "category": "musicgames",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "djmax_conflict",
+            "bg_inverse": "djmax_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "source_localized": {
+                "en": "DJMAX"
+            },
+            "source_copyright": "© NEOWIZ",
+            "date": 1747872001,
+            "version": "6.5",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "nora::neko",
+                    "jacketDesigner": "",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "nora::neko",
+                    "jacketDesigner": "",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "nora::neko",
+                    "jacketDesigner": "",
+                    "rating": 9
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "nora::neko",
                     "jacketDesigner": "",
                     "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 458,
+            "id": "ladymadestar",
+            "title_localized": {
+                "en": "Ladymade Star"
+            },
+            "artist": "ESTi",
+            "search_title": {
+                "ja": [
+                    "れでぃーめいどすたー",
+                    "れでぃめいどすたー"
+                ],
+                "ko": [
+                    "레이디메이드 스타"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "えすてぃ"
+                ],
+                "ko": [
+                    "에스티"
+                ]
+            },
+            "bpm": "136",
+            "bpm_base": 136,
+            "set": "djmax",
+            "purchase": "djmax",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "djmax_light",
+            "bg_inverse": "djmax_conflict",
+            "remote_dl": true,
+            "world_unlock": false,
+            "source_localized": {
+                "en": "DJMAX"
+            },
+            "source_copyright": "© NEOWIZ",
+            "date": 1747872002,
+            "version": "6.5",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Nitro -FEVER-",
+                    "jacketDesigner": "",
+                    "rating": 2
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Nitro -STAGE-",
+                    "jacketDesigner": "",
+                    "rating": 6
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Nitro -PLATINUM-",
+                    "jacketDesigner": "",
+                    "rating": 8
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "Nitro -RESPECT-",
+                    "jacketDesigner": "",
+                    "rating": 9
+                }
+            ]
+        },
+        {
+            "idx": 459,
+            "id": "endmoonlight",
+            "title_localized": {
+                "en": "End of The Moonlight"
+            },
+            "artist": "Forte Escape",
+            "search_title": {
+                "ja": [
+                    "えんどおぶざむーんらいと"
+                ],
+                "ko": [
+                    "엔드 오브 더 문라이트"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "ふぉるてえすけーぷ"
+                ],
+                "ko": [
+                    "포르테 이스케이프"
+                ]
+            },
+            "bpm": "155",
+            "bpm_base": 155,
+            "set": "djmax",
+            "purchase": "djmax",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "djmax_conflict",
+            "bg_inverse": "djmax_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "source_localized": {
+                "en": "DJMAX"
+            },
+            "source_copyright": "© NEOWIZ",
+            "date": 1747872003,
+            "version": "6.5",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "sidewaves",
+                    "jacketDesigner": "",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "sidewaves",
+                    "jacketDesigner": "",
+                    "rating": 5
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "sidewaves",
+                    "jacketDesigner": "",
+                    "rating": 9
+                }
+            ]
+        },
+        {
+            "idx": 460,
+            "id": "uad",
+            "title_localized": {
+                "en": "U.A.D"
+            },
+            "artist": "HAYAKO",
+            "search_title": {
+                "ja": [
+                    "ゆーえーでぃー"
+                ],
+                "ko": [
+                    "유에이디"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "はやこ"
+                ],
+                "ko": [
+                    "하야코"
+                ]
+            },
+            "bpm": "129",
+            "bpm_base": 129,
+            "set": "djmax",
+            "purchase": "djmax",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "djmax_light",
+            "bg_inverse": "djmax_conflict",
+            "remote_dl": true,
+            "world_unlock": false,
+            "source_localized": {
+                "en": "DJMAX"
+            },
+            "source_copyright": "© NEOWIZ",
+            "date": 1747872004,
+            "version": "6.5",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Exschwas⇅on",
+                    "jacketDesigner": "",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Exschwas⇅on",
+                    "jacketDesigner": "",
+                    "rating": 6
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Exschwas⇅on",
+                    "jacketDesigner": "",
+                    "rating": 8,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "Exschwas⇅on",
+                    "jacketDesigner": "",
+                    "rating": 9,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 461,
+            "id": "oblivion",
+            "title_localized": {
+                "en": "OBLIVION"
+            },
+            "artist": "ESTi",
+            "search_title": {
+                "ja": [
+                    "おぶりびおん"
+                ],
+                "ko": [
+                    "오블리비언"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "えすてぃ"
+                ],
+                "ko": [
+                    "에스티"
+                ]
+            },
+            "bpm": "141",
+            "bpm_base": 141,
+            "set": "djmax",
+            "purchase": "djmax",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "djmax_conflict",
+            "bg_inverse": "djmax_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "source_localized": {
+                "en": "DJMAX"
+            },
+            "source_copyright": "© NEOWIZ",
+            "date": 1747872005,
+            "version": "6.5",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Toaster",
+                    "jacketDesigner": "",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Toaster",
+                    "jacketDesigner": "",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Toaster",
+                    "jacketDesigner": "",
+                    "rating": 9
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "Toaster",
+                    "jacketDesigner": "",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 462,
+            "id": "nightmare",
+            "title_localized": {
+                "en": "Nightmare"
+            },
+            "artist": "M2U",
+            "search_title": {
+                "ja": [
+                    "ないとめあ"
+                ],
+                "ko": [
+                    "나이트메어"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "えむつーゆー"
+                ],
+                "ko": [
+                    "엠투유"
+                ]
+            },
+            "bpm": "190",
+            "bpm_base": 190,
+            "set": "djmax",
+            "purchase": "djmax",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "djmax_nightmare",
+            "remote_dl": true,
+            "world_unlock": false,
+            "source_localized": {
+                "en": "DJMAX"
+            },
+            "source_copyright": "© NEOWIZ",
+            "date": 1747872006,
+            "version": "6.5",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "零下",
+                    "jacketDesigner": "",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "零下",
+                    "jacketDesigner": "",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "零下",
+                    "jacketDesigner": "",
+                    "rating": 9,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "零下",
+                    "jacketDesigner": "",
+                    "rating": 10,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 463,
+            "id": "tictactoe",
+            "title_localized": {
+                "en": "Tic! Tac! Toe!"
+            },
+            "artist": "TAK x Corbin",
+            "search_title": {
+                "ja": [
+                    "てぃっくたっくとー",
+                    "ちっくたっくとー"
+                ],
+                "ko": [
+                    "틱택토"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "たく"
+                ],
+                "ko": [
+                    "탁",
+                    "코르빈",
+                    "콜빈"
+                ]
+            },
+            "bpm": "126",
+            "bpm_base": 126,
+            "set": "single",
+            "purchase": "tictactoe",
+            "category": "musicgames",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "djmax_light",
+            "bg_inverse": "djmax_conflict",
+            "remote_dl": true,
+            "world_unlock": false,
+            "source_localized": {
+                "en": "DJMAX"
+            },
+            "source_copyright": "© NEOWIZ",
+            "date": 1747872007,
+            "version": "6.5",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "moonquay",
+                    "jacketDesigner": "",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "moonquay",
+                    "jacketDesigner": "",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "moonquay c.CLEAR",
+                    "jacketDesigner": "",
+                    "rating": 8,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "moonquay c.FAIL",
+                    "jacketDesigner": "",
+                    "rating": 9,
+                    "ratingPlus": true
                 }
             ]
         }

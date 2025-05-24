@@ -6946,5 +6946,165 @@
 			"constant": 105,
 			"note": 1199
 		}
+	],
+	"wontbackdown": [
+		{
+			"constant": 35,
+			"note": 437
+		},
+		{
+			"constant": 65,
+			"note": 551
+		},
+		{
+			"constant": 98,
+			"note": 1015
+		}
+	],
+	"dontdie": [
+		{
+			"constant": 35,
+			"note": 460
+		},
+		{
+			"constant": 70,
+			"note": 565
+		},
+		{
+			"constant": 94,
+			"note": 793
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 101,
+			"note": 1004
+		}
+	],
+	"ladymadestar": [
+		{
+			"constant": 25,
+			"note": 394
+		},
+		{
+			"constant": 65,
+			"note": 491
+		},
+		{
+			"constant": 84,
+			"note": 636
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 92,
+			"note": 753
+		}
+	],
+	"endmoonlight": [
+		{
+			"constant": 30,
+			"note": 340
+		},
+		{
+			"constant": 55,
+			"note": 434
+		},
+		{
+			"constant": 95,
+			"note": 738
+		}
+	],
+	"uad": [
+		{
+			"constant": 35,
+			"note": 366
+		},
+		{
+			"constant": 65,
+			"note": 526
+		},
+		{
+			"constant": 87,
+			"note": 643
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 98,
+			"note": 836
+		}
+	],
+	"oblivion": [
+		{
+			"constant": 40,
+			"note": 469
+		},
+		{
+			"constant": 70,
+			"note": 527
+		},
+		{
+			"constant": 95,
+			"note": 759
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 101,
+			"note": 871
+		}
+	],
+	"nightmare": [
+		{
+			"constant": 45,
+			"note": 680
+		},
+		{
+			"constant": 78,
+			"note": 757
+		},
+		{
+			"constant": 98,
+			"note": 901
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 108,
+			"note": 1116
+		}
+	],
+	"tictactoe": [
+		{
+			"constant": 35,
+			"note": 353
+		},
+		{
+			"constant": 75,
+			"note": 505
+		},
+		{
+			"constant": 88,
+			"note": 760
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 99,
+			"note": 907
+		}
 	]
 }
