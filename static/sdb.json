@@ -7106,5 +7106,157 @@
 			"constant": 99,
 			"note": 907
 		}
+	],
+	"satisfaction": [
+		{
+			"constant": 35,
+			"note": 580
+		},
+		{
+			"constant": 65,
+			"note": 738
+		},
+		{
+			"constant": 85,
+			"note": 890
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 95,
+			"note": 1047
+		}
+	],
+	"someday": [
+		{
+			"constant": 30,
+			"note": 367
+		},
+		{
+			"constant": 60,
+			"note": 477
+		},
+		{
+			"constant": 95,
+			"note": 673
+		}
+	],
+	"miles": [
+		{
+			"constant": 35,
+			"note": 385
+		},
+		{
+			"constant": 65,
+			"note": 548
+		},
+		{
+			"constant": 82,
+			"note": 687
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 98,
+			"note": 829
+		}
+	],
+	"iwantyou": [
+		{
+			"constant": 30,
+			"note": 326
+		},
+		{
+			"constant": 55,
+			"note": 395
+		},
+		{
+			"constant": 83,
+			"note": 528
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 94,
+			"note": 660
+		}
+	],
+	"syriana": [
+		{
+			"constant": 45,
+			"note": 490
+		},
+		{
+			"constant": 75,
+			"note": 516
+		},
+		{
+			"constant": 99,
+			"note": 886
+		}
+	],
+	"liar": [
+		{
+			"constant": 45,
+			"note": 461
+		},
+		{
+			"constant": 78,
+			"note": 614
+		},
+		{
+			"constant": 100,
+			"note": 919
+		}
+	],
+	"blythe": [
+		{
+			"constant": 30,
+			"note": 610
+		},
+		{
+			"constant": 75,
+			"note": 729
+		},
+		{
+			"constant": 94,
+			"note": 1000
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 105,
+			"note": 1207
+		}
+	],
+	"wereallgonnadie": [
+		{
+			"constant": 55,
+			"note": 733
+		},
+		{
+			"constant": 80,
+			"note": 864
+		},
+		{
+			"constant": 101,
+			"note": 1147
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 109,
+			"note": 1335
+		}
 	]
 }

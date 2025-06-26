@@ -29491,6 +29491,536 @@
                     "ratingPlus": true
                 }
             ]
+        },
+        {
+            "idx": 464,
+            "id": "satisfaction",
+            "title_localized": {
+                "en": "SATISFACTION"
+            },
+            "artist": "P*Light \u0026 DJ Noriken feat. KMNZ",
+            "search_title": {
+                "ja": [
+                    "さてぃすふぁくしょん"
+                ],
+                "ko": [
+                    "새티스팩션"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "ぴーらいと",
+                    "でぃーじぇーのりけん",
+                    "でぃーじぇいのりけん",
+                    "けものず"
+                ],
+                "ko": [
+                    "피 라이트",
+                    "디제이 노리켄",
+                    "케모노즈"
+                ]
+            },
+            "bpm": "180",
+            "bpm_base": 180,
+            "set": "base",
+            "purchase": "",
+            "audioPreview": 101333,
+            "audioPreviewEnd": 132666,
+            "side": 1,
+            "bg": "vs_conflict",
+            "bg_inverse": "vs_light",
+            "remote_dl": false,
+            "world_unlock": false,
+            "date": 1750896000,
+            "version": "6.6",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Nitro",
+                    "jacketDesigner": "Yukinobu Ito (RICOL)",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Nitro",
+                    "jacketDesigner": "Yukinobu Ito (RICOL)",
+                    "rating": 6
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Nitro",
+                    "jacketDesigner": "Yukinobu Ito (RICOL)",
+                    "rating": 8
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "Nitro",
+                    "jacketDesigner": "Yukinobu Ito (RICOL)",
+                    "rating": 9
+                }
+            ]
+        },
+        {
+            "idx": 465,
+            "id": "someday",
+            "title_localized": {
+                "en": "Someday"
+            },
+            "artist": "NieN",
+            "search_title": {
+                "ja": [
+                    "さむでい",
+                    "さむでー"
+                ],
+                "ko": [
+                    "섬데이"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "にえん"
+                ],
+                "ko": [
+                    "니엔"
+                ]
+            },
+            "bpm": "136",
+            "bpm_base": 136,
+            "set": "extend_3",
+            "purchase": "extend_3",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "djmax_light",
+            "bg_inverse": "djmax_conflict",
+            "remote_dl": true,
+            "world_unlock": true,
+            "source_localized": {
+                "en": "DJMAX"
+            },
+            "source_copyright": "© Neowiz. All Rights Reserved.",
+            "date": 1750896001,
+            "version": "6.6",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "sidewaves",
+                    "jacketDesigner": "",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "sidewaves + Nitro",
+                    "jacketDesigner": "",
+                    "rating": 6
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "sidewaves + Exschwasion",
+                    "jacketDesigner": "",
+                    "rating": 9
+                }
+            ]
+        },
+        {
+            "idx": 466,
+            "id": "miles",
+            "title_localized": {
+                "en": "Miles"
+            },
+            "artist": "Electronic Boutique",
+            "search_title": {
+                "ja": [
+                    "まいるす"
+                ],
+                "ko": [
+                    "마일스"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "えれくとろにっくぶてぃっく"
+                ],
+                "ko": [
+                    "일렉트릭 부티크",
+                    "일렉트릭 부띠끄"
+                ]
+            },
+            "bpm": "130",
+            "bpm_base": 130,
+            "set": "single",
+            "category": "musicgames",
+            "purchase": "miles",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "djmax_light",
+            "bg_inverse": "djmax_conflict",
+            "remote_dl": true,
+            "world_unlock": false,
+            "source_localized": {
+                "en": "DJMAX"
+            },
+            "source_copyright": "© Neowiz. All Rights Reserved.",
+            "date": 1750896002,
+            "version": "6.6",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Interator",
+                    "jacketDesigner": "",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Interator",
+                    "jacketDesigner": "",
+                    "rating": 6
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Interator",
+                    "jacketDesigner": "",
+                    "rating": 8
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "Interator",
+                    "jacketDesigner": "",
+                    "rating": 9,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 467,
+            "id": "iwantyou",
+            "title_localized": {
+                "en": "I want You"
+            },
+            "artist": "Lin-G",
+            "search_title": {
+                "ja": [
+                    "あいうぉんとゆー",
+                    "あいうぉんちゅー"
+                ],
+                "ko": [
+                    "아이 완트 유",
+                    "아이 원 츄"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "りんじー"
+                ],
+                "ko": [
+                    "린지"
+                ]
+            },
+            "bpm": "140",
+            "bpm_base": 140,
+            "set": "djmax_append_1",
+            "purchase": "djmax_append_1",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "djmax_light",
+            "bg_inverse": "djmax_conflict",
+            "remote_dl": true,
+            "world_unlock": false,
+            "source_localized": {
+                "en": "DJMAX"
+            },
+            "source_copyright": "© Neowiz. All Rights Reserved.",
+            "date": 1750896003,
+            "version": "6.6",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Toaster",
+                    "jacketDesigner": "",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Toaster",
+                    "jacketDesigner": "",
+                    "rating": 5
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Toaster",
+                    "jacketDesigner": "",
+                    "rating": 8
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "Toaster",
+                    "jacketDesigner": "",
+                    "rating": 9
+                }
+            ]
+        },
+        {
+            "idx": 468,
+            "id": "syriana",
+            "title_localized": {
+                "en": "Syriana"
+            },
+            "artist": "BEXTER",
+            "search_title": {
+                "ja": [
+                    "しりあな"
+                ],
+                "ko": [
+                    "시리아나"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "べくすたー"
+                ],
+                "ko": [
+                    "벡스터"
+                ]
+            },
+            "bpm": "135",
+            "bpm_base": 135,
+            "set": "djmax_append_1",
+            "purchase": "djmax_append_1",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "djmax_conflict",
+            "bg_inverse": "djmax_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "source_localized": {
+                "en": "DJMAX"
+            },
+            "source_copyright": "© Neowiz. All Rights Reserved.",
+            "date": 1750896004,
+            "version": "6.6",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "RAYCAST [NM]",
+                    "jacketDesigner": "",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "RAYCAST [HD]",
+                    "jacketDesigner": "",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "RAYCAST [MX]",
+                    "jacketDesigner": "",
+                    "rating": 9,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 469,
+            "id": "liar",
+            "title_localized": {
+                "en": "Liar"
+            },
+            "artist": "zts",
+            "search_title": {
+                "ja": [
+                    "らいあー"
+                ],
+                "ko": [
+                    "라이어"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "ぜっとてぃーえす",
+                    "ぜっつ"
+                ],
+                "ko": [
+                    "지티에스",
+                    "젯츠"
+                ]
+            },
+            "bpm": "140",
+            "bpm_base": 140,
+            "set": "djmax_append_1",
+            "purchase": "djmax_append_1",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "djmax_conflict",
+            "bg_inverse": "djmax_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "source_localized": {
+                "en": "DJMAX"
+            },
+            "source_copyright": "© Neowiz. All Rights Reserved.",
+            "date": 1750896005,
+            "version": "6.6",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Nitro",
+                    "jacketDesigner": "",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Nitro",
+                    "jacketDesigner": "",
+                    "rating": 7,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "KLMNOP + Nitro",
+                    "jacketDesigner": "",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 470,
+            "id": "blythe",
+            "title_localized": {
+                "en": "BlythE"
+            },
+            "artist": "M2U",
+            "search_title": {
+                "ja": [
+                    "ぶらいす"
+                ],
+                "ko": [
+                    "블라이스"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "えむつーゆー"
+                ],
+                "ko": [
+                    "엠투유"
+                ]
+            },
+            "bpm": "180",
+            "bpm_base": 180,
+            "set": "djmax_append_1",
+            "purchase": "djmax_append_1",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "djmax_conflict",
+            "bg_inverse": "djmax_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "source_localized": {
+                "en": "DJMAX"
+            },
+            "source_copyright": "© Neowiz. All Rights Reserved.",
+            "date": 1750896006,
+            "version": "6.6",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "M理論",
+                    "jacketDesigner": "",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "M理論",
+                    "jacketDesigner": "",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "M理論",
+                    "jacketDesigner": "",
+                    "rating": 9
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "M理論",
+                    "jacketDesigner": "",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 471,
+            "id": "wereallgonnadie",
+            "title_localized": {
+                "en": "We're All Gonna Die"
+            },
+            "artist": "Paul Bazooka",
+            "search_title": {
+                "ja": [
+                    "うぃーあーおーるごなだい"
+                ],
+                "ko": [
+                    "위아 올 고나 다이",
+                    "위아 올 고너 다이"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "ぽーるばずーか"
+                ],
+                "ko": [
+                    "폴 바주카"
+                ]
+            },
+            "bpm": "180",
+            "bpm_base": 180,
+            "set": "djmax_append_1",
+            "purchase": "djmax_append_1",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "djmax_wagd",
+            "remote_dl": true,
+            "world_unlock": false,
+            "source_localized": {
+                "en": "DJMAX"
+            },
+            "source_copyright": "© Neowiz. All Rights Reserved.",
+            "date": 1750896007,
+            "version": "6.6",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "絶滅",
+                    "jacketDesigner": "",
+                    "rating": 5
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "絶滅",
+                    "jacketDesigner": "",
+                    "rating": 8
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "絶滅",
+                    "jacketDesigner": "",
+                    "rating": 10
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "絶滅",
+                    "jacketDesigner": "",
+                    "rating": 10,
+                    "ratingPlus": true
+                }
+            ]
         }
     ]
 }
