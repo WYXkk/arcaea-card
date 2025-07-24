@@ -7258,5 +7258,129 @@
 			"constant": 109,
 			"note": 1335
 		}
+	],
+	"extradimensional": [
+		{
+			"constant": 65,
+			"note": 1011
+		},
+		{
+			"constant": 88,
+			"note": 1193
+		},
+		{
+			"constant": 106,
+			"note": 1422
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 113,
+			"note": 1726
+		}
+	],
+	"seethelights": [
+		{
+			"constant": 35,
+			"note": 445
+		},
+		{
+			"constant": 65,
+			"note": 582
+		},
+		{
+			"constant": 86,
+			"note": 692
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 96,
+			"note": 844
+		}
+	],
+	"scarletlunar": [
+		{
+			"constant": 35,
+			"note": 609
+		},
+		{
+			"constant": 70,
+			"note": 698
+		},
+		{
+			"constant": 98,
+			"note": 1037
+		}
+	],
+	"dualdependency": [
+		{
+			"constant": 45,
+			"note": 607
+		},
+		{
+			"constant": 78,
+			"note": 784
+		},
+		{
+			"constant": 95,
+			"note": 987
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 104,
+			"note": 1162
+		}
+	],
+	"dematerialized": [
+		{
+			"constant": 15,
+			"note": 469
+		},
+		{
+			"constant": 45,
+			"note": 659
+		},
+		{
+			"constant": 75,
+			"note": 722
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 83,
+			"note": 790
+		}
+	],
+	"lilly": [
+		{
+			"constant": 50,
+			"note": 865
+		},
+		{
+			"constant": 84,
+			"note": 1052
+		},
+		{
+			"constant": 99,
+			"note": 1312
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 108,
+			"note": 1353
+		}
 	]
 }
