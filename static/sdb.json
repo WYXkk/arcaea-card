@@ -7382,5 +7382,129 @@
 			"constant": 108,
 			"note": 1353
 		}
+	],
+	"disintegration": [
+		{
+			"constant": 40,
+			"note": 387
+		},
+		{
+			"constant": 65,
+			"note": 466
+		},
+		{
+			"constant": 83,
+			"note": 605
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 98,
+			"note": 821
+		}
+	],
+	"factorder": [
+		{
+			"constant": 25,
+			"note": 510
+		},
+		{
+			"constant": 65,
+			"note": 663
+		},
+		{
+			"constant": 86,
+			"note": 849
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 96,
+			"note": 1015
+		}
+	],
+	"incompleteone": [
+		{
+			"constant": 35,
+			"note": 691
+		},
+		{
+			"constant": 75,
+			"note": 848
+		},
+		{
+			"constant": 88,
+			"note": 912
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 99,
+			"note": 1008
+		}
+	],
+	"chaosblast": [
+		{
+			"constant": 45,
+			"note": 786
+		},
+		{
+			"constant": 78,
+			"note": 1000
+		},
+		{
+			"constant": 96,
+			"note": 1290
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 105,
+			"note": 1539
+		}
+	],
+	"welcomequeen": [
+		{
+			"constant": 50,
+			"note": 610
+		},
+		{
+			"constant": 85,
+			"note": 832
+		},
+		{
+			"constant": 101,
+			"note": 1172
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 109,
+			"note": 1442
+		}
+	],
+	"altergate": [
+		{
+			"constant": 55,
+			"note": 774
+		},
+		{
+			"constant": 87,
+			"note": 993
+		},
+		{
+			"constant": 107,
+			"note": 1324
+		}
 	]
 }
