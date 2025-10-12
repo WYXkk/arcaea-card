@@ -30837,6 +30837,524 @@
                     "ratingPlus": true
                 }
             ]
+        },
+        {
+            "idx": 484,
+            "id": "acheron",
+            "title_localized": {
+                "en": "Acheron"
+            },
+            "artist": "KARUT",
+            "search_title": {
+                "ja": [
+                    "あけろん"
+                ],
+                "ko": [
+                    "아케론"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "かると"
+                ],
+                "ko": [
+                    "카루트"
+                ]
+            },
+            "bpm": "175-145",
+            "bpm_base": 145,
+            "set": "single",
+            "category": "original",
+            "purchase": "",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "single2_conflict",
+            "bg_inverse": "single2_light",
+            "remote_dl": true,
+            "world_unlock": true,
+            "date": 1756944000,
+            "version": "6.8",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "karat",
+                    "jacketDesigner": "こもり",
+                    "rating": 3,
+                    "hidden_until_unlocked": true,
+                    "hidden_until": "difficulty"
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "karat",
+                    "jacketDesigner": "こもり",
+                    "rating": 7,
+                    "hidden_until_unlocked": true,
+                    "hidden_until": "difficulty"
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "karat",
+                    "jacketDesigner": "こもり",
+                    "rating": 9,
+                    "ratingPlus": true,
+                    "hidden_until_unlocked": true,
+                    "hidden_until": "difficulty"
+                }
+            ]
+        },
+        {
+            "idx": 485,
+            "id": "eternitybreak",
+            "title_localized": {
+                "en": "Eternity Break"
+            },
+            "artist": "Puru",
+            "search_title": {
+                "ja": [
+                    "えたにてぃぶれいく",
+                    "えたにてぃーぶれいく"
+                ],
+                "ko": [
+                    "이터니티 브레이크"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "ぷる"
+                ],
+                "ko": [
+                    "푸루"
+                ]
+            },
+            "bpm": "170",
+            "bpm_base": 170,
+            "set": "single",
+            "category": "original",
+            "purchase": "eternitybreak",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "single2_conflict",
+            "bg_inverse": "single2_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1758758400,
+            "version": "6.8",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "M理論_halt",
+                    "jacketDesigner": "Khronetic -玄廻-",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "M理論_halt",
+                    "jacketDesigner": "Khronetic -玄廻-",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "M理論_halt",
+                    "jacketDesigner": "Khronetic -玄廻-",
+                    "rating": 9
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "M理論_halt",
+                    "jacketDesigner": "Khronetic -玄廻-",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 486,
+            "id": "rostpagegene",
+            "title_localized": {
+                "en": "ROST PAGE GENE"
+            },
+            "artist": "MYUKKE.",
+            "search_title": {
+                "ja": [
+                    "ろすとぺーじじーん"
+                ],
+                "ko": [
+                    "로스트 페이지 진"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "みゅっけ"
+                ],
+                "ko": [
+                    "뮷케",
+                    "뮤케"
+                ]
+            },
+            "bpm": "135",
+            "bpm_base": 135,
+            "set": "extend_3",
+            "purchase": "extend_3",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "omatsuri_light",
+            "bg_inverse": "omatsuri_conflict",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1759363200,
+            "version": "6.9",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "NEON:ROAD:OKAY",
+                    "jacketDesigner": "sashimi",
+                    "rating": 5
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "NEON:ROAD:OKAY",
+                    "jacketDesigner": "sashimi",
+                    "rating": 8
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "NEON:ROAD:OKAY",
+                    "jacketDesigner": "sashimi",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 487,
+            "id": "violaillyria",
+            "title_localized": {
+                "en": "Viola Illyria"
+            },
+            "search_title": {
+                "ja": [
+                    "ゔぃおらいりゅりあ"
+                ],
+                "ko": [
+                    "비올라 이률리아"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "こーら"
+                ],
+                "ko": [
+                    "콜라"
+                ]
+            },
+            "artist": "Kolaa",
+            "bpm": "162",
+            "bpm_base": 162,
+            "set": "eclipse",
+            "purchase": "eclipse",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "eclipse_light",
+            "bg_inverse": "eclipse_conflict",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1759363201,
+            "version": "6.9",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "sidewaves",
+                    "jacketDesigner": "ねこじし",
+                    "rating": 2
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "sidewaves",
+                    "jacketDesigner": "ねこじし",
+                    "rating": 6
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "sidewaves + Exschwasion",
+                    "jacketDesigner": "ねこじし",
+                    "rating": 9
+                }
+            ]
+        },
+        {
+            "idx": 488,
+            "id": "vainspire",
+            "title_localized": {
+                "en": "Vainspire"
+            },
+            "artist": "satella",
+            "search_title": {
+                "ja": [
+                    "ゔぇいんすぱいあ"
+                ],
+                "ko": [
+                    "베인스파이어"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "さてら"
+                ],
+                "ko": [
+                    "사텔라"
+                ]
+            },
+            "bpm": "180",
+            "bpm_base": 180,
+            "set": "eclipse",
+            "purchase": "eclipse",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "eclipse_conflict",
+            "bg_inverse": "eclipse_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1759363202,
+            "version": "6.9",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "|karat|",
+                    "jacketDesigner": "Ugi",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "|karat|",
+                    "jacketDesigner": "Ugi",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "|karat|",
+                    "jacketDesigner": "Ugi",
+                    "rating": 8
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "|karat|",
+                    "jacketDesigner": "Ugi",
+                    "rating": 9,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 489,
+            "id": "nowayback",
+            "title_localized": {
+                "en": "No Way Back"
+            },
+            "artist": "Nhato",
+            "search_title": {
+                "ja": [
+                    "のーうぇいばっく"
+                ],
+                "ko": [
+                    "노 웨이 백"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "なはと"
+                ],
+                "ko": [
+                    "나하토"
+                ]
+            },
+            "bpm": "153",
+            "bpm_base": 153,
+            "set": "eclipse",
+            "purchase": "eclipse",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "eclipse_light",
+            "bg_inverse": "eclipse_conflict",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1759363203,
+            "version": "6.9",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "「Nitro」",
+                    "jacketDesigner": "AT基調",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "「Nitro」",
+                    "jacketDesigner": "AT基調",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "「Nitro」",
+                    "jacketDesigner": "AT基調",
+                    "rating": 8,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "「Nitro」",
+                    "jacketDesigner": "AT基調",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 490,
+            "id": "andorxor",
+            "title_localized": {
+                "en": "ANDORXOR"
+            },
+            "artist": "Sobrem",
+            "search_title": {
+                "ja": [
+                    "えんどーさー"
+                ],
+                "ko": [
+                    "앤도서",
+                    "엔도서",
+                    "인도서"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "そぶれむ"
+                ],
+                "ko": [
+                    "소브렘"
+                ]
+            },
+            "bpm": "148",
+            "bpm_base": 148,
+            "set": "eclipse",
+            "purchase": "eclipse",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "eclipse_conflict",
+            "bg_inverse": "eclipse_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1759363204,
+            "version": "6.9",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "反∧水",
+                    "jacketDesigner": "南条まや + Vormis.",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "反∧水",
+                    "jacketDesigner": "南条まや + Vormis.",
+                    "rating": 7,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "反∧水",
+                    "jacketDesigner": "南条まや + Vormis.",
+                    "rating": 9,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "反∧水",
+                    "jacketDesigner": "南条まや + Vormis.",
+                    "rating": 10,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 491,
+            "id": "undyingmacula",
+            "title_localized": {
+                "en": "Undying Macula"
+            },
+            "artist": "Ashrount",
+            "search_title": {
+                "ja": [
+                    "あんだいんぐまーきゅら",
+                    "あんだいんぐまきゅら"
+                ],
+                "ko": [
+                    "언다잉 마큘라"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "あしゅらうんと"
+                ],
+                "ko": [
+                    "애쉬라운트",
+                    "애쉬런트"
+                ]
+            },
+            "bpm": "63",
+            "bpm_base": 189,
+            "set": "eclipse",
+            "purchase": "eclipse",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "macula_conflict_a",
+            "bg_inverse": "macula_light_a",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1759363205,
+            "version": "6.9",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "PHOTONSPHERE",
+                    "jacketDesigner": "すずなし",
+                    "rating": 5
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "ERGOSPHERE",
+                    "jacketDesigner": "すずなし",
+                    "rating": 8,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "EVENTHORIZON",
+                    "jacketDesigner": "すずなし",
+                    "rating": 10
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "M/V_BRIDGE",
+                    "jacketDesigner": "すずなし",
+                    "legacy11": true,
+                    "rating": 11
+                }
+            ],
+            "additional_files": [
+                {
+                    "file_name": "video.mp4",
+                    "requirement": "required"
+                },
+                {
+                    "file_name": "video_audio.ogg",
+                    "requirement": "required"
+                }
+            ]
         }
     ]
 }

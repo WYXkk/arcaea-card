@@ -7506,5 +7506,157 @@
 			"constant": 107,
 			"note": 1324
 		}
+	],
+	"acheron": [
+		{
+			"constant": 35,
+			"note": 538
+		},
+		{
+			"constant": 75,
+			"note": 688
+		},
+		{
+			"constant": 97,
+			"note": 1024
+		}
+	],
+	"eternitybreak": [
+		{
+			"constant": 35,
+			"note": 634
+		},
+		{
+			"constant": 75,
+			"note": 882
+		},
+		{
+			"constant": 96,
+			"note": 1051
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 104,
+			"note": 1155
+		}
+	],
+	"rostpagegene": [
+		{
+			"constant": 50,
+			"note": 475
+		},
+		{
+			"constant": 82,
+			"note": 697
+		},
+		{
+			"constant": 103,
+			"note": 1028
+		}
+	],
+	"violaillyria": [
+		{
+			"constant": 25,
+			"note": 539
+		},
+		{
+			"constant": 65,
+			"note": 683
+		},
+		{
+			"constant": 95,
+			"note": 927
+		}
+	],
+	"vainspire": [
+		{
+			"constant": 35,
+			"note": 771
+		},
+		{
+			"constant": 70,
+			"note": 787
+		},
+		{
+			"constant": 84,
+			"note": 947
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 99,
+			"note": 1133
+		}
+	],
+	"nowayback": [
+		{
+			"constant": 45,
+			"note": 564
+		},
+		{
+			"constant": 75,
+			"note": 639
+		},
+		{
+			"constant": 89,
+			"note": 837
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 104,
+			"note": 1008
+		}
+	],
+	"andorxor": [
+		{
+			"constant": 45,
+			"note": 559
+		},
+		{
+			"constant": 78,
+			"note": 758
+		},
+		{
+			"constant": 99,
+			"note": 1055
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 108,
+			"note": 1404
+		}
+	],
+	"undyingmacula": [
+		{
+			"constant": 55,
+			"note": 883
+		},
+		{
+			"constant": 87,
+			"note": 904
+		},
+		{
+			"constant": 101,
+			"note": 1250
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 110,
+			"note": 1461
+		}
 	]
 }
