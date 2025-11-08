@@ -28544,6 +28544,7 @@
             "bg_inverse": "megalovaniarmx",
             "remote_dl": true,
             "world_unlock": false,
+            "no_stream": true,
             "date": 1741478405,
             "limitedSaleEndTime": 1773014400,
             "version": "6.3",
@@ -31002,7 +31003,7 @@
             "bg": "omatsuri_light",
             "bg_inverse": "omatsuri_conflict",
             "remote_dl": true,
-            "world_unlock": false,
+            "world_unlock": true,
             "date": 1759363200,
             "version": "6.9",
             "difficulties": [
@@ -31353,6 +31354,461 @@
                 {
                     "file_name": "video_audio.ogg",
                     "requirement": "required"
+                }
+            ]
+        },
+        {
+            "idx": 493,
+            "id": "awakening",
+            "title_localized": {
+                "en": "Wake in Hour",
+                "ja": "始マリノ詩"
+            },
+            "artist": "有村京悟 feat.July",
+            "search_title": {
+                "en": [
+                    "hajimari no uta"
+                ],
+                "ja": [
+                    "はじまりのうた"
+                ],
+                "ko": [
+                    "어웨이크닝",
+                    "시작의 노래"
+                ]
+            },
+            "search_artist": {
+                "en": [
+                    "arimura kyogo"
+                ],
+                "ja": [
+                    "ありむらきょうご",
+                    "じゅらい"
+                ],
+                "ko": [
+                    "아리무라 쿄고"
+                ]
+            },
+            "bpm": "128",
+            "bpm_base": 128,
+            "set": "extend_4",
+            "purchase": "extend_4",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "prelude_light",
+            "bg_inverse": "prelude_conflict",
+            "remote_dl": true,
+            "world_unlock": true,
+            "date": 1761782406,
+            "version": "6.10",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Luxance",
+                    "jacketDesigner": "しきみ",
+                    "rating": 2
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Luxance",
+                    "jacketDesigner": "しきみ",
+                    "rating": 5
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Luxance",
+                    "jacketDesigner": "しきみ",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "Luxance",
+                    "jacketDesigner": "しきみ",
+                    "rating": 8,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 494,
+            "id": "mod",
+            "title_localized": {
+                "en": "mod"
+            },
+            "artist": "kalsoer",
+            "search_title": {
+                "ja": [
+                    "もっど"
+                ],
+                "ko": [
+                    "모드"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "かるそあー"
+                ],
+                "ko": [
+                    "칼소어",
+                    "칼소아"
+                ]
+            },
+            "bpm": "168",
+            "bpm_base": 168,
+            "set": "extend_4",
+            "purchase": "extend_4",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "single2_light",
+            "bg_inverse": "single2_conflict",
+            "remote_dl": true,
+            "world_unlock": true,
+            "date": 1761782401,
+            "version": "6.10",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "karat",
+                    "jacketDesigner": "dD9",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "karat",
+                    "jacketDesigner": "dD9",
+                    "rating": 6
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "karat",
+                    "jacketDesigner": "dD9",
+                    "rating": 9
+                }
+            ]
+        },
+        {
+            "idx": 495,
+            "id": "particle",
+            "title_localized": {
+                "en": "Particle"
+            },
+            "artist": "Lime / Kankitsu",
+            "search_title": {
+                "ja": [
+                    "ぱーてぃくる"
+                ],
+                "ko": [
+                    "파티클"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "らいむ",
+                    "かんきつ"
+                ],
+                "ko": [
+                    "라임",
+                    "칸키츠"
+                ]
+            },
+            "bpm": "142",
+            "bpm_base": 142,
+            "set": "extend_4",
+            "purchase": "extend_4",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "nijuusei2_conflict",
+            "bg_inverse": "nijuusei2_light",
+            "remote_dl": true,
+            "world_unlock": true,
+            "date": 1761782402,
+            "version": "6.10",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "M理論",
+                    "jacketDesigner": "Lime",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "M理論",
+                    "jacketDesigner": "Lime",
+                    "rating": 6
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "M理論_charmq",
+                    "jacketDesigner": "Lime",
+                    "rating": 9
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "M理論_strangeq",
+                    "jacketDesigner": "Lime",
+                    "rating": 9,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 496,
+            "id": "paradoxpalette",
+            "title_localized": {
+                "en": "Paradox Palette"
+            },
+            "artist": "Aethoro",
+            "search_title": {
+                "ja": [
+                    "ぱらどっくすぱれっと"
+                ],
+                "ko": [
+                    "패러독스 팔레트"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "えーとろ"
+                ],
+                "ko": [
+                    "에터로",
+                    "애토로"
+                ]
+            },
+            "bpm": "152",
+            "bpm_base": 152,
+            "set": "extend_4",
+            "purchase": "extend_4",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "alice_light",
+            "bg_inverse": "alice_conflict",
+            "remote_dl": true,
+            "world_unlock": true,
+            "date": 1761782403,
+            "version": "6.10",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "antymis.",
+                    "jacketDesigner": "HouKou",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "antymis.",
+                    "jacketDesigner": "HouKou",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "antymis.",
+                    "jacketDesigner": "HouKou",
+                    "rating": 8,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "antymis.",
+                    "jacketDesigner": "HouKou",
+                    "rating": 9,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 497,
+            "id": "xxium",
+            "title_localized": {
+                "en": "Xxium and Purple haze"
+            },
+            "artist": "D.watt",
+            "search_title": {
+                "ja": [
+                    "あんどぱーぷるへいず"
+                ],
+                "ko": [
+                    "앤 퍼플 해이즈"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "でぃーわっと"
+                ],
+                "ko": [
+                    "디 와트"
+                ]
+            },
+            "source_copyright": "©上海アリス幻樂団",
+            "bpm": "165",
+            "bpm_base": 165,
+            "set": "extend_4",
+            "purchase": "extend_4",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "touhou_conflict",
+            "bg_inverse": "touhou_light",
+            "remote_dl": true,
+            "world_unlock": true,
+            "date": 1761782404,
+            "version": "6.10",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "ẋx",
+                    "jacketDesigner": "D.watt",
+                    "rating": 2
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "ẋx",
+                    "jacketDesigner": "D.watt",
+                    "rating": 7,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "ẋx",
+                    "jacketDesigner": "D.watt",
+                    "rating": 9,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "ẋx",
+                    "jacketDesigner": "D.watt",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 498,
+            "id": "angelsboundary",
+            "title_localized": {
+                "en": "Angel's Boundary"
+            },
+            "artist": "MEMODEMO",
+            "search_title": {
+                "ja": [
+                    "えんじぇるずばうんだりー"
+                ],
+                "ko": [
+                    "엔젤 바운더리",
+                    "앤젤 바운더리"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "めもでも"
+                ],
+                "ko": [
+                    "메모데모"
+                ]
+            },
+            "bpm": "196",
+            "bpm_base": 196,
+            "set": "single",
+            "category": "original",
+            "purchase": "angelsboundary",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "hime_light",
+            "bg_inverse": "hime_conflict",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1761782405,
+            "version": "6.10",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "[絶,滅)",
+                    "jacketDesigner": "ぽ院",
+                    "rating": 5
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "[絶,滅)",
+                    "jacketDesigner": "ぽ院",
+                    "rating": 8
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "[絶,滅)",
+                    "jacketDesigner": "ぽ院",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 499,
+            "id": "xterfusion",
+            "title_localized": {
+                "en": "Xterfusion"
+            },
+            "artist": "REDALiCE × t+pazolite",
+            "search_title": {
+                "ja": [
+                    "えくすたーふゅーじょん"
+                ],
+                "ko": [
+                    "엑스터퓨전"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "れっどありす",
+                    "とぱぞらいと"
+                ],
+                "ko": [
+                    "레드앨리스",
+                    "토파졸라이트"
+                ]
+            },
+            "bpm": "128-256",
+            "bpm_base": 256,
+            "set": "single",
+            "category": "original",
+            "purchase": "xterfusion",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "xterfusion",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1761782406,
+            "version": "6.10",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Nitro -fuze- 夜浪",
+                    "jacketDesigner": "すずなし + Vormis.",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Nitro -fuze- 夜浪",
+                    "jacketDesigner": "すずなし + Vormis.",
+                    "rating": 8
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Nitro -fuze- 夜浪",
+                    "jacketDesigner": "すずなし + Vormis.",
+                    "rating": 9,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "Nitro -fuze- 夜浪",
+                    "jacketDesigner": "すずなし + Vormis.",
+                    "rating": 10,
+                    "ratingPlus": true
                 }
             ]
         }

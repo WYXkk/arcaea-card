@@ -7658,5 +7658,143 @@
 			"constant": 110,
 			"note": 1461
 		}
+	],
+	"awakening": [
+		{
+			"constant": 25,
+			"note": 394
+		},
+		{
+			"constant": 55,
+			"note": 492
+		},
+		{
+			"constant": 75,
+			"note": 608
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 87,
+			"note": 726
+		}
+	],
+	"mod": [
+		{
+			"constant": 35,
+			"note": 572
+		},
+		{
+			"constant": 65,
+			"note": 676
+		},
+		{
+			"constant": 94,
+			"note": 853
+		}
+	],
+	"particle": [
+		{
+			"constant": 35,
+			"note": 519
+		},
+		{
+			"constant": 60,
+			"note": 613
+		},
+		{
+			"constant": 95,
+			"note": 890
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 97,
+			"note": 881
+		}
+	],
+	"paradoxpalette": [
+		{
+			"constant": 40,
+			"note": 476
+		},
+		{
+			"constant": 75,
+			"note": 653
+		},
+		{
+			"constant": 88,
+			"note": 814
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 99,
+			"note": 1043
+		}
+	],
+	"xxium": [
+		{
+			"constant": 25,
+			"note": 768
+		},
+		{
+			"constant": 78,
+			"note": 806
+		},
+		{
+			"constant": 99,
+			"note": 1182
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 105,
+			"note": 1096
+		}
+	],
+	"angelsboundary": [
+		{
+			"constant": 50,
+			"note": 841
+		},
+		{
+			"constant": 85,
+			"note": 1013
+		},
+		{
+			"constant": 102,
+			"note": 1246
+		}
+	],
+	"xterfusion": [
+		{
+			"constant": 45,
+			"note": 640
+		},
+		{
+			"constant": 83,
+			"note": 924
+		},
+		{
+			"constant": 98,
+			"note": 1138
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 107,
+			"note": 1441
+		}
 	]
 }
