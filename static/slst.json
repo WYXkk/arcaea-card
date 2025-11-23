@@ -31400,7 +31400,7 @@
             "bg_inverse": "prelude_conflict",
             "remote_dl": true,
             "world_unlock": true,
-            "date": 1761782406,
+            "date": 1761782400,
             "version": "6.10",
             "difficulties": [
                 {
@@ -31809,6 +31809,414 @@
                     "jacketDesigner": "すずなし + Vormis.",
                     "rating": 10,
                     "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 500,
+            "id": "infinitedim",
+            "title_localized": {
+                "en": "INFINITE DIMENSION"
+            },
+            "artist": "DJ Noriken × P*Light",
+            "search_title": {
+                "ja": [
+                    "いんふぃにっとでぃめんしょん"
+                ],
+                "ko": [
+                    "인피니트 디멘션",
+                    ""
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "でぃーじぇーのりけん",
+                    "でぃーじぇいのりけん",
+                    "ぴーらいと"
+                ],
+                "ko": [
+                    "디제이 노리켄",
+                    "피 라이트"
+                ]
+            },
+            "bpm": "200",
+            "bpm_base": 200,
+            "set": "nextstage",
+            "purchase": "nextstage",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "nextstage_light",
+            "bg_inverse": "nextstage_conflict",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1763769600,
+            "version": "6.10",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "én",
+                    "jacketDesigner": "",
+                    "rating": 2
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "én",
+                    "jacketDesigner": "",
+                    "rating": 6
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "én",
+                    "jacketDesigner": "",
+                    "rating": 8
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "ray∞cast",
+                    "jacketDesigner": "",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 501,
+            "id": "incarnator",
+            "title_localized": {
+                "en": "INCARNATOR₀₀",
+                "ko_dialog": "INCARNATOR00",
+                "zh-Hans_dialog": "INCARNATOR00",
+                "zh-Hant_dialog": "INCARNATOR00"
+            },
+            "artist": "Silentroom × N²",
+            "search_title": {
+                "en": [
+                    "incarnator origin"
+                ],
+                "ja": [
+                    "いんかーねーたーおりじん"
+                ],
+                "ko": [
+                    "인카네이터 오리진"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "さいれんとるーむ",
+                    "えぬつー"
+                ],
+                "ko": [
+                    "사일런트 룸",
+                    "엔투"
+                ]
+            },
+            "bpm": "234",
+            "bpm_base": 234,
+            "set": "nextstage",
+            "purchase": "nextstage",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "nextstage_conflict",
+            "bg_inverse": "nextstage_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1763769601,
+            "version": "6.10",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "M理論_origin",
+                    "jacketDesigner": "",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "M理論_origin",
+                    "jacketDesigner": "",
+                    "rating": 6
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "M理論_origin",
+                    "jacketDesigner": "",
+                    "rating": 8,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "antymis [archetype]",
+                    "jacketDesigner": "",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 502,
+            "id": "zephyrlast",
+            "title_localized": {
+                "en": "zephyrlasting"
+            },
+            "artist": "s-don × nitro (lowiro)",
+            "search_title": {
+                "ja": [
+                    "ぜふぁーらーすてぃんぐ"
+                ],
+                "ko": [
+                    "제퍼 라스팅",
+                    "제피르 라스팅"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "すうどん",
+                    "にとろ",
+                    "ないとろ"
+                ],
+                "ko": [
+                    "스돈",
+                    "니트로"
+                ]
+            },
+            "bpm": "155",
+            "bpm_base": 155,
+            "set": "nextstage",
+            "purchase": "nextstage",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "nextstage_conflict",
+            "bg_inverse": "nextstage_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1763769602,
+            "version": "6.10",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Souplex",
+                    "jacketDesigner": "",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Souplex",
+                    "jacketDesigner": "",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Souplex + Nitro",
+                    "jacketDesigner": "",
+                    "rating": 9
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "Nitro 「The Timeless」",
+                    "jacketDesigner": "",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 503,
+            "id": "marenyx",
+            "title_localized": {
+                "en": "MARENYX"
+            },
+            "artist": "BlackY × Aoi",
+            "search_title": {
+                "ja": [
+                    "まれにくす",
+                    "まーれにくす"
+                ],
+                "ko": [
+                    "마레닉스"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "ぶらっきー",
+                    "あおい"
+                ],
+                "ko": [
+                    "블래키",
+                    "아오이"
+                ]
+            },
+            "bpm": "195",
+            "bpm_base": 195,
+            "set": "nextstage",
+            "purchase": "nextstage",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "nextstage_conflict",
+            "bg_inverse": "nextstage_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1763769603,
+            "version": "6.10",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "raycast against. 零下",
+                    "jacketDesigner": "",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "raycast against. 零下",
+                    "jacketDesigner": "",
+                    "rating": 7,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "raycast against. 零下",
+                    "jacketDesigner": "",
+                    "rating": 9
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "raycast against. 零下",
+                    "jacketDesigner": "",
+                    "rating": 10,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 504,
+            "id": "codeoblivion",
+            "title_localized": {
+                "en": "Code: Oblivion"
+            },
+            "artist": "Kobaryo × Gram",
+            "search_title": {
+                "ja": [
+                    "こーどおぶりびおん"
+                ],
+                "ko": [
+                    "코드 오블리비언"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "こばりょー",
+                    "ぐらむ"
+                ],
+                "ko": [
+                    "코바료",
+                    "그람",
+                    "그램"
+                ]
+            },
+            "bpm": "200",
+            "bpm_base": 200,
+            "set": "nextstage",
+            "purchase": "nextstage",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "codeoblivion",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1763769604,
+            "version": "6.10",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "~sidewaves",
+                    "jacketDesigner": "",
+                    "rating": 5
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "~sidewaves",
+                    "jacketDesigner": "",
+                    "rating": 8
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "~sidewaves",
+                    "jacketDesigner": "",
+                    "rating": 9,
+                    "ratingPlus": true
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "煌磨",
+                    "jacketDesigner": "",
+                    "rating": 10,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 505,
+            "id": "azalea",
+            "title_localized": {
+                "en": "ΛZΛLEΛ"
+            },
+            "artist": "ak+q × onoken",
+            "search_title": {
+                "en": [
+                    "azalea"
+                ],
+                "ja": [
+                    "あざれあ"
+                ],
+                "ko": [
+                    "아잘레아"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "えーけーぷらすきゅー",
+                    "おのけん"
+                ],
+                "ko": [
+                    "에이케이 플러스 큐",
+                    "오노켄"
+                ]
+            },
+            "bpm": "180",
+            "bpm_base": 180,
+            "set": "nextstage",
+            "purchase": "nextstage",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 0,
+            "bg": "azalea",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1763769605,
+            "version": "6.10",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Nitro「The Ephemeral」",
+                    "jacketDesigner": "",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Nitro「The Ephemeral」",
+                    "jacketDesigner": "",
+                    "rating": 7
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Nitro「The Ephemeral」",
+                    "jacketDesigner": "",
+                    "rating": 9
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "NORΛ::NEKO × KΛRΛT",
+                    "jacketDesigner": "",
+                    "rating": 10
                 }
             ]
         }

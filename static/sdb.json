@@ -7796,5 +7796,137 @@
 			"constant": 107,
 			"note": 1441
 		}
+	],
+	"marenyx": [
+		{
+			"constant": 45,
+			"note": 886
+		},
+		{
+			"constant": 78,
+			"note": 1143
+		},
+		{
+			"constant": 95,
+			"note": 1307
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 108,
+			"note": 1500
+		}
+	],
+	"infinitedim": [
+		{
+			"constant": 25,
+			"note": 566
+		},
+		{
+			"constant": 60,
+			"note": 708
+		},
+		{
+			"constant": 86,
+			"note": 947
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 101,
+			"note": 1111
+		}
+	],
+	"incarnator": [
+		{
+			"constant": 35,
+			"note": 1178
+		},
+		{
+			"constant": 65,
+			"note": 1276
+		},
+		{
+			"constant": 89,
+			"note": 1565
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 104,
+			"note": 1355
+		}
+	],
+	"zephyrlast": [
+		{
+			"constant": 35,
+			"note": 563
+		},
+		{
+			"constant": 75,
+			"note": 832
+		},
+		{
+			"constant": 95,
+			"note": 1027
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 103,
+			"note": 1166
+		}
+	],
+	"codeoblivion": [
+		{
+			"constant": 55,
+			"note": 773
+		},
+		{
+			"constant": 83,
+			"note": 1015
+		},
+		{
+			"constant": 99,
+			"note": 1281
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 109,
+			"note": 1503
+		}
+	],
+	"azalea": [
+		{
+			"constant": 40,
+			"note": 847
+		},
+		{
+			"constant": 70,
+			"note": 973
+		},
+		{
+			"constant": 94,
+			"note": 1144
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 100,
+			"note": 1075
+		}
 	]
 }
