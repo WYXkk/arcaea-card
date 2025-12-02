@@ -31856,25 +31856,25 @@
                 {
                     "ratingClass": 0,
                     "chartDesigner": "én",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "海谷内藤",
                     "rating": 2
                 },
                 {
                     "ratingClass": 1,
                     "chartDesigner": "én",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "海谷内藤",
                     "rating": 6
                 },
                 {
                     "ratingClass": 2,
                     "chartDesigner": "én",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "海谷内藤",
                     "rating": 8
                 },
                 {
                     "ratingClass": 4,
                     "chartDesigner": "ray∞cast",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "海谷内藤",
                     "rating": 10
                 }
             ]
@@ -31927,26 +31927,26 @@
                 {
                     "ratingClass": 0,
                     "chartDesigner": "M理論_origin",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "辷 × N²/ANTIREAL",
                     "rating": 3
                 },
                 {
                     "ratingClass": 1,
                     "chartDesigner": "M理論_origin",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "辷 × N²/ANTIREAL",
                     "rating": 6
                 },
                 {
                     "ratingClass": 2,
                     "chartDesigner": "M理論_origin",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "辷 × N²/ANTIREAL",
                     "rating": 8,
                     "ratingPlus": true
                 },
                 {
                     "ratingClass": 4,
                     "chartDesigner": "antymis [archetype]",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "辷 × N²/ANTIREAL",
                     "rating": 10
                 }
             ]
@@ -31995,25 +31995,25 @@
                 {
                     "ratingClass": 0,
                     "chartDesigner": "Souplex",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "Men",
                     "rating": 3
                 },
                 {
                     "ratingClass": 1,
                     "chartDesigner": "Souplex",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "Men",
                     "rating": 7
                 },
                 {
                     "ratingClass": 2,
                     "chartDesigner": "Souplex + Nitro",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "Men",
                     "rating": 9
                 },
                 {
                     "ratingClass": 4,
                     "chartDesigner": "Nitro 「The Timeless」",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "Men",
                     "rating": 10
                 }
             ]
@@ -32061,26 +32061,26 @@
                 {
                     "ratingClass": 0,
                     "chartDesigner": "raycast against. 零下",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "かえで《もみじの木》",
                     "rating": 4
                 },
                 {
                     "ratingClass": 1,
                     "chartDesigner": "raycast against. 零下",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "かえで《もみじの木》",
                     "rating": 7,
                     "ratingPlus": true
                 },
                 {
                     "ratingClass": 2,
                     "chartDesigner": "raycast against. 零下",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "かえで《もみじの木》",
                     "rating": 9
                 },
                 {
                     "ratingClass": 4,
                     "chartDesigner": "raycast against. 零下",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "かえで《もみじの木》",
                     "rating": 10,
                     "ratingPlus": true
                 }
@@ -32128,26 +32128,26 @@
                 {
                     "ratingClass": 0,
                     "chartDesigner": "~sidewaves",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "MILKteaWegan",
                     "rating": 5
                 },
                 {
                     "ratingClass": 1,
                     "chartDesigner": "~sidewaves",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "MILKteaWegan",
                     "rating": 8
                 },
                 {
                     "ratingClass": 2,
                     "chartDesigner": "~sidewaves",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "MILKteaWegan",
                     "rating": 9,
                     "ratingPlus": true
                 },
                 {
                     "ratingClass": 4,
                     "chartDesigner": "煌磨",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "MILKteaWegan",
                     "rating": 10,
                     "ratingPlus": true
                 }
@@ -32197,25 +32197,149 @@
                 {
                     "ratingClass": 0,
                     "chartDesigner": "Nitro「The Ephemeral」",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "辷 + Vormis.",
                     "rating": 4
                 },
                 {
                     "ratingClass": 1,
                     "chartDesigner": "Nitro「The Ephemeral」",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "辷 + Vormis.",
                     "rating": 7
                 },
                 {
                     "ratingClass": 2,
                     "chartDesigner": "Nitro「The Ephemeral」",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "辷 + Vormis.",
                     "rating": 9
                 },
                 {
                     "ratingClass": 4,
                     "chartDesigner": "NORΛ::NEKO × KΛRΛT",
-                    "jacketDesigner": "",
+                    "jacketDesigner": "辷 + Vormis.",
+                    "rating": 10
+                }
+            ]
+        },
+        {
+            "idx": 506,
+            "id": "tabootears",
+            "title_localized": {
+                "en": "taboo tears you up 2017"
+            },
+            "artist": "REDALiCE",
+            "search_title": {
+                "ja": [
+                    "たぶーてぃあーずゆーあっぷ"
+                ],
+                "ko": [
+                    "타부 테어즈 유 업",
+                    "터부 테어즈 유 업"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "れっどありす"
+                ],
+                "ko": [
+                    "레드앨리스"
+                ]
+            },
+            "source_copyright": "©上海アリス幻樂団",
+            "bpm": "180",
+            "bpm_base": 180,
+            "set": "extend_4",
+            "purchase": "extend_4",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "touhou_conflict",
+            "bg_inverse": "touhou_light",
+            "remote_dl": true,
+            "world_unlock": true,
+            "date": 1764201600,
+            "version": "6.11",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "SiDEWAVES",
+                    "jacketDesigner": "ほまでり",
+                    "rating": 3
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "SiDEWAVES",
+                    "jacketDesigner": "ほまでり",
+                    "rating": 6
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "SiDEWAVES",
+                    "jacketDesigner": "ほまでり",
+                    "rating": 8
+                },
+                {
+                    "ratingClass": 4,
+                    "chartDesigner": "én",
+                    "jacketDesigner": "ほまでり",
+                    "rating": 9,
+                    "ratingPlus": true
+                }
+            ]
+        },
+        {
+            "idx": 507,
+            "id": "grandspell",
+            "title_localized": {
+                "en": "Grandspell"
+            },
+            "artist": "Hylen",
+            "search_title": {
+                "ja": [
+                    "ぐらんどすぺる"
+                ],
+                "ko": [
+                    "그랜드스펠"
+                ]
+            },
+            "search_artist": {
+                "ja": [
+                    "はいれん"
+                ],
+                "ko": [
+                    "하일렌"
+                ]
+            },
+            "category": "original",
+            "bpm": "168",
+            "bpm_base": 168,
+            "set": "single",
+            "purchase": "grandspell",
+            "audioPreview": 0,
+            "audioPreviewEnd": 0,
+            "side": 1,
+            "bg": "single2_conflict",
+            "bg_inverse": "single2_light",
+            "remote_dl": true,
+            "world_unlock": false,
+            "date": 1764201601,
+            "version": "6.11",
+            "difficulties": [
+                {
+                    "ratingClass": 0,
+                    "chartDesigner": "Exschwasion",
+                    "jacketDesigner": "KUREHA + Vormis.",
+                    "rating": 4
+                },
+                {
+                    "ratingClass": 1,
+                    "chartDesigner": "Exschwasion",
+                    "jacketDesigner": "KUREHA + Vormis.",
+                    "rating": 8
+                },
+                {
+                    "ratingClass": 2,
+                    "chartDesigner": "Exschwasion",
+                    "jacketDesigner": "KUREHA + Vormis.",
                     "rating": 10
                 }
             ]

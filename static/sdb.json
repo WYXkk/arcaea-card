@@ -7928,5 +7928,41 @@
 			"constant": 100,
 			"note": 1075
 		}
+	],
+	"tabootears": [
+		{
+			"constant": 30,
+			"note": 449
+		},
+		{
+			"constant": 65,
+			"note": 637
+		},
+		{
+			"constant": 84,
+			"note": 845
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 98,
+			"note": 1125
+		}
+	],
+	"grandspell": [
+		{
+			"constant": 45,
+			"note": 704
+		},
+		{
+			"constant": 84,
+			"note": 977
+		},
+		{
+			"constant": 102,
+			"note": 1289
+		}
 	]
 }
