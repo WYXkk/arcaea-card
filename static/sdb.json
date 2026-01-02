@@ -7964,5 +7964,77 @@
 			"constant": 102,
 			"note": 1289
 		}
+	],
+	"undefined": [
+		{
+			"constant": 35,
+			"note": 371
+		},
+		{
+			"constant": 60,
+			"note": 532
+		},
+		{
+			"constant": 94,
+			"note": 896
+		}
+	],
+	"mask": [
+		{
+			"constant": 45,
+			"note": 869
+		},
+		{
+			"constant": 80,
+			"note": 994
+		},
+		{
+			"constant": 99,
+			"note": 1201
+		}
+	],
+	"paranoidarc": [
+		{
+			"constant": 45,
+			"note": 762
+		},
+		{
+			"constant": 78,
+			"note": 849
+		},
+		{
+			"constant": 96,
+			"note": 1204
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 105,
+			"note": 1412
+		}
+	],
+	"subsphere": [
+		{
+			"constant": 50,
+			"note": 781
+		},
+		{
+			"constant": 81,
+			"note": 997
+		},
+		{
+			"constant": 96,
+			"note": 1177
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 106,
+			"note": 1327
+		}
 	]
 }
