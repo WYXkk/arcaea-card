@@ -8036,5 +8036,27 @@
 			"constant": 106,
 			"note": 1327
 		}
+	],
+	"theraft": [
+		{
+			"constant": 45,
+			"note": 722
+		},
+		{
+			"constant": 75,
+			"note": 803
+		},
+		{
+			"constant": 95,
+			"note": 999
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 104,
+			"note": 1193
+		}
 	]
 }
