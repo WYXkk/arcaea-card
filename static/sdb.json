@@ -639,20 +639,6 @@
 			"note": 1164
 		}
 	],
-	"bethere": [
-		{
-			"constant": 40,
-			"note": 592
-		},
-		{
-			"constant": 75,
-			"note": 792
-		},
-		{
-			"constant": 94,
-			"note": 982
-		}
-	],
 	"callmyname": [
 		{
 			"constant": 35,
@@ -945,20 +931,6 @@
 		{
 			"constant": 81,
 			"note": 709
-		}
-	],
-	"heavenlycaress": [
-		{
-			"constant": 35,
-			"note": 855
-		},
-		{
-			"constant": 75,
-			"note": 909
-		},
-		{
-			"constant": 98,
-			"note": 1560
 		}
 	],
 	"senkyou": [
@@ -1297,20 +1269,6 @@
 			"note": 920
 		}
 	],
-	"eccentrictale": [
-		{
-			"constant": 20,
-			"note": 313
-		},
-		{
-			"constant": 55,
-			"note": 483
-		},
-		{
-			"constant": 84,
-			"note": 732
-		}
-	],
 	"alicessuitcase": [
 		{
 			"constant": 35,
@@ -1633,20 +1591,6 @@
 			"note": 1212
 		}
 	],
-	"kyogenkigo": [
-		{
-			"constant": 35,
-			"note": 576
-		},
-		{
-			"constant": 65,
-			"note": 684
-		},
-		{
-			"constant": 93,
-			"note": 969
-		}
-	],
 	"hivemind": [
 		{
 			"constant": 40,
@@ -1659,20 +1603,6 @@
 		{
 			"constant": 100,
 			"note": 1252
-		}
-	],
-	"smallcloud": [
-		{
-			"constant": 30,
-			"note": 548
-		},
-		{
-			"constant": 65,
-			"note": 727
-		},
-		{
-			"constant": 93,
-			"note": 919
 		}
 	],
 	"mazymetroplex": [
@@ -3043,20 +2973,6 @@
 		{
 			"constant": 103,
 			"note": 1170
-		}
-	],
-	"axiumcrisis": [
-		{
-			"constant": 55,
-			"note": 685
-		},
-		{
-			"constant": 85,
-			"note": 1065
-		},
-		{
-			"constant": 106,
-			"note": 1094
 		}
 	],
 	"viyellastears": [
@@ -6077,20 +5993,6 @@
 			"note": 1247
 		}
 	],
-	"saintorsinner": [
-		{
-			"constant": 30,
-			"note": 447
-		},
-		{
-			"constant": 60,
-			"note": 563
-		},
-		{
-			"constant": 88,
-			"note": 906
-		}
-	],
 	"hailstone": [
 		{
 			"constant": 35,
@@ -8057,6 +7959,384 @@
 		{
 			"constant": 104,
 			"note": 1193
+		}
+	],
+	"axiumcrisis": [
+		{
+			"constant": 55,
+			"note": 685
+		},
+		{
+			"constant": 85,
+			"note": 1065
+		},
+		{
+			"constant": 106,
+			"note": 1094
+		},
+		{
+			"constant": 113,
+			"note": 1682
+		}
+	],
+	"bethere": [
+		{
+			"constant": 40,
+			"note": 592
+		},
+		{
+			"constant": 75,
+			"note": 792
+		},
+		{
+			"constant": 94,
+			"note": 982
+		},
+		{
+			"constant": 105,
+			"note": 1127
+		}
+	],
+	"heavenlycaress": [
+		{
+			"constant": 35,
+			"note": 855
+		},
+		{
+			"constant": 75,
+			"note": 909
+		},
+		{
+			"constant": 98,
+			"note": 1560
+		},
+		{
+			"constant": 109,
+			"note": 1717
+		}
+	],
+	"eccentrictale": [
+		{
+			"constant": 20,
+			"note": 313
+		},
+		{
+			"constant": 55,
+			"note": 483
+		},
+		{
+			"constant": 84,
+			"note": 732
+		},
+		{
+			"constant": 99,
+			"note": 995
+		}
+	],
+	"kyogenkigo": [
+		{
+			"constant": 35,
+			"note": 576
+		},
+		{
+			"constant": 65,
+			"note": 684
+		},
+		{
+			"constant": 93,
+			"note": 969
+		},
+		{
+			"constant": 99,
+			"note": 1325
+		}
+	],
+	"smallcloud": [
+		{
+			"constant": 30,
+			"note": 548
+		},
+		{
+			"constant": 65,
+			"note": 727
+		},
+		{
+			"constant": 93,
+			"note": 919
+		},
+		{
+			"constant": 103,
+			"note": 1158
+		}
+	],
+	"saintorsinner": [
+		{
+			"constant": 30,
+			"note": 447
+		},
+		{
+			"constant": 60,
+			"note": 563
+		},
+		{
+			"constant": 88,
+			"note": 906
+		},
+		{
+			"constant": 104,
+			"note": 1124
+		}
+	],
+	"omajinai": [
+		{
+			"constant": 25,
+			"note": 288
+		},
+		{
+			"constant": 70,
+			"note": 572
+		},
+		{
+			"constant": 94,
+			"note": 886
+		}
+	],
+	"chaintonite": [
+		{
+			"constant": 40,
+			"note": 723
+		},
+		{
+			"constant": 65,
+			"note": 759
+		},
+		{
+			"constant": 86,
+			"note": 883
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 99,
+			"note": 1037
+		}
+	],
+	"onestepcloser": [
+		{
+			"constant": 30,
+			"note": 454
+		},
+		{
+			"constant": 75,
+			"note": 551
+		},
+		{
+			"constant": 95,
+			"note": 752
+		}
+	],
+	"mylifeismine": [
+		{
+			"constant": 25,
+			"note": 460
+		},
+		{
+			"constant": 55,
+			"note": 612
+		},
+		{
+			"constant": 88,
+			"note": 933
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 101,
+			"note": 1075
+		}
+	],
+	"meltyrhapsody": [
+		{
+			"constant": 35,
+			"note": 582
+		},
+		{
+			"constant": 75,
+			"note": 790
+		},
+		{
+			"constant": 96,
+			"note": 975
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 104,
+			"note": 1185
+		}
+	],
+	"signal": [
+		{
+			"constant": 40,
+			"note": 582
+		},
+		{
+			"constant": 78,
+			"note": 824
+		},
+		{
+			"constant": 98,
+			"note": 1151
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 107,
+			"note": 1245
+		}
+	],
+	"caramelpop": [
+		{
+			"constant": 25,
+			"note": 610
+		},
+		{
+			"constant": 55,
+			"note": 579
+		},
+		{
+			"constant": 81,
+			"note": 767
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 91,
+			"note": 959
+		}
+	],
+	"shinoukyoseki": [
+		{
+			"constant": 35,
+			"note": 582
+		},
+		{
+			"constant": 65,
+			"note": 748
+		},
+		{
+			"constant": 97,
+			"note": 1065
+		}
+	],
+	"unknownnum": [
+		{
+			"constant": 40,
+			"note": 486
+		},
+		{
+			"constant": 70,
+			"note": 619
+		},
+		{
+			"constant": 97,
+			"note": 882
+		}
+	],
+	"thirdavenue": [
+		{
+			"constant": 30,
+			"note": 529
+		},
+		{
+			"constant": 81,
+			"note": 761
+		},
+		{
+			"constant": 92,
+			"note": 748
+		}
+	],
+	"vallista": [
+		{
+			"constant": 45,
+			"note": 548
+		},
+		{
+			"constant": 78,
+			"note": 681
+		},
+		{
+			"constant": 97,
+			"note": 869
+		}
+	],
+	"goodrage": [
+		{
+			"constant": 45,
+			"note": 576
+		},
+		{
+			"constant": 78,
+			"note": 702
+		},
+		{
+			"constant": 93,
+			"note": 834
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 102,
+			"note": 1035
+		}
+	],
+	"cryogenic": [
+		{
+			"constant": 50,
+			"note": 510
+		},
+		{
+			"constant": 75,
+			"note": 680
+		},
+		{
+			"constant": 92,
+			"note": 831
+		},
+		{
+			"constant": -11,
+			"note": -11
+		},
+		{
+			"constant": 101,
+			"note": 1014
+		}
+	],
+	"desertrealm": [
+		{
+			"constant": 45,
+			"note": 843
+		},
+		{
+			"constant": 85,
+			"note": 1000
+		},
+		{
+			"constant": 106,
+			"note": 1460
 		}
 	]
 }

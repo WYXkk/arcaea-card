@@ -3508,6 +3508,25 @@
 					"chartDesigner": "The Monolith",
 					"jacketDesigner": "シエラ",
 					"rating": 10
+				},
+				{
+					"ratingClass": 3,
+					"title_localized": {
+						"en": "Axium Divergence"
+					},
+					"artist": "ak+q (lowiro)",
+					"bpm": "170?",
+					"bpm_base": 180,
+					"audioOverride": true,
+					"chartDesigner": "Monolith - Diverged",
+					"jacketDesigner": "すずなし",
+					"jacketOverride": true,
+					"bg": "axiumcrisis3",
+					"rating": 11,
+					"legacy11": true,
+					"date": 1773014406,
+					"version": "6.13",
+					"hidden_until": "difficulty"
 				}
 			]
 		},
@@ -4917,6 +4936,17 @@
 					"chartDesigner": "Be Nitro",
 					"jacketDesigner": "hie",
 					"rating": 9
+				},
+				{
+					"ratingClass": 3,
+					"chartDesigner": "BE KARAT",
+					"jacketDesigner": "のう + Khronetic",
+					"jacketOverride": true,
+					"rating": 10,
+					"bg": "single2_light",
+					"bg_inverse": "single2_conflict",
+					"date": 1773014404,
+					"version": "6.13"
 				}
 			]
 		},
@@ -8849,6 +8879,16 @@
 					"jacketDesigner": "fixro2n",
 					"rating": 9,
 					"ratingPlus": true
+				},
+				{
+					"ratingClass": 3,
+					"chartDesigner": "絶･零･夜",
+					"jacketDesigner": "fixro2n",
+					"jacketOverride": true,
+					"rating": 10,
+					"ratingPlus": true,
+					"date": 1773014405,
+					"version": "6.13"
 				}
 			]
 		},
@@ -11491,6 +11531,16 @@
 					"chartDesigner": "Nitro",
 					"jacketDesigner": "シエラ",
 					"rating": 8
+				},
+				{
+					"ratingClass": 3,
+					"chartDesigner": "Nitro「The Aberrant」",
+					"jacketDesigner": "シエラ + Khronetic",
+					"jacketOverride": true,
+					"rating": 9,
+					"ratingPlus": true,
+					"date": 1773014400,
+					"version": "6.13"
 				}
 			]
 		},
@@ -13803,6 +13853,18 @@
 					"chartDesigner": "Exschwasion",
 					"jacketDesigner": "あすだ",
 					"rating": 9
+				},
+				{
+					"ratingClass": 3,
+					"chartDesigner": "¬ə",
+					"jacketDesigner": "あすだ",
+					"jacketOverride": true,
+					"rating": 9,
+					"ratingPlus": true,
+					"bg": "nijuusei2_conflict",
+					"bg_inverse": "nijuusei2_light",
+					"date": 1773014402,
+					"version": "6.13"
 				}
 			]
 		},
@@ -13985,6 +14047,15 @@
 					"chartDesigner": "én",
 					"jacketDesigner": "のう",
 					"rating": 9
+				},
+				{
+					"ratingClass": 3,
+					"chartDesigner": "@#7¥M!$",
+					"jacketDesigner": "のう + jht",
+					"jacketOverride": true,
+					"rating": 10,
+					"date": 1773014401,
+					"version": "6.13"
 				}
 			]
 		},
@@ -26182,6 +26253,15 @@
 					"jacketDesigner": "yawa",
 					"rating": 8,
 					"ratingPlus": true
+				},
+				{
+					"ratingClass": 3,
+					"chartDesigner": "↑零下↑",
+					"jacketDesigner": "yawa",
+					"jacketOverride": true,
+					"rating": 10,
+					"date": 1773014403,
+					"version": "6.13"
 				}
 			]
 		},
@@ -28546,7 +28626,7 @@
 			"world_unlock": false,
 			"no_stream": true,
 			"date": 1741478405,
-			"limitedSaleEndTime": 1773014400,
+			"limitedSaleEndTime": 1804550400,
 			"version": "6.3",
 			"difficulties": [
 				{
@@ -32678,6 +32758,913 @@
 					"ratingClass": 4,
 					"chartDesigner": "raycast v.○/○/●",
 					"jacketDesigner": "色塩",
+					"rating": 10
+				}
+			]
+		},
+		{
+			"idx": 513,
+			"id": "omajinai",
+			"title_localized": {
+				"en": "OMAJINAI",
+				"ja": "おまじない"
+			},
+			"artist": "Tsubusare BOZZ × Madoka*",
+			"search_title": {
+				"ko": [
+					"오마지나이",
+					"주문"
+				]
+			},
+			"search_artist": {
+				"ja": [
+					"つぶされぼっず",
+					"まどか"
+				],
+				"ko": [
+					"스부사레 봇즈",
+					"마도카"
+				]
+			},
+			"bpm": "133",
+			"bpm_base": 133,
+			"set": "extend_4",
+			"purchase": "extend_4",
+			"audioPreview": 0,
+			"audioPreviewEnd": 0,
+			"side": 0,
+			"bg": "megarex_light",
+			"bg_inverse": "megarex_conflict",
+			"remote_dl": true,
+			"world_unlock": true,
+			"date": 1769644800,
+			"version": "6.12",
+			"difficulties": [
+				{
+					"ratingClass": 0,
+					"chartDesigner": "Souplex",
+					"jacketDesigner": "Poyoshi + 内山ユニコ",
+					"rating": 2
+				},
+				{
+					"ratingClass": 1,
+					"chartDesigner": "Souplex",
+					"jacketDesigner": "Poyoshi + 内山ユニコ",
+					"rating": 7
+				},
+				{
+					"ratingClass": 2,
+					"chartDesigner": "Souplex",
+					"jacketDesigner": "Poyoshi + 内山ユニコ",
+					"rating": 9
+				}
+			]
+		},
+		{
+			"idx": 514,
+			"id": "chaintonite",
+			"title_localized": {
+				"en": "CHAIN2NITE"
+			},
+			"artist": "asuzora feat. cyber milk ちゃん",
+			"search_title": {
+				"ja": [
+					"ちぇいんとぅないと"
+				],
+				"ko": [
+					"체인 투나잇",
+					"체인 투나이트"
+				]
+			},
+			"search_artist": {
+				"en": [
+					"cyber milk chan"
+				],
+				"ja": [
+					"あすぞら",
+					"さいばーみるくちゃん"
+				],
+				"ko": [
+					"아스조라",
+					"사이버 밀크쨩"
+				]
+			},
+			"bpm": "172",
+			"bpm_base": 172,
+			"set": "megarex",
+			"purchase": "megarex",
+			"audioPreview": 0,
+			"audioPreviewEnd": 0,
+			"side": 1,
+			"bg": "megarex_conflict",
+			"bg_inverse": "megarex_light",
+			"remote_dl": true,
+			"world_unlock": false,
+			"date": 1769644801,
+			"version": "6.12",
+			"difficulties": [
+				{
+					"ratingClass": 0,
+					"chartDesigner": "raycast",
+					"jacketDesigner": "Poyoshi",
+					"rating": 4
+				},
+				{
+					"ratingClass": 1,
+					"chartDesigner": "raycast",
+					"jacketDesigner": "Poyoshi",
+					"rating": 6
+				},
+				{
+					"ratingClass": 2,
+					"chartDesigner": "raycast",
+					"jacketDesigner": "Poyoshi",
+					"rating": 8
+				},
+				{
+					"ratingClass": 4,
+					"chartDesigner": "raycast",
+					"jacketDesigner": "Poyoshi",
+					"rating": 9,
+					"ratingPlus": true
+				}
+			]
+		},
+		{
+			"idx": 515,
+			"id": "onestepcloser",
+			"title_localized": {
+				"en": "One Step Closer"
+			},
+			"artist": "Mameyudoufu × 藍月なくる",
+			"search_title": {
+				"ja": [
+					"わんすてっぷくろーさー"
+				],
+				"ko": [
+					"원 스텝 클로저"
+				]
+			},
+			"search_artist": {
+				"en": [
+					"aitsuki nakuru"
+				],
+				"ja": [
+					"まめゆどうふ",
+					"あいつきなくる"
+				],
+				"ko": [
+					"마메유도후",
+					"아이츠키 나쿠루"
+				]
+			},
+			"bpm": "123",
+			"bpm_base": 123,
+			"set": "megarex",
+			"purchase": "megarex",
+			"audioPreview": 0,
+			"audioPreviewEnd": 0,
+			"side": 0,
+			"bg": "megarex_light",
+			"bg_inverse": "megarex_conflict",
+			"remote_dl": true,
+			"world_unlock": false,
+			"date": 1769644802,
+			"version": "6.12",
+			"difficulties": [
+				{
+					"ratingClass": 0,
+					"chartDesigner": "Nitroだー！",
+					"jacketDesigner": "Poyoshi + はぐはむ",
+					"rating": 3
+				},
+				{
+					"ratingClass": 1,
+					"chartDesigner": "Nitroだー！",
+					"jacketDesigner": "Poyoshi + はぐはむ",
+					"rating": 7
+				},
+				{
+					"ratingClass": 2,
+					"chartDesigner": "Nitroだー！",
+					"jacketDesigner": "Poyoshi + はぐはむ",
+					"rating": 9
+				}
+			]
+		},
+		{
+			"idx": 516,
+			"id": "mylifeismine",
+			"title_localized": {
+				"en": "My life is mine alone!"
+			},
+			"artist": "Mylta feat. ねんね",
+			"search_title": {
+				"ja": [
+					"まいらいふいずまいんあろーん"
+				],
+				"ko": [
+					"마이 라이프 이즈 마인 얼론"
+				]
+			},
+			"search_artist": {
+				"en": [
+					"nenne"
+				],
+				"ja": [
+					"みるた"
+				],
+				"ko": [
+					"밀타",
+					"미르타",
+					"넨네"
+				]
+			},
+			"bpm": "144-168",
+			"bpm_base": 144,
+			"set": "megarex",
+			"purchase": "megarex",
+			"audioPreview": 0,
+			"audioPreviewEnd": 0,
+			"side": 0,
+			"bg": "megarex_light",
+			"bg_inverse": "megarex_conflict",
+			"remote_dl": true,
+			"world_unlock": false,
+			"date": 1769644803,
+			"version": "6.12",
+			"difficulties": [
+				{
+					"ratingClass": 0,
+					"chartDesigner": "Nitro",
+					"jacketDesigner": "Poyoshi",
+					"rating": 2
+				},
+				{
+					"ratingClass": 1,
+					"chartDesigner": "Nitro",
+					"jacketDesigner": "Poyoshi",
+					"rating": 5
+				},
+				{
+					"ratingClass": 2,
+					"chartDesigner": "Nitro",
+					"jacketDesigner": "Poyoshi",
+					"rating": 8,
+					"ratingPlus": true
+				},
+				{
+					"ratingClass": 4,
+					"chartDesigner": "antymis",
+					"jacketDesigner": "Poyoshi",
+					"rating": 10
+				}
+			]
+		},
+		{
+			"idx": 517,
+			"id": "meltyrhapsody",
+			"title_localized": {
+				"en": "Melty Rhapsody",
+				"ja": "メルティーラプソディー"
+			},
+			"artist": "lapix feat. PANXI",
+			"search_title": {
+				"en": [
+					"merutexi rapusodexi"
+				],
+				"ko": [
+					"멜티 랩소디"
+				]
+			},
+			"search_artist": {
+				"ja": [
+					"らぴす",
+					"ぱんしー"
+				],
+				"ko": [
+					"라픽스",
+					"판시"
+				]
+			},
+			"bpm": "156",
+			"bpm_base": 156,
+			"set": "megarex",
+			"purchase": "megarex",
+			"audioPreview": 0,
+			"audioPreviewEnd": 0,
+			"side": 0,
+			"bg": "megarex_light",
+			"bg_inverse": "megarex_conflict",
+			"remote_dl": true,
+			"world_unlock": false,
+			"date": 1769644804,
+			"version": "6.12",
+			"difficulties": [
+				{
+					"ratingClass": 0,
+					"chartDesigner": "M理論_liquid",
+					"jacketDesigner": "辷 + Vormis.",
+					"rating": 3
+				},
+				{
+					"ratingClass": 1,
+					"chartDesigner": "M理論_liquid",
+					"jacketDesigner": "辷 + Vormis.",
+					"rating": 7
+				},
+				{
+					"ratingClass": 2,
+					"chartDesigner": "M理論_liquid",
+					"jacketDesigner": "辷 + Vormis.",
+					"rating": 9
+				},
+				{
+					"ratingClass": 4,
+					"chartDesigner": "M理論_liquid",
+					"jacketDesigner": "辷 + Vormis.",
+					"rating": 10
+				}
+			]
+		},
+		{
+			"idx": 518,
+			"id": "signal",
+			"title_localized": {
+				"en": "Signal"
+			},
+			"artist": "rejection feat. Such",
+			"search_title": {
+				"ja": [
+					"しぐなる"
+				],
+				"ko": [
+					"시그널"
+				]
+			},
+			"search_artist": {
+				"ja": [
+					"りじぇくしょん",
+					"さち"
+				],
+				"ko": [
+					"리젝션",
+					"서치"
+				]
+			},
+			"bpm": "175",
+			"bpm_base": 175,
+			"set": "megarex",
+			"purchase": "megarex",
+			"audioPreview": 0,
+			"audioPreviewEnd": 0,
+			"side": 1,
+			"bg": "megarex_signal",
+			"remote_dl": true,
+			"world_unlock": false,
+			"date": 1769644805,
+			"version": "6.12",
+			"difficulties": [
+				{
+					"ratingClass": 0,
+					"chartDesigner": "én",
+					"jacketDesigner": "Poyoshi",
+					"rating": 4
+				},
+				{
+					"ratingClass": 1,
+					"chartDesigner": "én",
+					"jacketDesigner": "Poyoshi",
+					"rating": 7,
+					"ratingPlus": true
+				},
+				{
+					"ratingClass": 2,
+					"chartDesigner": "én",
+					"jacketDesigner": "Poyoshi",
+					"rating": 9,
+					"ratingPlus": true
+				},
+				{
+					"ratingClass": 4,
+					"chartDesigner": "絶滅",
+					"jacketDesigner": "Poyoshi",
+					"rating": 10,
+					"ratingPlus": true
+				}
+			]
+		},
+		{
+			"idx": 519,
+			"id": "caramelpop",
+			"title_localized": {
+				"en": "Gimme Caramel Popcorn!",
+				"ja": "キャラメルポップコーンたべたいよ〜"
+			},
+			"artist": "ヤミナベレコーズ feat. 繭糸",
+			"search_title": {
+				"en": [
+					"kyarameru poppukon tabetaiyo"
+				],
+				"ko": [
+					"김미 카라멜 팝콘",
+					"김미 캬라멜 팝콘",
+					"캬라메루 폽푸콘타베타이요",
+					"카라멜 팝콘 먹고싶어",
+					"캬라멜 팝콘 먹고싶어"
+				]
+			},
+			"search_artist": {
+				"en": [
+					"yaminaberekozu",
+					"yaminabe records",
+					"mayui"
+				],
+				"ja": [
+					"まゆい"
+				],
+				"ko": [
+					"야미나베레코즈",
+					"마유이"
+				]
+			},
+			"bpm": "180",
+			"bpm_base": 180,
+			"set": "base",
+			"purchase": "",
+			"audioPreview": 43241,
+			"audioPreviewEnd": 60574,
+			"side": 0,
+			"bg": "hime_light",
+			"bg_inverse": "hime_conflict",
+			"remote_dl": false,
+			"world_unlock": false,
+			"date": 1771459200,
+			"version": "6.12",
+			"difficulties": [
+				{
+					"ratingClass": 0,
+					"chartDesigner": "Interator",
+					"jacketDesigner": "さじ",
+					"rating": 2
+				},
+				{
+					"ratingClass": 1,
+					"chartDesigner": "Interator",
+					"jacketDesigner": "さじ",
+					"rating": 5
+				},
+				{
+					"ratingClass": 2,
+					"chartDesigner": "Interator",
+					"jacketDesigner": "さじ",
+					"rating": 8
+				},
+				{
+					"ratingClass": 4,
+					"chartDesigner": "Interator",
+					"jacketDesigner": "さじ",
+					"rating": 9
+				}
+			]
+		},
+		{
+			"idx": 520,
+			"id": "shinoukyoseki",
+			"title_localized": {
+				"en": "The Forgotten Forest Haven",
+				"ja": "森奥虚跡"
+			},
+			"artist": "ShiBa",
+			"search_title": {
+				"en": [
+					"shinnoukyoseki"
+				],
+				"ja": [
+					"しんおうきょせき"
+				],
+				"ko": [
+					"더 포가튼 포레스트 헤이븐",
+					"삼오허적",
+					"신노쿄세키",
+					"신노우쿄우세키"
+				]
+			},
+			"search_artist": {
+				"ja": [
+					"しば"
+				],
+				"ko": [
+					"시바"
+				]
+			},
+			"bpm": "192",
+			"bpm_base": 192,
+			"set": "extend_4",
+			"purchase": "extend_4",
+			"audioPreview": 0,
+			"audioPreviewEnd": 0,
+			"side": 0,
+			"bg": "prelude_light",
+			"bg_inverse": "prelude_conflict",
+			"remote_dl": true,
+			"world_unlock": true,
+			"date": 1771459201,
+			"version": "6.12",
+			"difficulties": [
+				{
+					"ratingClass": 0,
+					"chartDesigner": "Nitro",
+					"jacketDesigner": "atra",
+					"rating": 3
+				},
+				{
+					"ratingClass": 1,
+					"chartDesigner": "Nitro",
+					"jacketDesigner": "atra",
+					"rating": 6
+				},
+				{
+					"ratingClass": 2,
+					"chartDesigner": "Nitro",
+					"jacketDesigner": "atra",
+					"rating": 9,
+					"ratingPlus": true
+				}
+			]
+		},
+		{
+			"idx": 521,
+			"id": "unknownnum",
+			"title_localized": {
+				"en": "+1(UNKNOWN)-NUMBER"
+			},
+			"artist": "MEMODEMO × AQUASINE ^ (hackerling)",
+			"search_title": {
+				"en": [
+					"unknown number"
+				],
+				"ja": [
+					"あんのうんなんばー",
+					"あんのーんなんばー"
+				],
+				"ko": [
+					"언노운 넘버"
+				]
+			},
+			"search_artist": {
+				"ja": [
+					"めもでも",
+					"あくあさいん",
+					"はっかりんぐ",
+					"はっかーりんぐ"
+				],
+				"ko": [
+					"메모데모",
+					"아쿠아사인",
+					"해컬링",
+					"해커링"
+				]
+			},
+			"bpm": "145",
+			"bpm_base": 145,
+			"set": "single",
+			"purchase": "unknownnum",
+			"category": "variety",
+			"audioPreview": 0,
+			"audioPreviewEnd": 0,
+			"side": 1,
+			"bg": "single2_conflict",
+			"bg_inverse": "single2_light",
+			"remote_dl": true,
+			"world_unlock": false,
+			"date": 1771459202,
+			"version": "6.12",
+			"difficulties": [
+				{
+					"ratingClass": 0,
+					"chartDesigner": "M理論_GSM",
+					"jacketDesigner": "AQUASINE",
+					"rating": 4
+				},
+				{
+					"ratingClass": 1,
+					"chartDesigner": "M理論_GSM",
+					"jacketDesigner": "AQUASINE",
+					"rating": 7
+				},
+				{
+					"ratingClass": 2,
+					"chartDesigner": "M理論_GSM",
+					"jacketDesigner": "AQUASINE",
+					"rating": 9,
+					"ratingPlus": true
+				}
+			]
+		},
+		{
+			"idx": 522,
+			"id": "thirdavenue",
+			"title_localized": {
+				"en": "3rd Avenue"
+			},
+			"artist": "Sound Souler",
+			"search_title": {
+				"ja": [
+					"さーどあべにゅー",
+					"さーどあゔぇにゅー"
+				],
+				"ko": [
+					"서드 에비뉴"
+				]
+			},
+			"search_artist": {
+				"ja": [
+					"さうんどそうらー"
+				],
+				"ko": [
+					"사운드 소울러"
+				]
+			},
+			"bpm": "130",
+			"bpm_base": 130,
+			"set": "extend_4",
+			"purchase": "extend_4",
+			"audioPreview": 0,
+			"audioPreviewEnd": 0,
+			"side": 1,
+			"bg": "nihil",
+			"remote_dl": true,
+			"world_unlock": true,
+			"date": 1773014400,
+			"version": "6.13",
+			"difficulties": [
+				{
+					"ratingClass": 0,
+					"chartDesigner": "Souplex",
+					"jacketDesigner": "Jehyun, Piranesi",
+					"rating": 3
+				},
+				{
+					"ratingClass": 1,
+					"chartDesigner": "Souplex",
+					"jacketDesigner": "Jehyun, Piranesi",
+					"rating": 8
+				},
+				{
+					"ratingClass": 2,
+					"chartDesigner": "New Dimensions",
+					"jacketDesigner": "Jehyun, Piranesi",
+					"rating": 9
+				}
+			]
+		},
+		{
+			"idx": 523,
+			"id": "vallista",
+			"title_localized": {
+				"en": "Vallista"
+			},
+			"artist": "Sakuzyo",
+			"search_title": {
+				"ja": [
+					"ばりすた",
+					"ゔぁりすた"
+				],
+				"ko": [
+					"발리스타"
+				]
+			},
+			"search_artist": {
+				"ja": [
+					"さくじょ"
+				],
+				"ko": [
+					"사쿠죠"
+				]
+			},
+			"bpm": "180",
+			"bpm_base": 180,
+			"set": "extend_4",
+			"purchase": "extend_4",
+			"audioPreview": 0,
+			"audioPreviewEnd": 0,
+			"side": 0,
+			"bg": "eden_light",
+			"bg_inverse": "eden_conflict",
+			"remote_dl": true,
+			"world_unlock": true,
+			"date": 1773014401,
+			"version": "6.13",
+			"difficulties": [
+				{
+					"ratingClass": 0,
+					"chartDesigner": "sidewaves",
+					"jacketDesigner": "Mentalstock",
+					"rating": 4
+				},
+				{
+					"ratingClass": 1,
+					"chartDesigner": "sidewaves",
+					"jacketDesigner": "Mentalstock",
+					"rating": 7,
+					"ratingPlus": true
+				},
+				{
+					"ratingClass": 2,
+					"chartDesigner": "sidewaves",
+					"jacketDesigner": "Mentalstock",
+					"rating": 9,
+					"ratingPlus": true
+				}
+			]
+		},
+		{
+			"idx": 524,
+			"id": "goodrage",
+			"title_localized": {
+				"en": "GOODRAGE"
+			},
+			"artist": "EBIMAYO",
+			"search_title": {
+				"ja": [
+					"ぐっどれいじ",
+					"ぐっどれーじ"
+				],
+				"ko": [
+					"굿레이지"
+				]
+			},
+			"search_artist": {
+				"ja": [
+					"えびまよ"
+				],
+				"ko": [
+					"에비마요"
+				]
+			},
+			"bpm": "222",
+			"bpm_base": 222,
+			"set": "single",
+			"category": "variety",
+			"purchase": "goodrage",
+			"audioPreview": 0,
+			"audioPreviewEnd": 0,
+			"side": 0,
+			"bg": "hime_light",
+			"bg_inverse": "hime_conflict",
+			"remote_dl": true,
+			"world_unlock": false,
+			"date": 1773014402,
+			"version": "6.13",
+			"difficulties": [
+				{
+					"ratingClass": 0,
+					"chartDesigner": "Interator",
+					"jacketDesigner": "EBIMAYO",
+					"rating": 4
+				},
+				{
+					"ratingClass": 1,
+					"chartDesigner": "Interator",
+					"jacketDesigner": "EBIMAYO",
+					"rating": 7,
+					"ratingPlus": true
+				},
+				{
+					"ratingClass": 2,
+					"chartDesigner": "Interator",
+					"jacketDesigner": "EBIMAYO",
+					"rating": 9
+				},
+				{
+					"ratingClass": 4,
+					"chartDesigner": "NORANEKO",
+					"jacketDesigner": "EBIMAYO",
+					"rating": 10
+				}
+			]
+		},
+		{
+			"idx": 525,
+			"id": "cryogenic",
+			"title_localized": {
+				"en": "Cryogenic"
+			},
+			"artist": "Camellia ft. Petra Gurin",
+			"search_title": {
+				"ja": [
+					"くらいおじぇにっく"
+				],
+				"ko": [
+					"크라이오제닉"
+				]
+			},
+			"search_artist": {
+				"ja": [
+					"かめりあ",
+					"ぺとらぐりん"
+				],
+				"ko": [
+					"카멜리아",
+					"페트라 구린"
+				]
+			},
+			"bpm": "145",
+			"bpm_base": 145,
+			"set": "single",
+			"purchase": "cryogenic",
+			"audioPreview": 0,
+			"audioPreviewEnd": 0,
+			"side": 1,
+			"bg": "single2_conflict",
+			"bg_inverse": "single2_light",
+			"category": "musicgames",
+			"remote_dl": true,
+			"world_unlock": false,
+			"date": 1773014403,
+			"version": "6.13",
+			"difficulties": [
+				{
+					"ratingClass": 0,
+					"chartDesigner": "raycast /connected/",
+					"jacketDesigner": "アオノアオ + Vormis.",
+					"rating": 5
+				},
+				{
+					"ratingClass": 1,
+					"chartDesigner": "raycast /connected/",
+					"jacketDesigner": "アオノアオ + Vormis.",
+					"rating": 7
+				},
+				{
+					"ratingClass": 2,
+					"chartDesigner": "raycast /connected/",
+					"jacketDesigner": "アオノアオ + Vormis.",
+					"rating": 9
+				},
+				{
+					"ratingClass": 4,
+					"chartDesigner": "raycast /connected/",
+					"jacketDesigner": "アオノアオ + Vormis.",
+					"rating": 10
+				}
+			]
+		},
+		{
+			"idx": 526,
+			"id": "desertrealm",
+			"title_localized": {
+				"en": "Desertrealm"
+			},
+			"artist": "Masahiro \"Godspeed\" Aoki",
+			"search_title": {
+				"ja": [
+					"でざーとれるむ"
+				],
+				"ko": [
+					"데저트 렐름"
+				]
+			},
+			"search_artist": {
+				"ja": [
+					"ごっどすぴーど"
+				],
+				"ko": [
+					"갓스피드"
+				]
+			},
+			"bpm": "216",
+			"bpm_base": 216,
+			"set": "single",
+			"purchase": "desertrealm",
+			"audioPreview": 0,
+			"audioPreviewEnd": 0,
+			"side": 1,
+			"category": "original",
+			"bg": "vs_conflict",
+			"bg_inverse": "vs_light",
+			"remote_dl": true,
+			"world_unlock": false,
+			"date": 1773014404,
+			"version": "6.13",
+			"difficulties": [
+				{
+					"ratingClass": 0,
+					"chartDesigner": "karat -weathered-",
+					"jacketDesigner": "フリッツ",
+					"rating": 4
+				},
+				{
+					"ratingClass": 1,
+					"chartDesigner": "karat -weathered-",
+					"jacketDesigner": "フリッツ",
+					"rating": 8
+				},
+				{
+					"ratingClass": 2,
+					"chartDesigner": "karat -weathered-",
+					"jacketDesigner": "フリッツ",
 					"rating": 10
 				}
 			]
